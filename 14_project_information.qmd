@@ -1,0 +1,13 @@
+---
+title: "Project Information"
+format: html
+---
+
+## Project Information
+
+### Project Title
+{{ project_title }}
+
+### Project Description
+
+This is a project description

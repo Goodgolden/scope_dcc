@@ -1,0 +1,112 @@
+---
+title: "Analytic Plan"
+author: "ACCORDS Statistical Analysis Plan Template"
+date: today
+format: 
+  pdf: default
+  html: default
+  docx: default
+geometry: margin=1in
+---
+
+# General Information
+**Date:**  
+**Study Title:**  
+**Principal Investigator(s) (PI):**  
+**Paper Title:**  
+**Paper Authors:**  
+
+# Research Overview
+**Specific Aims:** Specify which specific aim this manuscript addresses (if applicable).  
+**Analytic Team Members:**  
+**Database Management:**  
+**Statistical Analysis:**  
+**Biostatistics:**  
+**Research Objectives:** State your research question(s) or goals.  
+
+# Study Design
+**Study Type:** (e.g., longitudinal or pre-post with intervention)  
+
+# Patient Cohort and Subjects
+Describe the patients who are part of this manuscript. Specify inclusion and exclusion criteria and study site(s).
+
+## Inclusion Criteria
+- Criterion 1  
+- Criterion 2  
+- Criterion 3  
+
+## Exclusion Criteria
+- Criterion 1  
+- Criterion 2  
+- Criterion 3  
+
+## Study Site(s)
+- Site 1  
+- Site 2  
+
+# Data Sources
+Identify existing data and additional data needed (e.g., REDCap, EHR, etc.).  
+
+# Hypotheses
+State key hypotheses explicitly. If there is no specific hypothesis (e.g., descriptive), simply state what is proposed. Include specific time points if longitudinal.
+
+- **H1:** Hypothesis 1  
+- **H2:** Hypothesis 2  
+- **H3:** Hypothesis 3  
+
+# Variables for Analysis
+Link these to each research question or hypothesis to be tested.
+
+## Dependent Variables
+
+| Variable         | Level        | Description                           | Type                  | Source               |
+|-----------------|-------------|---------------------------------------|----------------------|----------------------|
+| Primary Outcome | Patient-level | FACT-leukemia Quality of Life | Quantitative score (0-100) | 12-month REDCap survey |
+
+## Independent Variables
+
+| Variable  | Level   | Description                           | Type   | Source                         |
+|-----------|--------|--------------------------------------|--------|--------------------------------|
+| Treatment | Practice | Study arm randomized at practice level | Binary | Study statistician |
+
+# Data Analysis
+Some general analytic approaches (expand and modify as needed).
+
+## Setting and Subjects
+1. Generate frequency distributions and summary statistics.  
+2. Examine distributions to determine normality.  
+3. Compare sample characteristics to the target population.  
+4. Address dropouts and refusals using statistical tests.  
+
+## Bivariate Analysis
+Compare parametric and non-parametric statistics.  
+
+## Multivariable Analysis
+- Choice of model (e.g., logistic regression, linear regression, survival analysis).  
+- Strategy for covariate selection.  
+- Model validation strategies.  
+
+# Tables and Figures
+- **Table 1:** Demographics by treatment group.  
+- **Table 2:** Unadjusted and adjusted logistic regression coefficients.  
+- **Supplementary Table 1:** Comparison of patients who completed follow-up vs. those who did not.  
+
+# Timeline
+
+| Project Year  | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|--------------|--------|--------|--------|--------|--------|
+| Obtain Data  | ✅     |        |        |        |        |
+| Clean Data   |        | ✅     |        |        |        |
+| Fit Models   |        |        | ✅     |        |        |
+| Write Manuscripts |        |        |        | ✅     |        |
+
+---
+
+## How to Render This File in RStudio:
+- Click the **Render** button at the top of RStudio.
+- If you want a **PDF**, ensure you have **TinyTeX** installed:
+
+  ```r
+  install.packages("tinytex")
+  tinytex::install_tinytex()
+  ```

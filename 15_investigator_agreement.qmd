@@ -1,0 +1,17 @@
+---
+title: "Investigator Agreement"
+format: html
+editor: visual
+---
+
+## Investigator Agreement
+
+I, {{name}}, agree to the following terms and conditions:
+
+## Confliction of Interests
+
+The authors declare that they have no conflict of interest.
+
+## Contributions to the Study
+
+I, {{name}}, agree to the following terms and conditions:

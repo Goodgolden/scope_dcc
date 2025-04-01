@@ -1,0 +1,43 @@
+---
+title: "Roles and Responsibilities"
+format: html
+editor: visual
+---
+
+## Sponsor-Investigator:
+
+```         
+-   Name: Areej El-Jawahri MD
+-   Institution: Massachusetts General Hospital
+-   E-mail Address: ael-jawahri\@partners.org
+```
+
+## Principal Investigators (PI):
+
+-   Name: Areej El-Jawahri MD
+
+    -   Institution: Massachusetts General Hospital
+
+    -   Address – 55 Yawkey Street, Yawkey 9E, Boston MA 02114
+
+    -   Telephone – 617-724-4000
+
+    -   Fax – 617-643-5843
+
+    -   E-mail Address: ael-jawahri\@partners.org
+
+-   Name: Jennifer Temel MD
+
+    -   Institution: Massachusetts General Hospital
+
+    -   Address – 10 North Grove Street, Boston MA 02114
+
+    -   Telephone – 617-724-4000
+
+    -   Fax – 617-726-0543
+
+    -   E-mail Address: jtemel\@mgh.harvard.edu
+
+## VERSION NUMBER:
+
+Version 1.9

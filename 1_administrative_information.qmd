@@ -1,0 +1,45 @@
+---
+title: "Administrative Information"
+format: html
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+## clean the R environment
+graphics.off()
+rm(list = ls())
+freshr::freshr()
+## load packages
+library(here, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(gtsummary, quietly = TRUE)
+library(flextable, quietly = TRUE)
+## check the directory for the file
+# here::dr_here()
+here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## Information
+
+### Specialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia
+
+The Palliative Care Research Cooperative Group (PCRC) supports palliative care research in a number of ways, including regular “Intensive” short courses on the design and conduct of randomized trials (1). The format of these Intensives combines didactic instruction and experiential learning, the latter of which is accomplished by dividing the participants into teams and having each team design a trial. Faculty members accompany the teams, and a notable feature is that each team includes a statistician. Collaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.

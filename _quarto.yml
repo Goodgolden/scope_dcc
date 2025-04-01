@@ -1,0 +1,88 @@
+project:
+  type: book
+  
+book:
+  title: "SCOPE DCC"
+  author: "Randy Jin"
+  date: "2/5/2025"
+  navbar:
+    # downloads: [pdf]
+    search: true
+  repo-url: https://github.com/Goodgolden/jm_amh
+  repo-actions: [edit]
+  sidebar:
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/Goodgolden/jm_amh
+        aria-label: GitHub
+      - icon: share
+        aria-label: Email
+      - icon: hospital
+        aria-label: CU Anschutz
+        href: https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics
+
+
+
+  chapters:
+    - part: index.qmd
+      chapters:
+        - 00_activity_log.qmd
+    - part: 1_administrative_information.qmd
+      chapters:
+        - 10_template.qmd
+        - 11_study_information.qmd
+        - 12_roles_and_responsibilities.qmd
+        - 13_sap_information.qmd
+        - 14_project_information.qmd
+        - 15_investigator_agreement.qmd
+        - 16_signatures.qmd
+        # - references.qmd
+    - part: 2_study_overview.qmd
+      chapters:
+        - 20_backaground.qmd
+        - 21_aims_and_hypotheses.qmd
+        - 22_interested_variables.qmd
+        - 23_causal_dag.qmd
+    - part: 3_study_methods.qmd
+      chapters:
+        - 30_study_design.qmd
+        - 31_sample_size.qmd
+        - 32_interim_analyses.qmd
+        - 33_data.qmd
+        - 34_missing_data.qmd
+        - 35_simulations.qmd
+    - part: 4_statistical_analysis.qmd
+      chapters:
+        - 40_significance.qmd
+        - 41_descriptive_statistics.qmd
+        - 42_analysis_methods.qmd
+        - 43_additional.qmd
+        - 43_sensitivity_analysis.qmd
+        - 44_exploratory_analysis.qmd
+        - 45_software.qmd
+        - 46_others.qmd
+    - part: 5_tables_and_figures.qmd
+      chapters:
+        - 50_tables_shells.qmd
+        - 51_tables.qmd
+        - 52_figures.qmd
+        - 53_examples.qmd
+    - part: 6_additional_information.qmd
+      chapters:
+        - 60_appendices.qmd
+        - 61_glossary.qmd
+        - 62_addenda.qmd
+    - part: summary.qmd
+        - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

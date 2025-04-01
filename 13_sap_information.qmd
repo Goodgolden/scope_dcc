@@ -1,0 +1,11 @@
+---
+title: "SAP Information"
+format: html
+editor: visual
+---
+
+## SAP Information
+
+### Conceptual framework: creating a generic SAP
+
+Key to understanding how statisticians conceptualize SAPs is to recognize that, because their main goal is to assess the impact of the interventions being studied, essentially all RCTs can be represented by figure 1. Thus, the statistician can be counted upon to try to place all the study variables they encounter into boxes A-F. Moreover, figure 1 contains relatively few arrows, and each of these arrows corresponds to a potential element of the SAP. For example, the arrows from A to D, from A to E (i.e., through D), and from A to F (i.e., through D and E) all represent direct assessments of the impact of the intervention, which only differ according to the choice of outcome. The intention of an analysis can usually be described through a directional relationship (e.g., A -\> E). Once such a relationship is identified, the statistician proposes a specific analytical technique based upon considerations such as scale of measurement. For example, with A binary and E continuous, the relationship could be assessed using a t-test.

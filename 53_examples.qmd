@@ -1,0 +1,7 @@
+---
+title: "Example Figures and Tables"
+format: html
+editor: visual
+---
+
+## 

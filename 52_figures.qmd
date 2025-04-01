@@ -1,0 +1,11 @@
+---
+title: "Figures"
+format: html
+editor: visual
+---
+
+## Figure 1
+
+All the function are explained in R documentation.
+
+

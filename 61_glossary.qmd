@@ -1,0 +1,18 @@
+---
+title: "Glossary"
+format: html
+editor: visual
+---
+
+## Glossary
+
+### Clinical 
+
+
+### Technical
+
+
+
+### Statistical 
+
+

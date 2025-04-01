@@ -1,0 +1,64 @@
+---
+title: "Activity Log"
+format: html
+editor: visual
+---
+
+## 20240205
+
+- [x] General SCOPE DCC / Grant Document Review
+- [x] Read through the analytic plan for [Link](https://olucdenver.sharepoint.com/:w:/r/sites/SCOPEDCC/_layouts/15/Doc.aspx?sourcedoc=%7B05AEB1C9-7608-4E75-ACE8-BC9FE35B33D8%7D&file=2-26-2024%20protocol%20with%20track%20changes%20KLC.doc&action=default&mobileredirect=true)
+- [x] This is a clustered randomized trial
+  - [x] section 9.4 Analysis Section
+  - [x] section 11.2 Data Management page 7
+  - [x] write a statistical analysis plan for each analysis
+  - [x] primary - > caregiver
+- [x] Randy will map the protocol to the databases to the analysis
+- [x] What are the superior hypothesis and reject the $H_0$
+- [x] You are fine!
+
+Notes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.
+
+
+## Activity Log for Chapter 00
+
+Goal for this chapter - version number {{.version number}}
+
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] You are prime!
+
+## Activity Log for Chapter 01 - version number {{.version number 2}}
+
+Goal for this chapter
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] You are posh!
+
+
+## Activity Log for Chapter 02 - version number {{.version number 3}}
+
+Goal for this chapter
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] You are primo!
+
+
+## Activity Log for Chapter 03
+
+Goal for this chapter
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] You are phenomenal!

@@ -1,0 +1,9 @@
+---
+title: "Interested Variables"
+format: html
+editor: visual
+---
+
+## Outcomes
+
+- **Outcome 1**: The outcome of interest is the number of days a patient stays in the hospital. This is a continuous variable.

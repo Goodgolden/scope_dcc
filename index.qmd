@@ -1,0 +1,108 @@
+---
+title: "Index"
+format: html
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+## load packages
+library(here, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(gtsummary, quietly = TRUE)
+library(flextable, quietly = TRUE)
+## check the directory for the file
+# here::dr_here()
+here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+```{r, class.output="scroll-100"}
+
+```
+
+
+# Preface {.unnumbered}
+
+This is a Quarto book for 2025 SCOPE DCC project.
+
+The main documents are stored in this [link](https://olucdenver-my.sharepoint.com/shared?listurl=https%3A%2F%2Folucdenver%2Esharepoint%2Ecom%2Fsites%2FSCOPEDCC%2FShared%20Documents)
+
+
+## Content {.unnumbered}
+
+- Index
+- Activity log
+- Administrative information
+  - Template
+  - Study Information
+  - Roles and responsibilities
+  - Sap information
+  - Project information
+  - Investigator agreement
+  - Signatures
+
+- Study overview
+  - Background
+  - Aims and hypotheses
+  - Interested variables
+  - Causal dag
+- Study methods
+  - Study design
+  - Sample size
+  - Interim analyses
+  - Data
+  - Missing data
+  - Simulations
+- Statistical analysis
+  - Significance
+  - Descriptive statistics
+  - Analysis methods
+  - Additional
+  - Sensitivity analysis
+  - Exploratory analysis
+  - Software
+  - Others
+- Tables and figures
+  - Tables shells
+  - Tables
+  - Figures
+  - Examples
+- Additional information
+  - Appendices
+  - Glossary
+  - Addenda
+- References
+
+## Folders 
+
+- Data and Code 
+
+- Figure Folder
+
+- Style
+
+- Output
+
+- Report

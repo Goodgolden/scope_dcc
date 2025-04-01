@@ -1,0 +1,13 @@
+---
+title: "Signatures"
+format: html
+editor: visual
+---
+
+## Signatures
+
+This is a signature block. It is a good idea to include your name, title, and contact information in your signature block. You can also include a logo or image.
+
+## Example
+
+The school email link and author name are not working. I have tried to fix it but I am not able to do it.

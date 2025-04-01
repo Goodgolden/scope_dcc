@@ -1,0 +1,15 @@
+---
+title: "Causal Dag"
+format: html
+editor: visual
+---
+
+## Causal Dag
+
+Directed Acyclic Graph (DAG) is a graphical representation of causal relationships between variables.
+
+```{r}
+# Q: what is dag, and introduction paragraph
+# A: Directed Acyclic Graph (DAG) is a graphical representation of causal relationships between variables.
+
+```
