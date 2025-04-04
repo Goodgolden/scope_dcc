@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Read Me First"
 format: html
 editor: visual
 ---
@@ -38,71 +38,86 @@ here::set_here()
 }
 ```
 
-```{r, class.output="scroll-100"}
-
-```
-
-
 # Preface {.unnumbered}
 
 This is a Quarto book for 2025 SCOPE DCC project.
 
 The main documents are stored in this [link](https://olucdenver-my.sharepoint.com/shared?listurl=https%3A%2F%2Folucdenver%2Esharepoint%2Ecom%2Fsites%2FSCOPEDCC%2FShared%20Documents)
 
-
 ## Content {.unnumbered}
 
-- Index
-- Activity log
-- Administrative information
-  - Template
-  - Study Information
-  - Roles and responsibilities
-  - Sap information
-  - Project information
-  - Investigator agreement
-  - Signatures
+-   Activity Log
+-   Administrative Information
+    -   Analytic Plan Template
+    -   Study Information
+    -   Roles and Responsibilities
+    -   SAP Information
+    -   Project Information
+    -   Investigator Agreement
+    -   Signatures
+-   Study Overview
+    -   Background
+    -   Aims and Hypotheses
+    -   Interested Aariables
+    -   Causal DAG
+-   Study Methods
+    -   Study Design
+    -   Sample Size
+    -   Interim Analyses
+    -   Data
+    -   Missing Data
+    -   Simulations
+-   Statistical Analysis
+    -   Significance
+    -   Descriptive Statistics
+    -   Analysis Methods
+    -   Additional
+    -   Sensitivity Analysis
+    -   Exploratory Analysis
+    -   Software
+    -   Others
+-   Tables and Figures
+    -   Tables Shells
+    -   Tables
+    -   Figures
+    -   Examples
+-   Additional Information
+    -   Appendices
+    -   Glossary
+    -   Addenda
+-   References
 
-- Study overview
-  - Background
-  - Aims and hypotheses
-  - Interested variables
-  - Causal dag
-- Study methods
-  - Study design
-  - Sample size
-  - Interim analyses
-  - Data
-  - Missing data
-  - Simulations
-- Statistical analysis
-  - Significance
-  - Descriptive statistics
-  - Analysis methods
-  - Additional
-  - Sensitivity analysis
-  - Exploratory analysis
-  - Software
-  - Others
-- Tables and figures
-  - Tables shells
-  - Tables
-  - Figures
-  - Examples
-- Additional information
-  - Appendices
-  - Glossary
-  - Addenda
-- References
+## Folders {.unnumbered}
 
-## Folders 
+### Files {.unnumbered}
 
-- Data and Code 
+```{r}
+?list.files
+list.files(path = "files", 
+           # pattern = "_input.txt$", 
+           recursive = TRUE)
+```
 
-- Figure Folder
 
-- Style
+### Data {.unnumbered}
 
-- Output
+```{r}
+library(devtools)
+library(usethis)
+library(testthat)
 
-- Report
+use_data_raw("data-raw")
+document()
+# use_data()
+```
+
+
+### Codes {.unnumbered}
+
+### Figures and Tables {.unnumbered}
+
+### Style {.unnumbered}
+
+### Outputs {.unnumbered}
+
+### Reports {.unnumbered}

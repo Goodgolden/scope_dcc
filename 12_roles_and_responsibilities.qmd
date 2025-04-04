@@ -4,40 +4,65 @@ format: html
 editor: visual
 ---
 
-## Sponsor-Investigator:
+## Principle Investigators
 
-```         
--   Name: Areej El-Jawahri MD
--   Institution: Massachusetts General Hospital
--   E-mail Address: ael-jawahri\@partners.org
-```
+<!-- In this section, listing of principal investigators,  -->
 
-## Principal Investigators (PI):
+<!-- clinical leads, and co-authors (if known) -->
+
+### Sponsor-Investigator:
 
 -   Name: Areej El-Jawahri MD
-
     -   Institution: Massachusetts General Hospital
-
-    -   Address – 55 Yawkey Street, Yawkey 9E, Boston MA 02114
-
-    -   Telephone – 617-724-4000
-
-    -   Fax – 617-643-5843
-
     -   E-mail Address: ael-jawahri\@partners.org
 
--   Name: Jennifer Temel MD
+### Principal Investigators (PI):
 
+-   Name: Areej El-Jawahri MD
     -   Institution: Massachusetts General Hospital
-
-    -   Address – 10 North Grove Street, Boston MA 02114
-
+    -   Address – 55 Yawkey Street, Yawkey 9E, Boston MA 02114
     -   Telephone – 617-724-4000
-
+    -   Fax – 617-643-5843
+    -   E-mail Address: ael-jawahri\@partners.org
+-   Name: Jennifer Temel MD
+    -   Institution: Massachusetts General Hospital
+    -   Address – 10 North Grove Street, Boston MA 02114
+    -   Telephone – 617-724-4000
     -   Fax – 617-726-0543
-
     -   E-mail Address: jtemel\@mgh.harvard.edu
 
-## VERSION NUMBER:
+## SAP Authors
 
-Version 1.9
+<!-- Name and affiliation of SAP author(s) -->
+
+### Statisticians
+
+-   Name: Katie Colborn PhD
+    -   Institution: University of Colorado Denver - Anschutz Medical Campus <!-- - Address – CU Anschutz Academic Office One 12631 East 17th Avenue, Aurora CO 80045 -->
+    -   Telephone – 303-946-3578
+    -   Fax – 303-946-3578
+    -   E-mail Address: katie.colborn\@cuanschutz.edu
+
+-   Name: Elizabeth Juarez-Colunga
+    -   Institution: University of Colorado Denver - Anschutz Medical Campus <!-- - Address – 10 North Grove Street, Boston MA 02114 -->
+    -   Telephone – 303-724-6971
+    -   Fax – 303-724-6971
+    -   E-mail Address: elizabeth.juarez-colunga\@cuanschutz.edu
+
+### Other Contributors
+
+-   Name:
+    -   Institution:
+    -   Address –
+    -   Telephone –
+    -   Fax –
+    -   E-mail Address:
+    
+-   Name:
+    -   Institution:
+    -   Address –
+    -   Telephone –
+    -   Fax –
+    -   E-mail Address:
+
+<!-- names affiliations, and roles of other SAP contributors (e.g. senior statistician) -->

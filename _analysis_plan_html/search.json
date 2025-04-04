@@ -1,0 +1,377 @@
+[
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Read Me First",
+    "section": "Content",
+    "text": "Content\n\nIndex\nActivity log\nAdministrative information\n\nTemplate\nStudy Information\nRoles and responsibilities\nSap information\nProject information\nInvestigator agreement\nSignatures\n\n\nStudy overview\n\nBackground\nAims and hypotheses\nInterested variables\nCausal dag\n\n\nStudy methods\n\nStudy design\nSample size\nInterim analyses\nData\nMissing data\nSimulations\n\n\nStatistical analysis\n\nSignificance\nDescriptive statistics\nAnalysis methods\nAdditional\nSensitivity analysis\nExploratory analysis\nSoftware\nOthers\n\n\nTables and figures\n\nTables shells\nTables\nFigures\nExamples\n\n\nAdditional information\n\nAppendices\nGlossary\nAddenda\n\n\nReferences"
+  },
+  {
+    "objectID": "index.html#folders",
+    "href": "index.html#folders",
+    "title": "Read Me First",
+    "section": "Folders",
+    "text": "Folders\nFiles\nData\nCodes\nFigures and Tables\nStyle\nOutputs\nReports"
+  },
+  {
+    "objectID": "00_activity_log.html",
+    "href": "00_activity_log.html",
+    "title": "2  Activity Log",
+    "section": "",
+    "text": "2.1 20250205\nNotes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Activity Log</span>"
+    ]
+  },
+  {
+    "objectID": "00_activity_log.html#section-1",
+    "href": "00_activity_log.html#section-1",
+    "title": "2  Activity Log",
+    "section": "2.2 20250305",
+    "text": "2.2 20250305\n\nBuild up the analysis plan template and the package functions\nReference the SAP paper\nAsk Katie for approval on the package project\nYou are magnificent!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Activity Log</span>"
+    ]
+  },
+  {
+    "objectID": "00_activity_log.html#section-2",
+    "href": "00_activity_log.html#section-2",
+    "title": "2  Activity Log",
+    "section": "2.3 20250404",
+    "text": "2.3 20250404\n\nTalking with EJC about the package project\nFilling up the project and add comments\nBuild up the analysis plan for multiple members\nCheck how to build up the website\nCheck how to use github to include other people\nYou are cat’s meow!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Activity Log</span>"
+    ]
+  },
+  {
+    "objectID": "1_administrative_information.html#information",
+    "href": "1_administrative_information.html#information",
+    "title": "Administrative Information",
+    "section": "",
+    "text": "Title\nSpecialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia\nProtocol Version\nThe Palliative Care Research Cooperative Group (PCRC) supports palliative care research in a number of ways, including regular “Intensive” short courses on the design and conduct of randomized trials (1). The format of these Intensives combines didactic instruction and experiential learning, the latter of which is accomplished by dividing the participants into teams and having each team design a trial. Faculty members accompany the teams, and a notable feature is that each team includes a statistician. Collaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.",
+    "crumbs": [
+      "Administrative Information"
+    ]
+  },
+  {
+    "objectID": "10_template.html",
+    "href": "10_template.html",
+    "title": "3  Analytic Plan",
+    "section": "",
+    "text": "4 General Information\nDate:\nStudy Title:\nPrincipal Investigator(s) (PI):\nPaper Title:\nPaper Authors:",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#inclusion-criteria",
+    "href": "10_template.html#inclusion-criteria",
+    "title": "3  Analytic Plan",
+    "section": "7.1 Inclusion Criteria",
+    "text": "7.1 Inclusion Criteria\n\nCriterion 1\n\nCriterion 2\n\nCriterion 3",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#exclusion-criteria",
+    "href": "10_template.html#exclusion-criteria",
+    "title": "3  Analytic Plan",
+    "section": "7.2 Exclusion Criteria",
+    "text": "7.2 Exclusion Criteria\n\nCriterion 1\n\nCriterion 2\n\nCriterion 3",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#study-sites",
+    "href": "10_template.html#study-sites",
+    "title": "3  Analytic Plan",
+    "section": "7.3 Study Site(s)",
+    "text": "7.3 Study Site(s)\n\nSite 1\n\nSite 2",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#dependent-variables",
+    "href": "10_template.html#dependent-variables",
+    "title": "3  Analytic Plan",
+    "section": "10.1 Dependent Variables",
+    "text": "10.1 Dependent Variables\n\n\n\n\n\n\n\n\n\n\nVariable\nLevel\nDescription\nType\nSource\n\n\n\n\nPrimary Outcome\nPatient-level\nFACT-leukemia Quality of Life\nQuantitative score (0-100)\n12-month REDCap survey",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#independent-variables",
+    "href": "10_template.html#independent-variables",
+    "title": "3  Analytic Plan",
+    "section": "10.2 Independent Variables",
+    "text": "10.2 Independent Variables\n\n\n\n\n\n\n\n\n\n\nVariable\nLevel\nDescription\nType\nSource\n\n\n\n\nTreatment\nPractice\nStudy arm randomized at practice level\nBinary\nStudy statistician",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#setting-and-subjects",
+    "href": "10_template.html#setting-and-subjects",
+    "title": "3  Analytic Plan",
+    "section": "11.1 Setting and Subjects",
+    "text": "11.1 Setting and Subjects\n\nGenerate frequency distributions and summary statistics.\n\nExamine distributions to determine normality.\n\nCompare sample characteristics to the target population.\n\nAddress dropouts and refusals using statistical tests.",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#bivariate-analysis",
+    "href": "10_template.html#bivariate-analysis",
+    "title": "3  Analytic Plan",
+    "section": "11.2 Bivariate Analysis",
+    "text": "11.2 Bivariate Analysis\nCompare parametric and non-parametric statistics.",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#multivariable-analysis",
+    "href": "10_template.html#multivariable-analysis",
+    "title": "3  Analytic Plan",
+    "section": "11.3 Multivariable Analysis",
+    "text": "11.3 Multivariable Analysis\n\nChoice of model (e.g., logistic regression, linear regression, survival analysis).\n\nStrategy for covariate selection.\n\nModel validation strategies.",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "10_template.html#how-to-render-this-file-in-rstudio",
+    "href": "10_template.html#how-to-render-this-file-in-rstudio",
+    "title": "3  Analytic Plan",
+    "section": "13.1 How to Render This File in RStudio:",
+    "text": "13.1 How to Render This File in RStudio:\n\nClick the Render button at the top of RStudio.\nIf you want a PDF, ensure you have TinyTeX installed:\ninstall.packages(\"tinytex\")\ntinytex::install_tinytex()",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analytic Plan</span>"
+    ]
+  },
+  {
+    "objectID": "11_study_information.html",
+    "href": "11_study_information.html",
+    "title": "4  Study Information",
+    "section": "",
+    "text": "4.1 Descriptive title\nDescriptive title that matches the protocol, with SAP either as a forerunner or subtitle\nSpecialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Study Information</span>"
+    ]
+  },
+  {
+    "objectID": "12_roles_and_responsibilities.html",
+    "href": "12_roles_and_responsibilities.html",
+    "title": "5  Roles and Responsibilities",
+    "section": "",
+    "text": "5.1 Principle Investigators",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "12_roles_and_responsibilities.html#principal-investigators-pi",
+    "href": "12_roles_and_responsibilities.html#principal-investigators-pi",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.2 Principal Investigators (PI):",
+    "text": "5.2 Principal Investigators (PI):\n\nName: Areej El-Jawahri MD\n\nInstitution: Massachusetts General Hospital\nAddress – 55 Yawkey Street, Yawkey 9E, Boston MA 02114\nTelephone – 617-724-4000\nFax – 617-643-5843\nE-mail Address: ael-jawahri@partners.org\n\nName: Jennifer Temel MD\n\nInstitution: Massachusetts General Hospital\nAddress – 10 North Grove Street, Boston MA 02114\nTelephone – 617-724-4000\nFax – 617-726-0543\nE-mail Address: jtemel@mgh.harvard.edu"
+  },
+  {
+    "objectID": "12_roles_and_responsibilities.html#version-number",
+    "href": "12_roles_and_responsibilities.html#version-number",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.3 VERSION NUMBER:",
+    "text": "5.3 VERSION NUMBER:\nVersion 1.9"
+  },
+  {
+    "objectID": "13_sap_information.html",
+    "href": "13_sap_information.html",
+    "title": "6  SAP Information",
+    "section": "",
+    "text": "Key to understanding how statisticians conceptualize SAPs is to recognize that, because their main goal is to assess the impact of the interventions being studied, essentially all RCTs can be represented by figure 1. Thus, the statistician can be counted upon to try to place all the study variables they encounter into boxes A-F. Moreover, figure 1 contains relatively few arrows, and each of these arrows corresponds to a potential element of the SAP. For example, the arrows from A to D, from A to E (i.e., through D), and from A to F (i.e., through D and E) all represent direct assessments of the impact of the intervention, which only differ according to the choice of outcome. The intention of an analysis can usually be described through a directional relationship (e.g., A -> E). Once such a relationship is identified, the statistician proposes a specific analytical technique based upon considerations such as scale of measurement. For example, with A binary and E continuous, the relationship could be assessed using a t-test."
+  },
+  {
+    "objectID": "14_project_information.html",
+    "href": "14_project_information.html",
+    "title": "7  Project Information",
+    "section": "",
+    "text": "{{ project_title }}\n\n\n\nThis is a project description"
+  },
+  {
+    "objectID": "15_investigator_agreement.html",
+    "href": "15_investigator_agreement.html",
+    "title": "8  Investigator Agreement",
+    "section": "",
+    "text": "I, {{name}}, agree to the following terms and conditions:"
+  },
+  {
+    "objectID": "15_investigator_agreement.html#confliction-of-interests",
+    "href": "15_investigator_agreement.html#confliction-of-interests",
+    "title": "8  Investigator Agreement",
+    "section": "8.2 Confliction of Interests",
+    "text": "8.2 Confliction of Interests\nThe authors declare that they have no conflict of interest."
+  },
+  {
+    "objectID": "15_investigator_agreement.html#contributions-to-the-study",
+    "href": "15_investigator_agreement.html#contributions-to-the-study",
+    "title": "8  Investigator Agreement",
+    "section": "8.3 Contributions to the Study",
+    "text": "8.3 Contributions to the Study\nI, {{name}}, agree to the following terms and conditions:"
+  },
+  {
+    "objectID": "16_signatures.html",
+    "href": "16_signatures.html",
+    "title": "9  Signatures",
+    "section": "",
+    "text": "This is a signature block. It is a good idea to include your name, title, and contact information in your signature block. You can also include a logo or image."
+  },
+  {
+    "objectID": "16_signatures.html#example",
+    "href": "16_signatures.html#example",
+    "title": "9  Signatures",
+    "section": "9.2 Example",
+    "text": "9.2 Example\nThe school email link and author name are not working. I have tried to fix it but I am not able to do it."
+  },
+  {
+    "objectID": "2_study_overview.html",
+    "href": "2_study_overview.html",
+    "title": "Study Overview",
+    "section": "",
+    "text": "Descriptive title\nDescriptive title that matches the protocol, with SAP either as a forerunner or subtitle\nSpecialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia",
+    "crumbs": [
+      "Study Overview"
+    ]
+  },
+  {
+    "objectID": "20_backaground.html",
+    "href": "20_backaground.html",
+    "title": "10  Background",
+    "section": "",
+    "text": "Patients with AML face substantial physical and psychological symptoms During their hospitalization for chemotherapy, patients with AML often experience difficult physical symptoms, including fevers, fatigue, pain, insomnia, mucositis, nausea, vomiting, and diarrhea that negatively impact their quality of life (QOL) and physical function.6-12 Psychological symptoms are also quite prominent in these patients, with over one-third experiencing acute stress reactions from the shock of their diagnosis and need for urgent hospitalization.6-19 Notably, the psychological burden during this hospitalization also impacts patients’ long-term QOL, mood, and adaptation to their illness.18,19 Up to 40% of patients with AML suffer from post-traumatic stress symptoms due to the trauma of their diagnosis.20-23 Therefore, addressing the physical and psychological needs of hospitalized patients with AML has the potential to improve their outcomes significantly both during their hospitalization and in the long-term.\nPatients with AML face difficult decisions about treatment Many treatments are available that offer a chance of cure for patients with AML, including stem cell transplant. However, the chance of cure is small and most patients with AML unfortunately die of their illness.24,25 Consequently, to make informed decisions about whether to receive additional treatment, patients with AML must understand their prognosis and likelihood of cure.26,27 Unfortunately, data suggest that 90% of patients with AML report overly optimistic estimates of their prognosis.27 Thus, they are unprepared to make difficult decisions that require them to balance the risk and benefits of treatments that offer an uncertain chance of cure, but will worsen their QOL and require them to spend additional time in the hospital. In fact, patients with AML spend approximately 50% of their life from the time of diagnosis until death in the hospital.9 Therefore, patients with AML face considerable uncertainty and often misunderstand their prognosis, limiting their ability to make informed decisions about treatment.\nPatients with AML rarely discuss their end-of-life (EOL) care preferences Due to the chance of cure even after multiple therapies, oncology clinicians often defer engaging in conversations with patients with AML about their EOL care preferences.26 As the majority of these patients die, it is imperative that oncology clinicians elicit their goals and help them make decisions about their EOL care. Unfortunately, studies show that patients with AML do not engage in timely discussions with their clinicians about their care preferences and consequently receive aggressive care at the EOL.18,28-35 Specifically, while many patients with cancer express a preference to die at home and minimize time in the hospital, 80% of patients with AML are hospitalized in the last month of life, with 50% dying in the hospital. Over half receive chemotherapy in the last month of life and 30% die in the intensive care unit (ICU).18,28-35 Evidence-based interventions are needed to enhance patient-clinician communication and optimize EOL care for patients with AML.\nCaregivers of patients with AML experience tremendous burden and distress The family and close friends (“caregivers”) of patients with AML play a critical role in their care, but also experience distress as they face the shock of the patient’s diagnosis and cope with uncertainty.10,36-38 During the patient’s hospitalization for treatment, caregivers report a marked decline in their QOL and mood as they witness the patient struggle with side effects.10 After the patient is discharged from the hospital, the caregiver helps manage the patient’s symptoms, attends multiple oncology appointments, coordinates medical care, and prepares for subsequent hospitalizations.39 Caregivers experience the highest burden and psychological distress when caring for patients with AML near the EOL.39,40 Not surprisingly, caregivers of patients with AML have disruptions in their professional and personal lives. Thus, caregivers of patients with AML would benefit from support as they navigate the patient’s illness.\nSpecialty palliative care improves outcomes for patients and their caregivers A growing body of evidence has demonstrated the essential role of specialty palliative care (PC) clinicians in the care of patients with advanced solid tumors.41-45 Integrating PC with oncology care from the time of diagnosis for patients with advanced solid tumors improves patients’ QOL, psychological health, and EOL care.41-45 Emerging data have similarly shown the benefits of specialty PC for patients with hematologic malignancies.46-48 We recently completed a multi-site randomized trial of specialty PC versus usual care in hospitalized patients with AML.48 Patients assigned to specialty PC met with a PC clinician at least twice weekly during their hospitalization for chemotherapy and subsequent hospitalizations up to one year. Specialty PC improved patients’ QOL, depression and anxiety symptoms, as well as post-traumatic stress symptoms.48 Importantly, specialty PC led to clinically meaningful and sustained improvements in patients’ QOL and psychological distress for six months after initiating chemotherapy.48 Patients receiving specialty PC were also more likely to discuss their EOL care preferences and less likely to receive chemotherapy in the last month of life.48 Thus, involvement of specialty PC improves the experience and outcomes of patients with serious cancer and their caregivers.\nSpecialty PC is not an accessible or scalable care model Despite the benefits of specialty PC for patients with cancer, it is not feasible to provide this care for all patients given the limited availability of trained PC clinicians.49-51 Nearly half of National Cancer Institute-designated cancer centers do not have the specialty PC workforce to provide care for their patients with cancer.49-51 Due to these workforce shortages, most specialty PC is triaged to provide care for patients with incurable cancer at the EOL. Thus, despite the growing evidence base, substantial challenges limit the scalability and dissemination of this care model, especially in caring for patients with hematologic malignancies.26,52 Moreover, oncology clinicians caring for patients with hematologic malignancies rarely consult specialty PC as they view providing PC within their scope of practice.26,53-55 Furthermore, given the complex chemotherapy regimens used to treat patients with AML and their side effects, oncology clinicians may be the ideal clinicians to address these needs.26,53-55\nPrimary PC may be an alternative care model to specialty PC Training oncology clinicians to incorporate PC skills into their care practice (i.e., “primary PC”) is an alternative strategy to having specialty trained PC clinicians care for all patients with cancer. Recent studies have shown that primary PC interventions in which oncology clinicians are trained to address patient’s symptoms and engage in serious illness conversations are feasible, acceptable, and improve patient outcomes.56,57 These interventions have been shown to increase oncology clinicians’ knowledge about symptom assessment and management, as well as their comfort managing psychological distress.58-60 In a cluster randomized trial in which oncology clinicians were trained in serious illness communication, patients receiving primary PC were more likely to have documented EOL discussions and reported lower anxiety and depression symptoms.56,57 While these primary PC studies are promising, it remains unknown how primary PC compares with specialty PC for improving QOL and EOL care for patients with cancer.26,61 Recent systematic reviews highlight the need for comparative effectiveness trials of primary versus specialty PC, to determine how to best meet the needs of patients with serious cancers, and especially those with hematologic malignancies.26,61"
+  },
+  {
+    "objectID": "21_aims_and_hypotheses.html",
+    "href": "21_aims_and_hypotheses.html",
+    "title": "11  Aims and Hypotheses",
+    "section": "",
+    "text": "To determine whether primary PC is non-inferior to specialty PC for improving QOL in patients with AML: We will begin with descriptive and graphical summaries of the endpoints to evaluate whether regression modeling assumptions are met and/or whether there are outliers that might be data entry errors. We will use an intention-to-treat approach for treatment group comparisons and report results using the CONSORT extension to cluster randomized trials. We chose an intention-to-treat approach for the primary analysis in our study as it 1) preserves the advantage of randomization and 2) we anticipate minimal cross-contamination in this cluster randomized clinical trial between study groups, which further enhances the fidelity of an intention-to-treat analysis. Nonetheless, we will closely track the extent of contamination in both study groups. We will also assess for potential factors that are associated with non-adherence to the assigned PC model such as age, sex, race/ethnicity, time from diagnosis, underlying leukemia diagnosis, leukemia risk, and institutional factors that might be associated with non-adherence (leukemia volume, size of leukemia program, and other institutional supportive care initiatives). We will also conduct and report per protocol analyses using inverse probability weighting (IPW) to provide robust statistical estimates for the primary and secondary outcomes in this trial. As the goal of the proposed study is to establish that patient-reported QOL with primary PC is non-inferior to specialty PC, all statistical tests for non-inferiority will be one-sided with an alpha level of 0.025. The primary endpoint of the study is to compare patient QOL (FACT-Leukemia) scores at week 12 between the study groups using linear mixed (LMM) effect models of longitudinal data with QOL estimated at each time point, with random effects for cluster and subject. The use of mixed models will allow us to account for dependency among longitudinal outcomes within a cluster and within an individual and to control for demographic and clinical factors (as necessary for any imbalances in baseline variables). Each time point will be included as a fixed factor with baseline as the reference group. Lastly, we will test for Heterogeneity of Treatment Effect (HTE) based on age, gender, race/ethnicity, AML diagnosis (newly diagnosed vs. relapsed/refractory), and enrollment of caregiver using interaction terms in the mixed models (see HTE analysis plan). We will utilize a similar strategy when comparing patient-reported depression (HADS-depression), anxiety (HADS-anxiety), PTSD symptoms (PTSD-Checklist), coping (Brief COPE), symptom burden (ESAS-r), and perception of centeredness of care (PPPC) between the two groups. The mixed models also permit inclusion of patients who only provide partial longitudinal data so that all available data are contributing to the analysis.\n\n\n\nTo assess whether primary PC is non-inferior to specialty PC for improving patient-clinician EOL communication: We will examine patient-report of discussing EOL care preferences with their clinicians using the following item: “Have you and your doctors discussed any particular wishes you have about the care you would want to receive if you were dying?” (Yes/No). Although patients will complete this measure repeatedly during the study, we will use the final assessment either prior to death or at last follow-up assessment point (whichever comes first) for this analysis. We will compare differences between study groups in the rate of patients reporting “Yes” to this item using a binomial generalized linear mixed effects model with an identity link function, adjusting for any demographic and clinical factors that are imbalanced between the two groups (non-inferiority margin of 13%) and a single random effect for cluster. Utilizing a similar statistical approach, we will conduct an exploratory analysis comparing patient and caregiver prognostic understanding using the response to the following item of the PTPQ: “What is the likelihood that you will be cured of your leukemia?” Responses will be dichotomized as accurate versus inaccurate as done in prior studies. Although patients and caregivers will complete this measure repeatedly during the study, we will also use the final assessment either prior to death or at 24 weeks (whichever comes first) for this analysis.\n\n\n\nTo compare the effect of primary PC versus specialty PC on EOL outcomes for patients with AML: We will compare chemotherapy use (yes/no; non-inferiority margin 15%) using a binomial generalized linear mixed effects model with an identity link function, adjusting for any demographic and clinical factors that are imbalanced between the two groups. We will also explore differences in hospitalizations (yes/no), ICU admissions (yes/no), and hospice utilization (yes/no) in the last 30 days of life between the two study groups using mixed effect logistic regression models. We will explore differences in hospice length-of-stay between primary PC and specialty PC using linear mixed effects models adjusting for imbalances between the two groups.\n\n\n\nTo compare the effect of primary PC versus specialty PC on caregiver QOL and psychological distress: We will assess the non-inferiority of primary PC versus specialty PC on caregiver QOL (CarGOQOL, non-inferiority margin 5 points), depression (HADS-Depression, non-inferiority margin 1.5 points), anxiety (HADS-anxiety, non-inferiority margin 1.5 point) symptoms at week-12 using linear mixed effects models. We will also utilize mixed models when differences between groups in these outcomes at multiple time points (i.e., baseline, weeks 2, 4, 12, and 24).\n\n\n\nQualitative analyses based on RE-AIM Quest: Trained study staff will conduct audio-recorded qualitative interviews with patients, caregivers, oncology and PC clinicians, and hospital leaders. Data analyses will co-occur with interview data collection to ascertain if thematic saturation (the point at which no new data are generated) has been achieved for each stratum (i.e., small, medium, or large leukemia programs). All interviews will be recorded, transcribed, and analyzed using NVivo 12 qualitative software. Two independent coders will analyze the interview content thematically, overseen by Dr. Park. Guided by RE-AIM, the coders will meet to develop the thematic framework and coding plan. Each interview will be coded twice. Interpretation and analysis of coded transcripts will follow the RE-AIM framework: 1) reach, 2) effectiveness, 3) adoption, 4) implementation, and 5) maintenance. To ensure coding reliability, coding discrepancies will be resolved through discussion and comparison of raw data. Coding will continue until a high level of reliability (kappa > 0.80) is established. Individual interview results will be analyzed by strata comparisons. After the dataset is complete, the study team will conduct independent expert reviews of the data prior to integration with quantitative data."
+  },
+  {
+    "objectID": "22_interested_variables.html",
+    "href": "22_interested_variables.html",
+    "title": "12  Interested Variables",
+    "section": "",
+    "text": "Outcome 1: The outcome of interest is the number of days a patient stays in the hospital. This is a continuous variable."
+  },
+  {
+    "objectID": "23_causal_dag.html",
+    "href": "23_causal_dag.html",
+    "title": "\n13  Causal Dag\n",
+    "section": "",
+    "text": "Directed Acyclic Graph (DAG) is a graphical representation of causal relationships between variables.\n\n# Q: what is dag, and introduction paragraph\n# A: Directed Acyclic Graph (DAG) is a graphical representation of causal relationships between variables."
+  },
+  {
+    "objectID": "52_figures.html",
+    "href": "52_figures.html",
+    "title": "30  Figures",
+    "section": "",
+    "text": "All the function are explained in R documentation."
+  },
+  {
+    "objectID": "7_summary.html",
+    "href": "7_summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "In summary,"
+  },
+  {
+    "objectID": "00_activity_log.html#section",
+    "href": "00_activity_log.html#section",
+    "title": "2  Activity Log",
+    "section": "",
+    "text": "General SCOPE DCC / Grant Document Review\nRead through the analytic plan for Link\nThis is a clustered randomized trial\n\nsection 9.4 Analysis Section\nsection 11.2 Data Management page 7\nwrite a statistical analysis plan for each analysis\nprimary - &gt; caregiver\n\nRandy will map the protocol to the databases to the analysis\nWhat are the superior hypothesis and reject the \\(H_0\\)\nYou are fine!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Activity Log</span>"
+    ]
+  },
+  {
+    "objectID": "1_administrative_information.html",
+    "href": "1_administrative_information.html",
+    "title": "Administrative Information",
+    "section": "",
+    "text": "Information",
+    "crumbs": [
+      "Administrative Information"
+    ]
+  },
+  {
+    "objectID": "11_study_information.html#information",
+    "href": "11_study_information.html#information",
+    "title": "4  Study Information",
+    "section": "",
+    "text": "4.1.1 Specialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia\nThe Palliative Care Research Cooperative Group (PCRC) supports palliative care research in a number of ways, including regular “Intensive” short courses on the design and conduct of randomized trials (1). The format of these Intensives combines didactic instruction and experiential learning, the latter of which is accomplished by dividing the participants into teams and having each team design a trial. Faculty members accompany the teams, and a notable feature is that each team includes a statistician. Collaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.\n\n\n4.1.2 Study Design\nThe study design is a randomized trial of a pain coping intervention in palliative care.\n\n\n4.1.3 Study Objectives\nThe primary objective of the study is to determine the effect of the pain coping intervention on pain intensity in patients with advanced cancer.\n\n\n4.1.4 Study Population\nThe study population is patients with advanced cancer who are receiving palliative care.\n\n\n4.1.5 Study Interventions\nThe study intervention is a pain coping intervention.\n\n\n4.1.6 Study Outcomes\nThe primary outcome is pain intensity.\n\n\n4.1.7 Study Timeline\nThe study will be conducted over a 12-week period.\n\n\n4.1.8 Study Budget",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Study Information</span>"
+    ]
+  },
+  {
+    "objectID": "2_study_overview.html#descriptive-title",
+    "href": "2_study_overview.html#descriptive-title",
+    "title": "Study Overview",
+    "section": "",
+    "text": "Subtitle\n\n\n\n\n\n\nTrial registration number\n\n\nProtocol version number\n\n\nIRB number\n\n\nDepartment\nCRU/Department/Division/Center/other collaborative unit that the study falls under",
+    "crumbs": [
+      "Study Overview"
+    ]
+  },
+  {
+    "objectID": "12_roles_and_responsibilities.html#principle-investigators",
+    "href": "12_roles_and_responsibilities.html#principle-investigators",
+    "title": "5  Roles and Responsibilities",
+    "section": "",
+    "text": "5.1.1 Sponsor-Investigator:\n\nName: Areej El-Jawahri MD\n\nInstitution: Massachusetts General Hospital\nE-mail Address: ael-jawahri@partners.org\n\n\n\n\n5.1.2 Principal Investigators (PI):\n\nName: Areej El-Jawahri MD\n\nInstitution: Massachusetts General Hospital\nAddress – 55 Yawkey Street, Yawkey 9E, Boston MA 02114\nTelephone – 617-724-4000\nFax – 617-643-5843\nE-mail Address: ael-jawahri@partners.org\n\nName: Jennifer Temel MD\n\nInstitution: Massachusetts General Hospital\nAddress – 10 North Grove Street, Boston MA 02114\nTelephone – 617-724-4000\nFax – 617-726-0543\nE-mail Address: jtemel@mgh.harvard.edu",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "12_roles_and_responsibilities.html#sap-authors",
+    "href": "12_roles_and_responsibilities.html#sap-authors",
+    "title": "5  Roles and Responsibilities",
+    "section": "5.2 SAP Authors",
+    "text": "5.2 SAP Authors\n\n\n5.2.1 Statisticians\n\nName: Katie Colborn PhD\n\nInstitution: University of Colorado Denver - Anschutz Medical Campus \nTelephone – 303-946-3578\nFax – 303-946-3578\nE-mail Address: katie.colborn@cuanschutz.edu\n\nName: Elizabeth Juarez-Colunga\n\nInstitution: University of Colorado Denver - Anschutz Medical Campus \nTelephone – 303-724-6971\nFax – 303-724-6971\nE-mail Address: elizabeth.juarez-colunga@cuanschutz.edu\n\n\n\n\n5.2.2 Other Contributors\n\nName:\n\nInstitution:\nAddress –\nTelephone –\nFax –\nE-mail Address:\n\nName:\n\nInstitution:\nAddress –\nTelephone –\nFax –\nE-mail Address:",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Roles and Responsibilities</span>"
+    ]
+  },
+  {
+    "objectID": "11_study_information.html#descriptive-title",
+    "href": "11_study_information.html#descriptive-title",
+    "title": "4  Study Information",
+    "section": "",
+    "text": "4.1.1 Subtitles\n\nListing out the subject subtitles probably with each aim with cross links.  \n\n\n4.1.2 Trial registration number\n\n\n4.1.3 Protocol version number\nVersion 1.9\n\n\n4.1.4 IRB number\n\n\n4.1.5 Department",
+    "crumbs": [
+      "Administrative Information",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Study Information</span>"
+    ]
+  }
+]

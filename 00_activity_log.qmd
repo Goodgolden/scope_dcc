@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-## 20240205
+## 20250205
 
 - [x] General SCOPE DCC / Grant Document Review
 - [x] Read through the analytic plan for [Link](https://olucdenver.sharepoint.com/:w:/r/sites/SCOPEDCC/_layouts/15/Doc.aspx?sourcedoc=%7B05AEB1C9-7608-4E75-ACE8-BC9FE35B33D8%7D&file=2-26-2024%20protocol%20with%20track%20changes%20KLC.doc&action=default&mobileredirect=true)
@@ -17,48 +17,22 @@ editor: visual
 - [x] What are the superior hypothesis and reject the $H_0$
 - [x] You are fine!
 
-Notes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.
+**Notes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.**
 
 
-## Activity Log for Chapter 00
+## 20250305
 
-Goal for this chapter - version number {{.version number}}
-
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] You are prime!
-
-## Activity Log for Chapter 01 - version number {{.version number 2}}
-
-Goal for this chapter
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] You are posh!
+- [x] Build up the analysis plan template and the package functions
+- [x] Reference the [SAP paper](https://www.sciencedirect.com/science/article/pii/S0885392422008570) 
+- [x] Ask Katie for approval on the package project
+- [x] You are magnificent!
 
 
-## Activity Log for Chapter 02 - version number {{.version number 3}}
+## 20250404
 
-Goal for this chapter
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] You are primo!
-
-
-## Activity Log for Chapter 03
-
-Goal for this chapter
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] You are phenomenal!
+- [x] Talking with EJC about the package project
+- [x] Filling up the project and add comments 
+- [x] Build up the analysis plan for multiple members
+- [x] Check how to build up the website
+- [x] Check how to use github to include other people
+- [x] You are cat's meow!

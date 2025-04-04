@@ -4,34 +4,35 @@ format: html
 editor: visual
 ---
 
-## Information
 
-### Specialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia
+## Descriptive title
 
-The Palliative Care Research Cooperative Group (PCRC) supports palliative care research in a number of ways, including regular “Intensive” short courses on the design and conduct of randomized trials (1). The format of these Intensives combines didactic instruction and experiential learning, the latter of which is accomplished by dividing the participants into teams and having each team design a trial. Faculty members accompany the teams, and a notable feature is that each team includes a statistician. Collaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.
+***Descriptive title that matches the protocol,
+with SAP either as a forerunner or subtitle***
 
-### Study Design
+Specialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia
 
-The study design is a randomized trial of a pain coping intervention in palliative care.
 
-### Study Objectives
+### Subtitles
 
-The primary objective of the study is to determine the effect of the pain coping intervention on pain intensity in patients with advanced cancer.
 
-### Study Population
+<!-- This is a study navigate page.  -->
+Listing out the subject subtitles probably with each aim with cross links.
+<!-- It is a good place to provide a brief description of the study, -->
+<!-- the purpose of the study, and any other relevant information.  -->
 
-The study population is patients with advanced cancer who are receiving palliative care.
 
-### Study Interventions
+### Trial registration number
 
-The study intervention is a pain coping intervention.
 
-### Study Outcomes
+### Protocol version number
 
-The primary outcome is pain intensity.
+***Version 1.9***
 
-### Study Timeline
+### IRB number
 
-The study will be conducted over a 12-week period.
 
-### Study Budget
+### Department
+
+<!-- CRU/Department/Division/Center/other collaborative unit  -->
+<!-- that the study falls under -->

@@ -1,33 +1,67 @@
 project:
   type: book
-  
+  output-dir: _analysis_plan_html
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    code-link: true
+  # pdf:
+  #   documentclass: scrreprt
+  #   cover-image: SOM_c_clr.png
+  # epub:
+  #   cover-image: SOM_c_clr.png
+
 book:
-  title: "SCOPE DCC"
-  author: "Randy Jin"
-  date: "2/5/2025"
+  title: "SCOPE DCC Analytic Plan"
+  reader-mode: true
+
+
+  page-footer:
+    left: |
+      This Analytic Plan was written by RJ, EJC, KC.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+
+
+  cover-image: SOM_c_clr.png
+  favicon: SOM_c_clr.png
+  
+  
   navbar:
     # downloads: [pdf]
     search: true
-  repo-url: https://github.com/Goodgolden/jm_amh
-  repo-actions: [edit]
+
+
+  repo-url: https://github.com/Goodgolden/scope_dcc
+  repo-branch: main
+  repo-actions: [edit, issue]
+  # repo-actions: [edit]
+  
   sidebar:
     search: true
     tools:
       - icon: github
-        href: https://github.com/Goodgolden/jm_amh
+        href: https://github.com/Goodgolden/scope_dcc
         aria-label: GitHub
-      - icon: share
-        aria-label: Email
+      - icon: info-circle
+        href: https://medschool.cuanschutz.edu/health-care-policy-and-research
       - icon: hospital
         aria-label: CU Anschutz
         href: https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics
 
-
+# format:
+#   pdf:
+#     documentclass: scrartcl
+#     papersize: letter
 
   chapters:
-    - part: index.qmd
-      chapters:
-        - 00_activity_log.qmd
+    - index.qmd
+    # - intro.qmd
+    - 00_activity_log.qmd
+    
     - part: 1_administrative_information.qmd
       chapters:
         - 10_template.qmd
@@ -37,13 +71,16 @@ book:
         - 14_project_information.qmd
         - 15_investigator_agreement.qmd
         - 16_signatures.qmd
-        # - references.qmd
+
+
     - part: 2_study_overview.qmd
       chapters:
         - 20_backaground.qmd
         - 21_aims_and_hypotheses.qmd
         - 22_interested_variables.qmd
         - 23_causal_dag.qmd
+
+
     - part: 3_study_methods.qmd
       chapters:
         - 30_study_design.qmd
@@ -52,6 +89,8 @@ book:
         - 33_data.qmd
         - 34_missing_data.qmd
         - 35_simulations.qmd
+
+
     - part: 4_statistical_analysis.qmd
       chapters:
         - 40_significance.qmd
@@ -62,27 +101,34 @@ book:
         - 44_exploratory_analysis.qmd
         - 45_software.qmd
         - 46_others.qmd
+
+
     - part: 5_tables_and_figures.qmd
       chapters:
         - 50_tables_shells.qmd
         - 51_tables.qmd
         - 52_figures.qmd
         - 53_examples.qmd
+
+
     - part: 6_additional_information.qmd
       chapters:
         - 60_appendices.qmd
         - 61_glossary.qmd
         - 62_addenda.qmd
-    - part: summary.qmd
+
+
+    - part: 7_summary.qmd
+      chapters:
         - references.qmd
+
+        
 
 bibliography: references.bib
 
-format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
 editor: visual
+
+## to render the book 
+## add the following to the terminal: 
+## quarto preview
 
