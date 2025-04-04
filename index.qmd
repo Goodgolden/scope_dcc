@@ -46,6 +46,12 @@ The main documents are stored in this [link](https://olucdenver-my.sharepoint.co
 
 ## Content {.unnumbered}
 
+```{r}
+list.files(pattern = ".qmd$", 
+           recursive = TRUE)
+```
+
+
 -   Activity Log
 -   Administrative Information
     -   Analytic Plan Template
@@ -106,13 +112,26 @@ library(devtools)
 library(usethis)
 library(testthat)
 
-use_data_raw("data-raw")
-document()
+## including datasets into the package
+# use_data_raw("data-raw")
+# document()
 # use_data()
+
+list.files(path = "data-raw", 
+           # pattern = "_input.txt$", 
+           recursive = TRUE)
+
 ```
 
 
 ### Codes {.unnumbered}
+
+
+```{r}
+list.files(path = "R", 
+           # pattern = "_input.txt$", 
+           recursive = TRUE)
+```
 
 ### Figures and Tables {.unnumbered}
 
