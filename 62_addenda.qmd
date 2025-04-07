@@ -1,7 +1,27 @@
 ---
 title: "Addenda"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+Any additional analyses conducted that were not included in the SAP should be documented in
+an addendum, describing the purpose of the additional analysis, when it was conducted, and by whom

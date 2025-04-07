@@ -1,17 +1,50 @@
 ---
 title: "Investigator Agreement"
-format: html
-editor: visual
+editor: source
 ---
 
-## Investigator Agreement
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
 
-I, {{name}}, agree to the following terms and conditions:
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
 
-## Confliction of Interests
+## Investigator Agreement {#sec-investigator_agreement}
 
-The authors declare that they have no conflict of interest.
+Confirmation that BERD Method Core’s collaborative process has been reviewed:
 
-## Contributions to the Study
+- all statistical analyses included in an abstract or manuscript should reflect the SAP;
+- no changes should be made to the SAP without discussing with the SAP authors;
+- all biostatisticians on the SAP are co-authors on the manuscript
 
-I, {{name}}, agree to the following terms and conditions:
+- publications resulting from the SAP must cite grant number UL1TR002553 and be submitted to PubMed Central
+
+## Extra Documents {#sec-extra_documents}

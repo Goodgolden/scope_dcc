@@ -1,7 +1,61 @@
 ---
 title: "Data Information"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## Data Information {#sec-data_info}
+Description of data collection/acquisition process, with contact information for team member responsible
+
+## Data Management {#sec-data_management}
+Description of data flow/transfer from primary data collection through to creation of final analysis dataset
+Data transfer method and date Folder location where datasets are stored
+
+
+## Data Processing {#sec-data_processing}
+Description of any additional data management, quality control, or processing undertaken
+
+
+## Data Extraction {#sec-data_extraction}
+
+If any data are extracted from a database, a description of the database and the query used for the
+extraction, and whether/how it was merged with any data from outside that database. If the study
+involved linkage of databases, consider use of a flow diagram to demonstrate the data linkage
+process, including the number of individuals with linked data at each stage.
+
+## Data Sources {#sec-data_sources}
+
+Description of any other data sources incorporated in the analysis

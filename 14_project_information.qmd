@@ -1,13 +1,69 @@
 ---
 title: "Project Information"
-format: html
+editor: source
 ---
 
-## Project Information
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
 
-### Project Title
-{{ project_title }}
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
 
-### Project Description
+## Project Information {#sec-project_information}
 
-This is a project description
+### Project folder location {#sec-project_folder_location}
+
+
+### Project goals {#sec-project_goals}
+
+- [x] manuscript
+
+- [x] abstract
+
+- [x] presentation
+
+- [x] paper
+
+- [x] package and template
+
+- [x] poster
+
+
+### Project deadlines (of listed goals) {#sec-project_deadlines}
+
+
+
+
+### Effort estimate {#sec-project_effort_estimate}
+
+
+
+

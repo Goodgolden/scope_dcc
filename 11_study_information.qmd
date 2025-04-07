@@ -1,38 +1,64 @@
 ---
 title: "Study Information"
 format: html
-editor: visual
+editor: source
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
 
-## Descriptive title
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+## Descriptive title {#sec-descriptive-title}
 
-***Descriptive title that matches the protocol,
-with SAP either as a forerunner or subtitle***
+***Descriptive title that matches the protocol, with SAP either as a forerunner or subtitle***
 
 Specialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia – SCOPE-Leukemia
 
-
-### Subtitles
-
+### Subtitles {#sec-subtitles}
 
 <!-- This is a study navigate page.  -->
-Listing out the subject subtitles probably with each aim with cross links.
-<!-- It is a good place to provide a brief description of the study, -->
-<!-- the purpose of the study, and any other relevant information.  -->
 
+Listing out the subject subtitles probably with each aim with cross links. <!-- It is a good place to provide a brief description of the study, --> <!-- the purpose of the study, and any other relevant information.  -->
 
-### Trial registration number
+### Trial registration number {#sec-trial-registration-number}
 
-
-### Protocol version number
+### Protocol version number {#sec-protocol-version-number}
 
 ***Version 1.9***
 
-### IRB number
+### IRB number {#sec-irb-number}
 
-
-### Department
+### Department {#sec-department}
 
 <!-- CRU/Department/Division/Center/other collaborative unit  -->
+
 <!-- that the study falls under -->

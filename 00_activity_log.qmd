@@ -1,38 +1,73 @@
 ---
-title: "Activity Log"
+title: "Activity Log" 
 format: html
-editor: visual
+editor: source
 ---
 
-## 20250205
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+## clean the R environment
+graphics.off()
+rm(list = ls())
+freshr::freshr()
+## load packages
+library(here, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(gtsummary, quietly = TRUE)
+library(flextable, quietly = TRUE)
+## check the directory for the file
+# here::dr_here()
+here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
 
-- [x] General SCOPE DCC / Grant Document Review
-- [x] Read through the analytic plan for [Link](https://olucdenver.sharepoint.com/:w:/r/sites/SCOPEDCC/_layouts/15/Doc.aspx?sourcedoc=%7B05AEB1C9-7608-4E75-ACE8-BC9FE35B33D8%7D&file=2-26-2024%20protocol%20with%20track%20changes%20KLC.doc&action=default&mobileredirect=true)
-- [x] This is a clustered randomized trial
-  - [x] section 9.4 Analysis Section
-  - [x] section 11.2 Data Management page 7
-  - [x] write a statistical analysis plan for each analysis
-  - [x] primary - > caregiver
-- [x] Randy will map the protocol to the databases to the analysis
-- [x] What are the superior hypothesis and reject the $H_0$
-- [x] You are fine!
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+
+## Activity Log for Development {#sec-activity_log}
+
+### 20250205 {.unnumbered}
+
+-   [x] General SCOPE DCC / Grant Document Review
+-   [x] Read through the analytic plan for [Link](https://olucdenver.sharepoint.com/:w:/r/sites/SCOPEDCC/_layouts/15/Doc.aspx?sourcedoc=%7B05AEB1C9-7608-4E75-ACE8-BC9FE35B33D8%7D&file=2-26-2024%20protocol%20with%20track%20changes%20KLC.doc&action=default&mobileredirect=true)
+-   [x] This is a clustered randomized trial
+    -   [x] section 9.4 Analysis Section
+    -   [x] section 11.2 Data Management page 7
+    -   [x] write a statistical analysis plan for each analysis
+    -   [x] primary - \> caregiver
+-   [x] Randy will map the protocol to the databases to the analysis
+-   [x] What are the superior hypothesis and reject the $H_0$
+-   [x] You are fine!
 
 **Notes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.**
 
+### 20250305 {.unnumbered}
 
-## 20250305
+-   [x] Build up the analysis plan template and the package functions
+-   [x] Reference the [SAP paper](https://www.sciencedirect.com/science/article/pii/S0885392422008570)
+-   [x] Ask Katie for approval on the package project
+-   [x] You are magnificent!
 
-- [x] Build up the analysis plan template and the package functions
-- [x] Reference the [SAP paper](https://www.sciencedirect.com/science/article/pii/S0885392422008570) 
-- [x] Ask Katie for approval on the package project
-- [x] You are magnificent!
+### 20250404 {.unnumbered}
 
-
-## 20250404
-
-- [x] Talking with EJC about the package project
-- [x] Filling up the project and add comments 
-- [x] Build up the analysis plan for multiple members
-- [x] Check how to build up the website
-- [x] Check how to use github to include other people
-- [x] You are cat's meow!
+-   [x] Talking with EJC about the package project
+-   [x] Filling up the project and add comments
+-   [x] Build up the analysis plan for multiple members
+-   [x] Check how to build up the website
+-   [x] Check how to use github to include other people
+-   [x] You are cat's meow!

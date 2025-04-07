@@ -5,10 +5,10 @@ editor: visual
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,
+knitr::opts_chunk$set(echo = FALSE,
             warnings = FALSE,
             message = FALSE,
-            comment = "#>",
+            comment = "",
             #results = "hide",
             digits = 4,
             error = FALSE)
@@ -40,7 +40,24 @@ here::set_here()
 
 # Preface {.unnumbered}
 
-This is a Quarto book for 2025 SCOPE DCC project.
+This is a Quarto book for 2025 SCOPE DCC project. 
+
+*A Visual Tool to Help Develop a Statistical Analysis Plan for Randomized Trials in Palliative Care* 
+
+Collaboration with a statistician about the design of a statistical analysis plan can be enhanced by
+illustrating how statisticians conceptualize their task. This conceptualization can be represented by
+a directed acyclic graph (DAG), which illustrates the statistician’s approach and also provides an
+actionable tool to assist in the development of the plan.
+
+Collaboration with a statistician can be enhanced by understanding how they conceptualize
+questions of study design and data analysis. In the language of constructivism: by explicitly
+encountering their “mental maps” of these topics. One such mental map pertains to the
+development of a statistical analysis plan (SAP), an outline of which is one of each team’s
+work products.
+Here, we use a figure to describe how statisticians typically conceptualize SAPs, and
+then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making
+this conceptual framework explicit can help support more productive interactions between
+palliative care researchers and statisticians.
 
 The main documents are stored in this [link](https://olucdenver-my.sharepoint.com/shared?listurl=https%3A%2F%2Folucdenver%2Esharepoint%2Ecom%2Fsites%2FSCOPEDCC%2FShared%20Documents)
 
@@ -51,51 +68,50 @@ list.files(pattern = ".qmd$",
            recursive = TRUE)
 ```
 
-
--   Activity Log
--   Administrative Information
-    -   Analytic Plan Template
-    -   Study Information
-    -   Roles and Responsibilities
-    -   SAP Information
-    -   Project Information
-    -   Investigator Agreement
-    -   Signatures
--   Study Overview
-    -   Background
-    -   Aims and Hypotheses
-    -   Interested Aariables
-    -   Causal DAG
--   Study Methods
-    -   Study Design
-    -   Sample Size
-    -   Interim Analyses
-    -   Data
-    -   Missing Data
-    -   Simulations
--   Statistical Analysis
-    -   Significance
-    -   Descriptive Statistics
-    -   Analysis Methods
-    -   Additional
-    -   Sensitivity Analysis
-    -   Exploratory Analysis
-    -   Software
-    -   Others
--   Tables and Figures
-    -   Tables Shells
-    -   Tables
-    -   Figures
-    -   Examples
--   Additional Information
-    -   Appendices
-    -   Glossary
-    -   Addenda
--   References
+<!-- -   Activity Log -->
+<!-- -   Administrative Information -->
+<!--     -   Analytic Plan Template -->
+<!--     -   Study Information -->
+<!--     -   Roles and Responsibilities -->
+<!--     -   SAP Information -->
+<!--     -   Project Information -->
+<!--     -   Investigator Agreement -->
+<!--     -   Signatures -->
+<!-- -   Study Overview -->
+<!--     -   Background -->
+<!--     -   Aims and Hypotheses -->
+<!--     -   Interested Aariables -->
+<!--     -   Causal DAG -->
+<!-- -   Study Methods -->
+<!--     -   Study Design -->
+<!--     -   Sample Size -->
+<!--     -   Interim Analyses -->
+<!--     -   Data -->
+<!--     -   Missing Data -->
+<!--     -   Simulations -->
+<!-- -   Statistical Analysis -->
+<!--     -   Significance -->
+<!--     -   Descriptive Statistics -->
+<!--     -   Analysis Methods -->
+<!--     -   Additional -->
+<!--     -   Sensitivity Analysis -->
+<!--     -   Exploratory Analysis -->
+<!--     -   Software -->
+<!--     -   Others -->
+<!-- -   Tables and Figures -->
+<!--     -   Tables Shells -->
+<!--     -   Tables -->
+<!--     -   Figures -->
+<!--     -   Examples -->
+<!-- -   Additional Information -->
+<!--     -   Appendices -->
+<!--     -   Glossary -->
+<!--     -   Addenda -->
+<!-- -   References -->
 
 ## Folders {.unnumbered}
 
-### Files {.unnumbered}
+### Documents {.unnumbered}
 
 ```{r}
 ?list.files
@@ -103,7 +119,6 @@ list.files(path = "files",
            # pattern = "_input.txt$", 
            recursive = TRUE)
 ```
-
 
 ### Data {.unnumbered}
 
@@ -123,9 +138,7 @@ list.files(path = "data-raw",
 
 ```
 
-
 ### Codes {.unnumbered}
-
 
 ```{r}
 list.files(path = "R", 
@@ -135,8 +148,11 @@ list.files(path = "R",
 
 ### Figures and Tables {.unnumbered}
 
-### Style {.unnumbered}
+```{r}
+list.files(path = "figures", 
+           # pattern = "_input.txt$", 
+           recursive = TRUE)
+```
 
-### Outputs {.unnumbered}
 
 ### Reports {.unnumbered}

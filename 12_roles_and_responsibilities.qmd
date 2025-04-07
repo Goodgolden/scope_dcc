@@ -1,22 +1,55 @@
 ---
 title: "Roles and Responsibilities"
-format: html
-editor: visual
+editor: source
 ---
 
-## Principle Investigators
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## Principle Investigators {#sec-principle_investigators}
 
 <!-- In this section, listing of principal investigators,  -->
 
 <!-- clinical leads, and co-authors (if known) -->
 
-### Sponsor-Investigator:
+### Sponsor-Investigator {#sec-sponsor_investigator}
 
 -   Name: Areej El-Jawahri MD
     -   Institution: Massachusetts General Hospital
     -   E-mail Address: ael-jawahri\@partners.org
 
-### Principal Investigators (PI):
+### Principal Investigators (PI) {#sec-principal_investigators}
 
 -   Name: Areej El-Jawahri MD
     -   Institution: Massachusetts General Hospital
@@ -31,25 +64,24 @@ editor: visual
     -   Fax – 617-726-0543
     -   E-mail Address: jtemel\@mgh.harvard.edu
 
-## SAP Authors
+## SAP Authors {#sec-sap_authors}
 
 <!-- Name and affiliation of SAP author(s) -->
 
-### Statisticians
+### Statisticians {#sec-statisticians}
 
 -   Name: Katie Colborn PhD
     -   Institution: University of Colorado Denver - Anschutz Medical Campus <!-- - Address – CU Anschutz Academic Office One 12631 East 17th Avenue, Aurora CO 80045 -->
     -   Telephone – 303-946-3578
     -   Fax – 303-946-3578
     -   E-mail Address: katie.colborn\@cuanschutz.edu
-
 -   Name: Elizabeth Juarez-Colunga
     -   Institution: University of Colorado Denver - Anschutz Medical Campus <!-- - Address – 10 North Grove Street, Boston MA 02114 -->
     -   Telephone – 303-724-6971
     -   Fax – 303-724-6971
     -   E-mail Address: elizabeth.juarez-colunga\@cuanschutz.edu
 
-### Other Contributors
+### Other Contributors {#sec-other_contributors}
 
 -   Name:
     -   Institution:
@@ -57,7 +89,6 @@ editor: visual
     -   Telephone –
     -   Fax –
     -   E-mail Address:
-    
 -   Name:
     -   Institution:
     -   Address –

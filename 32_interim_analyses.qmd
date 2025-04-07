@@ -1,7 +1,48 @@
 ---
 title: "Interim Analysis"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+
+## Interim Analysis {#sec-interim_analysis}
+Description of what interim analyses will be conducted at which time points, and what methods used to adjust significance levels due to the interim analysis
+
+## Stopping Guidelines {#sec-stopping_guidelines}
+Details of any guidelines (e.g. safety, futility) for stopping the study early
+
+## Changes to Trial Design {#sec-changes_design}
+Details of any changes to trial design due to interim analyses (e.g. enrolling more patients)

@@ -1,7 +1,98 @@
 ---
 title: "Study Design"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+
+## Study Design {#sec-study_design}
+
+Description of the study design (e.g. parallel group randomized trial, case-control study, cohort
+study, etc.)
+
+## Study Setups {#sec-study_setup}
+Study setting, location, and relevant dates (e.g. periods of enrolment, exposure, follow-up, and
+collection)
+
+## Intervention or Exposure {#sec-intervention_exposure}
+Description of intervention or exposure groups, with allocation ratios, and details of any matching criteria
+
+## Randomization {#sec-randomization}
+Details on randomization (e.g. stratification factors) and blinding procedures
+
+## Eligibility Criteria {#sec-eligibility_criteria}
+List of eligibility and/or inclusion/exclusion criteria
+
+## Recruitment {#sec-recruitment}
+Description of screening/enrolment/recruitment processes
+
+## CONSORT {#sec-consort}
+Description of patient flow (e.g. CONSORT diagram)
+
+## Analysis Population {#sec-population}
+Description of analysis population (e.g. intention to treat, per protocol, etc.)
+
+## Eligibility {#sec-eligibility}
+
+Definitions of adherence/compliance, protocol deviations, loss-to-follow-up, adverse events, etc.
+
+### Adherence and Compliance {#sec-compliance}
+
+### Protocol deviations {#sec-protocol_deviations}
+ 
+### Loss-to-follow-up {#sec-loss_to_follow_up}
+
+### Adverse events {#sec-adverse_events}
+
+### Other reasons {#sec-other_reasons}
+
+
+## Timeline for Outcomes {#sec-t_outcomes}
+Time points at which outcomes are measured
+
+## Timeline for Analyses {#sec-t_analyses}
+
+Timing of final analyses (are all outcomes analysed collectively, or will short-term outcomes be
+analysed separately from long-term outcomes, etc.)
+
+
+
+
+
+
+
+
+

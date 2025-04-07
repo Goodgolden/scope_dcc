@@ -1,13 +1,52 @@
 ---
 title: "Signatures"
-format: html
-editor: visual
+editor: source
 ---
 
-## Signatures
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
 
-This is a signature block. It is a good idea to include your name, title, and contact information in your signature block. You can also include a logo or image.
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
 
-## Example
+## Signatures {#sec-signatures}
 
-The school email link and author name are not working. I have tried to fix it but I am not able to do it.
+This is a signature block to include your name, title, and contact information in your signature block.
+
+You can also include a logo or image.
+
+### Signatures of SAP author {#sec-signatures-sap}
+
+
+### Senior statistician {#sec-signatures-senior-statistician}
+
+
+### Principal investigator {#sec-signatures-principal-investigator}

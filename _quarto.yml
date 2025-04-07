@@ -8,6 +8,9 @@ format:
       light: flatly
       dark: darkly
     code-link: true
+    code-fold: true
+    code-tools: true
+    df-print: paged
   # pdf:
   #   documentclass: scrreprt
   #   cover-image: SOM_c_clr.png
@@ -21,7 +24,7 @@ book:
 
   page-footer:
     left: |
-      This Analytic Plan was written by RJ, EJC, KC.
+      This Analytic Plan was written by Randy.
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
 
@@ -61,10 +64,11 @@ book:
     - index.qmd
     # - intro.qmd
     - 00_activity_log.qmd
+    - 00_sap_revisions.qmd
     
     - part: 1_administrative_information.qmd
       chapters:
-        - 10_template.qmd
+        # - 10_template.qmd
         - 11_study_information.qmd
         - 12_roles_and_responsibilities.qmd
         - 13_sap_information.qmd
@@ -75,7 +79,7 @@ book:
 
     - part: 2_study_overview.qmd
       chapters:
-        - 20_backaground.qmd
+        - 20_background.qmd
         - 21_aims_and_hypotheses.qmd
         - 22_interested_variables.qmd
         - 23_causal_dag.qmd
@@ -106,7 +110,8 @@ book:
     - part: 5_tables_and_figures.qmd
       chapters:
         - 50_tables_shells.qmd
-        - 51_tables.qmd
+        - 51_a_tables.qmd
+        - 51_b_tables.qmd
         - 52_figures.qmd
         - 53_examples.qmd
 
@@ -122,11 +127,10 @@ book:
       chapters:
         - references.qmd
 
-        
 
 bibliography: references.bib
 
-editor: visual
+editor: source
 
 ## to render the book 
 ## add the following to the terminal: 

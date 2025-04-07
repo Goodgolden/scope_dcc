@@ -1,7 +1,39 @@
 ---
 title: "Sample Size"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## Sample Size {#sec-sample_size}
+
+Sample size calculation or justification (either provided in full or summarized, with link to
+original source)
+
+
+### Subgroup analysis {#sec-subgroup_analysis}
+
+### Power {#sec-power}
+
+### Multiple comparisons {#sec-multiple_comparison}
+
+Description of pre-planned subgroup analyses, power for these analyses, and planned multiple
+comparison adjustment procedures
+

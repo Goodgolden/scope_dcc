@@ -1,0 +1,242 @@
+[
+  {
+    "objectID": "00_activity_log.html",
+    "href": "00_activity_log.html",
+    "title": "\n2  Aim1 Activity Log\n",
+    "section": "",
+    "text": "2.1 Activity Log for Development",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aim1 Activity Log</span>"
+    ]
+  },
+  {
+    "objectID": "00_activity_log.html#sec-activity_log",
+    "href": "00_activity_log.html#sec-activity_log",
+    "title": "\n2  Aim1 Activity Log\n",
+    "section": "",
+    "text": "20250205\n\nGeneral SCOPE DCC / Grant Document Review\nRead through the analytic plan for Link\n\nThis is a clustered randomized trial\n\nsection 9.4 Analysis Section\nsection 11.2 Data Management page 7\nwrite a statistical analysis plan for each analysis\nprimary - &gt; caregiver\n\n\nRandy will map the protocol to the databases to the analysis\nWhat are the superior hypothesis and reject the \\(H_0\\)\nYou are fine!\n\nNotes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.\n20250305\n\nBuild up the analysis plan template and the package functions\nReference the SAP paper\nAsk Katie for approval on the package project\nYou are magnificent!\n20250404\n\nTalking with EJC about the package project\nFilling up the project and add comments\nBuild up the analysis plan for multiple members\nCheck how to build up the website\nCheck how to use github to include other people\nYou are cat’s meow!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aim1 Activity Log</span>"
+    ]
+  },
+  {
+    "objectID": "a00_hypothesis.html",
+    "href": "a00_hypothesis.html",
+    "title": "\n3  Aim1 Hypothesis\n",
+    "section": "",
+    "text": "3.1 Section\nContent for A00 Hypothesis goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Aim1 Hypothesis</span>"
+    ]
+  },
+  {
+    "objectID": "a01_outcomes.html",
+    "href": "a01_outcomes.html",
+    "title": "\n4  Aim1 Outcomes\n",
+    "section": "",
+    "text": "4.1 Section\nContent for A01 Outcomes goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Aim1 Outcomes</span>"
+    ]
+  },
+  {
+    "objectID": "a02_overviews.html",
+    "href": "a02_overviews.html",
+    "title": "\n5  Aim1 Overviews\n",
+    "section": "",
+    "text": "5.1 Section\nContent for A02 Overviews goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Aim1 Overviews</span>"
+    ]
+  },
+  {
+    "objectID": "a03_inclusion.html",
+    "href": "a03_inclusion.html",
+    "title": "\n6  Aim1 Inclusion\n",
+    "section": "",
+    "text": "6.1 Section\nContent for A03 Inclusion goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aim1 Inclusion</span>"
+    ]
+  },
+  {
+    "objectID": "a04_randomization.html",
+    "href": "a04_randomization.html",
+    "title": "\n7  Aim1 Randomization\n",
+    "section": "",
+    "text": "7.1 Section\nContent for A04 Randomization goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Aim1 Randomization</span>"
+    ]
+  },
+  {
+    "objectID": "a05_sample_size.html",
+    "href": "a05_sample_size.html",
+    "title": "\n8  Aim1 Sample Size\n",
+    "section": "",
+    "text": "8.1 Section\nContent for A05 Sample Size goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Aim1 Sample Size</span>"
+    ]
+  },
+  {
+    "objectID": "a06_population.html",
+    "href": "a06_population.html",
+    "title": "\n9  Aim1 Population\n",
+    "section": "",
+    "text": "9.1 Section\nContent for A06 Population goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Aim1 Population</span>"
+    ]
+  },
+  {
+    "objectID": "a07_missing.html",
+    "href": "a07_missing.html",
+    "title": "\n10  Aim1 Missing\n",
+    "section": "",
+    "text": "10.1 Section\nContent for A07 Missing goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Aim1 Missing</span>"
+    ]
+  },
+  {
+    "objectID": "a08_monitoring.html",
+    "href": "a08_monitoring.html",
+    "title": "\n11  Aim1 Monitoring\n",
+    "section": "",
+    "text": "11.1 Section\nContent for A08 Monitoring goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Aim1 Monitoring</span>"
+    ]
+  },
+  {
+    "objectID": "a09_stopping.html",
+    "href": "a09_stopping.html",
+    "title": "\n12  Aim1 Stopping\n",
+    "section": "",
+    "text": "12.1 Section\nContent for A09 Stopping goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Aim1 Stopping</span>"
+    ]
+  },
+  {
+    "objectID": "a10_software.html",
+    "href": "a10_software.html",
+    "title": "\n13  Aim1 Software\n",
+    "section": "",
+    "text": "13.1 Section\nContent for A10 Software goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Aim1 Software</span>"
+    ]
+  },
+  {
+    "objectID": "a11_figures.html",
+    "href": "a11_figures.html",
+    "title": "\n14  Aim1 Figures\n",
+    "section": "",
+    "text": "14.1 Section\nContent for A11 Figures goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Aim1 Figures</span>"
+    ]
+  },
+  {
+    "objectID": "a12_tables.html",
+    "href": "a12_tables.html",
+    "title": "\n15  Aim1 Tables\n",
+    "section": "",
+    "text": "15.1 Section\nContent for A12 Tables goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aim1 Tables</span>"
+    ]
+  },
+  {
+    "objectID": "a13_listing.html",
+    "href": "a13_listing.html",
+    "title": "\n16  Aim1 Listing\n",
+    "section": "",
+    "text": "16.1 Section\nContent for A13 Listing goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Aim1 Listing</span>"
+    ]
+  },
+  {
+    "objectID": "a14_consort.html",
+    "href": "a14_consort.html",
+    "title": "\n17  Aim1 Consort\n",
+    "section": "",
+    "text": "17.1 Section\nContent for A14 Consort goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aim1 Consort</span>"
+    ]
+  },
+  {
+    "objectID": "a15_adherence.html",
+    "href": "a15_adherence.html",
+    "title": "\n18  Aim1 Adherence\n",
+    "section": "",
+    "text": "18.1 Section\nContent for A15 Adherence goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Aim1 Adherence</span>"
+    ]
+  },
+  {
+    "objectID": "a16_characteristics.html",
+    "href": "a16_characteristics.html",
+    "title": "\n19  Aim1 Characteristics\n",
+    "section": "",
+    "text": "19.1 Section\nContent for A16 Characteristics goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Aim1 Characteristics</span>"
+    ]
+  },
+  {
+    "objectID": "a17_safety.html",
+    "href": "a17_safety.html",
+    "title": "\n20  Aim1 Safety\n",
+    "section": "",
+    "text": "20.1 Section\nContent for A17 Safety goes here.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Aim1 Safety</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "21  References",
+    "section": "",
+    "text": "References\nReferences for any non-standard statistical methods used References (and locations) for any relevant protocols, standard operating procedures, or other documents cited in the SAP",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aim1 Read Me First",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book for 2025 SCOPE DCC project.\nA Visual Tool to Help Develop a Statistical Analysis Plan for Randomized Trials in Palliative Care\nCollaboration with a statistician about the design of a statistical analysis plan can be enhanced by illustrating how statisticians conceptualize their task. This conceptualization can be represented by a directed acyclic graph (DAG), which illustrates the statistician’s approach and also provides an actionable tool to assist in the development of the plan.\nCollaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.\nThe main documents are stored in this link",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim1 Read Me First</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Aim1 Read Me First",
+    "section": "Content",
+    "text": "Content\n\n\n [1] \"00_activity_log.qmd\"     \"a00_hypothesis.qmd\"     \n [3] \"a01_outcomes.qmd\"        \"a02_overviews.qmd\"      \n [5] \"a03_inclusion.qmd\"       \"a04_randomization.qmd\"  \n [7] \"a05_sample_size.qmd\"     \"a06_population.qmd\"     \n [9] \"a07_missing.qmd\"         \"a08_monitoring.qmd\"     \n[11] \"a09_stopping.qmd\"        \"a10_software.qmd\"       \n[13] \"a11_figures.qmd\"         \"a12_tables.qmd\"         \n[15] \"a13_listing.qmd\"         \"a14_consort.qmd\"        \n[17] \"a15_adherence.qmd\"       \"a16_characteristics.qmd\"\n[19] \"a17_safety.qmd\"          \"index.qmd\"              \n[21] \"references.qmd\"",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim1 Read Me First</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#folders",
+    "href": "index.html#folders",
+    "title": "Aim1 Read Me First",
+    "section": "Folders",
+    "text": "Folders\nDocuments\n\n\ncharacter(0)\n\n\nData\n\n\ncharacter(0)\n\n\nCodes\n\n\ncharacter(0)\n\n\nFigures and Tables\n\n\ncharacter(0)\n\n\nReports",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim1 Read Me First</span>"
+    ]
+  }
+]

@@ -1,7 +1,36 @@
 ---
 title: "Additional Analysis"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+
+Description of any pre-planned sensitivity analyses and how they will be interpreted
+Description of pre-planned subgroup analyses, power for these analyses, and planned multiple
+comparison adjustment procedures
+Description of any additional post-hoc calculations or analyses (e.g. evaluating interaction/
+modification effects, calculating mediation or local average treatment effects, evaluation of
+AUROC curves, etc.)
+If conducting any bootstrap analyses, a description of the sampling algorithm and number of
+iterations used
+If conducting any cross-validation procedures, a description of how the cross-validation is
+conducted (e.g. leave-one-out, train/validation/test, etc.)

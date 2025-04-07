@@ -1,7 +1,49 @@
 ---
 title: "Analysis Methods"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+For each aim/hypothesis (see items 9a/9b), a description of what analysis method will be used
+and how the results from this method will be reported and interpreted
+Description of any transformations, standardizations, covariate or confounder adjustments,
+weighting, or stratification methods to be used and why.
+For each analytic method proposed, a description of the assumptions of that method and what
+processes will be used to evaluate whether or not those assumptions hold
+Details of contingency plans/alternative methods to be used if the assumptions are found not to
+hold
+In the case of non-standard test statistics, formulas provided for the test statistic with a
+description of the mathematical null hypothesis, how significance is determined, and how the
+test statistic is interpreted
+In the case of regression models, formulas provided for the full model with a description of
+which parameters are to be used, how they will be interpreted, how confidence intervals will be
+constructed, etc.
+In the case of survey, hierarchical/nested, or clustered data, a description of what methods will be
+used to adjust for the data structure and why (e.g. if using a GEE, describing which correlation
+structure and why it was chosen, etc.)
+For non-continuous outcomes, clearly explain the effect used (e.g. risk difference, risk ratio,
+odds ratio, etc.), whether it is relative or absolute, and justify why that was chosen as the effect
+measure of interest
+Documentation of any non-standard methods used (e.g. using alternative degree of freedom
+calculation methods, using a non-canonical link function, etc.)
+Description of any limitations, sources of bias, internal/external validity, and other relevant
+discussions concerning the interpretation and generalizability of the design or methods used

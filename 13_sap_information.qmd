@@ -1,11 +1,62 @@
 ---
 title: "SAP Information"
-format: html
-editor: visual
+editor: source
 ---
 
-## SAP Information
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+# ## clean the R environment
+# graphics.off()
+# rm(list = ls())
+# freshr::freshr()
+# ## load packages
+# library(here, quietly = TRUE)
+# library(tidyverse, quietly = TRUE)
+# library(gtsummary, quietly = TRUE)
+# library(flextable, quietly = TRUE)
+# ## check the directory for the file
+# # here::dr_here()
+# here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
 
-### Conceptual framework: creating a generic SAP
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## SAP Information {#sec-sap_info}
+
+### SAP version number {#sec-sap_version}
+
+
+### Date of current version {#sec-sap_date_current}
+
+
+### Original creation date {#sec-sap_date_original}
+
+
+
+## SAP Author(s) {#sec-sap_author}
+
+### Author(s) of current version {#sec-sap_author_current}
+
+
+### Author(s) certification file {#sec-sap_author_certification}
+
+
+## Conceptual framework: creating a generic SAP {#sec-sap_conceptual_framework}
 
 Key to understanding how statisticians conceptualize SAPs is to recognize that, because their main goal is to assess the impact of the interventions being studied, essentially all RCTs can be represented by figure 1. Thus, the statistician can be counted upon to try to place all the study variables they encounter into boxes A-F. Moreover, figure 1 contains relatively few arrows, and each of these arrows corresponds to a potential element of the SAP. For example, the arrows from A to D, from A to E (i.e., through D), and from A to F (i.e., through D and E) all represent direct assessments of the impact of the intervention, which only differ according to the choice of outcome. The intention of an analysis can usually be described through a directional relationship (e.g., A -\> E). Once such a relationship is identified, the statistician proposes a specific analytical technique based upon considerations such as scale of measurement. For example, with A binary and E continuous, the relationship could be assessed using a t-test.

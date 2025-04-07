@@ -1,0 +1,94 @@
+project:
+  type: book
+  output-dir: _aim3
+
+format:
+  html:
+    theme:
+      light: minty
+      dark: darkly
+    code-link: true
+    code-fold: true
+    code-tools: true
+    df-print: paged
+  # pdf:
+  #   documentclass: scrreprt
+  #   cover-image: SOM_c_clr.png
+  # epub:
+  #   cover-image: SOM_c_clr.png
+
+book:
+  title: "SCOPE DCC Analytic Plan"
+  reader-mode: true
+
+
+  page-footer:
+    left: |
+      This Analytic Plan was written by Randy.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+
+
+  cover-image: SOM_c_clr.png
+  favicon: SOM_c_clr.png
+  
+  
+  navbar:
+    # downloads: [pdf]
+    search: true
+
+
+  repo-url: https://github.com/Goodgolden/scope_dcc
+  repo-branch: main
+  repo-actions: [edit, issue]
+  # repo-actions: [edit]
+  
+  sidebar:
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/Goodgolden/scope_dcc
+        aria-label: GitHub
+      - icon: info-circle
+        href: https://medschool.cuanschutz.edu/health-care-policy-and-research
+      - icon: hospital
+        aria-label: CU Anschutz
+        href: https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics
+
+# format:
+#   pdf:
+#     documentclass: scrartcl
+#     papersize: letter
+
+  chapters:
+    - index.qmd
+    - 00_activity_log.qmd
+    - a00_hypothesis.qmd
+    - a01_outcomes.qmd
+    - a02_overviews.qmd
+    - a03_inclusion.qmd
+    - a04_randomization.qmd
+    - a05_sample_size.qmd
+    - a06_population.qmd
+    - a07_missing.qmd
+    - a08_monitoring.qmd
+    - a09_stopping.qmd
+    - a10_software.qmd
+    - a11_figures.qmd
+    - a12_tables.qmd
+    - a13_listing.qmd
+    - a14_consort.qmd
+    - a15_adherence.qmd
+    - a16_characteristics.qmd
+    - a17_safety.qmd
+    - references.qmd
+
+
+bibliography: references.bib
+
+editor: source
+
+## to render the book 
+## add the following to the terminal: 
+## quarto preview
+

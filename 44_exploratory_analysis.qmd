@@ -1,7 +1,29 @@
 ---
 title: "Exploratory Analysis"
-format: html
-editor: visual
+editor: source
 ---
 
-## 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+Description and justification for any pre-planned exploratory analyses and what methods will be
+used to conduct them
+Framework for conducting any unplanned exploratory analyses and how they will be integrated
+into the planned analysis
