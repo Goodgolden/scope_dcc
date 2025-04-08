@@ -66,7 +66,7 @@ book:
     - 00_activity_log.qmd
     - 00_sap_revisions.qmd
     
-    - part: 1_administrative_information.qmd
+    - part: 10_administrative_information.qmd
       chapters:
         # - 10_template.qmd
         - 11_study_information.qmd
@@ -77,17 +77,17 @@ book:
         - 16_signatures.qmd
 
 
-    - part: 2_study_overview.qmd
+    - part: 20_study_overview.qmd
       chapters:
-        - 20_background.qmd
+        # - 20_background.qmd
         - 21_aims_and_hypotheses.qmd
         - 22_interested_variables.qmd
         - 23_causal_dag.qmd
 
 
-    - part: 3_study_methods.qmd
+    - part: 30_study_design.qmd
       chapters:
-        - 30_study_design.qmd
+        # - 30_study_design.qmd
         - 31_sample_size.qmd
         - 32_interim_analyses.qmd
         - 33_data.qmd
@@ -95,9 +95,9 @@ book:
         - 35_simulations.qmd
 
 
-    - part: 4_statistical_analysis.qmd
+    - part: 40_statistical_analysis.qmd
       chapters:
-        - 40_significance.qmd
+        # - 40_significance.qmd
         - 41_descriptive_statistics.qmd
         - 42_analysis_methods.qmd
         - 43_additional.qmd
@@ -107,25 +107,22 @@ book:
         - 46_others.qmd
 
 
-    - part: 5_tables_and_figures.qmd
+    - part: 50_tables_shells.qmd
       chapters:
-        - 50_tables_shells.qmd
         - 51_a_tables.qmd
         - 51_b_tables.qmd
         - 52_figures.qmd
         - 53_examples.qmd
 
 
-    - part: 6_additional_information.qmd
+    - part: 60_additional_information.qmd
       chapters:
-        - 60_appendices.qmd
-        - 61_glossary.qmd
-        - 62_addenda.qmd
+        - 61_appendices.qmd
+        - 62_glossary.qmd
+        - 63_addenda.qmd
 
 
-    - part: 7_summary.qmd
-      chapters:
-        - references.qmd
+    - part: 70_references.qmd
 
 
 bibliography: references.bib

@@ -1,5 +1,5 @@
 ---
-title: "Significance"
+title: "Statistical Analysis"
 editor: source
 ---
 
@@ -23,6 +23,7 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
+## Significance
 
 Hypothesis testing framework (e.g. superiority, equivalence, non-inferiority), or description of
 alternative analytic framework (e.g. evaluation of a posterior in a Bayesian analysis, etc.)
