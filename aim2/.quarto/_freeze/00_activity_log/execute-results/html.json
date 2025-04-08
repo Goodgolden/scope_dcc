@@ -1,0 +1,19 @@
+{
+  "hash": "6c18e2e59f1329182ff160e701c283f7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Aim2 Activity Log\" \neditor: source\n---\n\n\n\n::: {.cell}\n<style type=\"text/css\">\n.scroll-100 {\n  max-height: 300px;\n  max-width: 1000px;\n  overflow-y: auto;\n  background-color: inherit;\n}\n</style>\n:::\n\n\n\n\n\n## Activity Log for Development {#sec-activity_log}\n\n### 20250205 {.unnumbered}\n\n-   [x] General SCOPE DCC / Grant Document Review\n-   [x] Read through the analytic plan for [Link](https://olucdenver.sharepoint.com/:w:/r/sites/SCOPEDCC/_layouts/15/Doc.aspx?sourcedoc=%7B05AEB1C9-7608-4E75-ACE8-BC9FE35B33D8%7D&file=2-26-2024%20protocol%20with%20track%20changes%20KLC.doc&action=default&mobileredirect=true)\n-   [x] This is a clustered randomized trial\n    -   [x] section 9.4 Analysis Section\n    -   [x] section 11.2 Data Management page 7\n    -   [x] write a statistical analysis plan for each analysis\n    -   [x] primary - \\> caregiver\n-   [x] Randy will map the protocol to the databases to the analysis\n-   [x] What are the superior hypothesis and reject the $H_0$\n-   [x] You are fine!\n\n**Notes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.**\n\n### 20250305 {.unnumbered}\n\n-   [x] Build up the analysis plan template and the package functions\n-   [x] Reference the [SAP paper](https://www.sciencedirect.com/science/article/pii/S0885392422008570)\n-   [x] Ask Katie for approval on the package project\n-   [x] You are magnificent!\n\n### 20250404 {.unnumbered}\n\n-   [x] Talking with EJC about the package project\n-   [x] Filling up the project and add comments\n-   [x] Build up the analysis plan for multiple members\n-   [x] Check how to build up the website\n-   [x] Check how to use github to include other people\n-   [x] You are cat's meow!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"site_libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "00_activity_log.qmd": {
+    "00_activity_log.html": "33a28af4"
+  },
+  "index.qmd": {
+    "index.html": "8d872a9c"
+  },
+  "a00_hypothesis.qmd": {
+    "a00_hypothesis.html": "0f2b2328"
+  },
+  "a01_outcomes.qmd": {
+    "a01_outcomes.html": "b7f50162"
+  },
+  "a02_overviews.qmd": {
+    "a02_overviews.html": "f9af9d68"
+  },
+  "a03_inclusion.qmd": {
+    "a03_inclusion.html": "62ac981f"
+  },
+  "a04_randomization.qmd": {
+    "a04_randomization.html": "e35d1627"
+  },
+  "a05_sample_size.qmd": {
+    "a05_sample_size.html": "9df720f5"
+  },
+  "a06_population.qmd": {
+    "a06_population.html": "9b147199"
+  },
+  "a07_missing.qmd": {
+    "a07_missing.html": "c02bc4ea"
+  },
+  "a08_monitoring.qmd": {
+    "a08_monitoring.html": "9ec19738"
+  },
+  "a09_stopping.qmd": {
+    "a09_stopping.html": "85e606c4"
+  },
+  "a10_software.qmd": {
+    "a10_software.html": "a3e0db15"
+  },
+  "a11_figures.qmd": {
+    "a11_figures.html": "c2218037"
+  },
+  "a12_tables.qmd": {
+    "a12_tables.html": "b72fda8f"
+  },
+  "a13_listing.qmd": {
+    "a13_listing.html": "5af75640"
+  },
+  "a14_consort.qmd": {
+    "a14_consort.html": "75bb888d"
+  },
+  "a15_adherence.qmd": {
+    "a15_adherence.html": "d150ccb3"
+  },
+  "a16_characteristics.qmd": {
+    "a16_characteristics.html": "e74e58bf"
+  },
+  "a17_safety.qmd": {
+    "a17_safety.html": "a0c5e97a"
+  },
+  "references.qmd": {
+    "references.html": "dc5b3d5b"
+  }
+}
