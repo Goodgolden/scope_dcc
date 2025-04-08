@@ -1,0 +1,96 @@
+---
+title: "Recruitment Methods"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## Recruitment Methods {#sec-recruitment}
+
+
+### Study-Wide Number of Subjects 
+
+The study sample will include 1150 patients with AML and up to 1150 caregivers.  Patients can participate in the study without a caregiver, and we estimate that approximately 50% of patients will have a caregiver participate in the study. Thus, we anticipate the caregiver sample will be approximately 575 participants. Repeated information
+
+### Study-Wide Recruitment Methods
+
+Prior to the study start, the site investigators will meet with the leukemia clinicians to review recruitment and enrollment procedures.
+
+The CRC will communicate with the leukemia clinicians (the physicians and advanced practice providers who care for the patient in the outpatient setting or during their hospitalization) via email, electronic communication through the health record, or verbally to notify them that the patient is eligible for the study and inquire about concerns regarding their participation. If the clinicians have objections to the patient participation in the study, the CRC will document the reason and not approach those individuals. If the leukemia clinicians have no objections, the CRC will approach patients for study participation within three business days of initiating therapy and inform them that their clinicians have agreed for them to be contacted for the study and review the consent document which details the nature of all study procedures. We have separate consent forms for sites randomized to specialty PC or primary PC. The CRC will obtain written informed consent from the patient and provide them with a copy of the signed consent form. 
+
+Study participants will complete baseline self-report assessments at the time of providing informed consent for the study. If a patient signs the consent form but does not complete the baseline assessment within two business days, they will not be registered on the study and will not count towards accrual numbers. To ensure adequate sample size, we will enroll additional participants for any participants who withdraw, or transfer care within the first 30 days of enrollment. We will increase the total accrual goal within each cluster to account for patients who withdraw, or transfer care within 30 days of the study period.
+
+Patients who agree to participate in the study will be asked to identify a caregiver who might be interested in participating. Patients without a willing or interested caregiver will still be eligible to participate in the study. The caregiver will be eligible to enroll in the study either at the same time as the patient or within three business days after the patient provides written informed consent. We have separate consent forms for caregivers at sites randomized to specialty PC or primary PC. Caregivers can enroll in the study in-person with a written informed consent or over the telephone with a verbal consent. Caregivers will complete baseline self-report assessments (in-person, over telephone, or via email) on the same day as providing informed consent or within a one-week window. If a caregiver provides consent but does not complete the baseline assessment, they will not be included as study participants.
+
+Patients and caregivers who speak other languages will have all study procedures and information regarding risks, benefits and study contacts explained to them orally via the use of an interpreter as a first preference or family member as a second preference. Patients who speak other languages will be given the full consent form in their respective language for signing. The consent form will be signed by the participant, and by a witness. The witness will be either an interpreter or a family member. Potentially eligible caregivers will either provide written informed consent or over the telephone with a verbal consent with the assistance of an interpreter (or family member if interpreter is unavailable). 
+
+We will also recruit key informants for the qualitative portion of this study. Specifically, we will conduct qualitative interviews stratified by the size of the leukemia program at participating sites. For each key informant group, we will interview 30 individuals, consisting of 10 from each size stratum (small, medium, or large leukemia program). Specifically, we will conduct interviews with:
+
+- 1) patients with AML receiving specialty PC and caregivers; 
+- 2) patients with AML receiving primary PC and caregivers; 
+- 3) oncology clinicians; 
+- 4) PC clinicians; 
+- 5) hospital leaders to identify facilitators and barriers to the adoption, implementation, and maintenance of primary PC and specialty PC. 
+
+Key informants will provide written or verbal consent over the telephone (given the COVID-19 pandemic).
+
+All study participants (patients, caregivers, and key informants) will be provided a copy of their respective consent forms.
+
+**We are requesting a Waiver of Written Documentation of Consent**
+This Waiver is being requested to assist with caregiver and key informant recruitment during the COVID-19 pandemic. Our study meets the waiver requirements given our study is considered minimal risk and all study procedures could be conveyed orally. This waiver will reduce the risk to caregivers and key informants and is necessary for our research procedures to continue. 
+
+**We are requesting a HIPAA Waiver of Authorization to Review Preparatory to Research from the IRB.**
+We are requesting this Waiver to identify potential patient participants from a minimal chart review. In accordance with the DF/HCC policy, this Waiver: 
+- (1) is being sought solely to review Protected Health Information as necessary to prepare a research protocol
+- (2) will not include removing Protected Health Information from the Covered Entity by the researcher
+- (3) the Protected Health Information for which we are requesting access is necessary for the research purposes
+
+DF/HCC institutions will register eligible participants in the Clinical Trials Management System (CTMS) Oncore as required by DF/HCC SOP REGIST-101. 
+
+For registration of patients from DF/HCC institutions, study staff will complete the protocol-specific eligibility checklist using the eligibility assessment documented in the participant’s medical record and/or research chart. Study staff will confirm that the participant meets all inclusion criteria as described in this protocol and the criteria on the eligibility checklist. 
+
+Patients from other investigative sites will be entered on the study centrally by MGH study staff. Study staff from the participating institution will confirm eligibility criteria and fax or email the following documents to study staff at MGH: deidentified signed consent form/s, copy of baseline assessment, and a completed eligibility checklist. MGH study staff will follow DF/HCC Standard Operating Procedure for Human Subject Research Titled Subject Protocol Registration (SOP #: REGIST-101) and register the participant on the protocol. MGH study staff may also call the study staff at the participating site to verbally confirm registration.
+
+## Prior Approvals {#sec-prior-approvals}
+
+The DF/HCC will serve as the single IRB of record for this trial. We will ensure that all participating sites have a reliance agreement to the DF/HCC IRB.
+
+## Recruitment Methods {#sec-recruitment-methods}
+
+Please see above for recruitment methods across all study sites. The research staff may provide potentially eligible patients with an informational sheet about the study (Appendix A, Appendix B). Participants will not receive payments for their participation in the study. 
+
+## Consent Process {#sec-consent-process}
+
+The CRC will obtain written informed consent for patients participating in the study in a private hospital room. Participants will have up to three business days from the initiating of therapy for AML to consent for the study. The CRC will review the consent from with potential participants, which will clearly detail the nature of the study procedures, the time requirements, and the frequency of self-reported assessments. We will have separate consent forms for sites that are randomized to specialty PC or primary PC. The CRC will obtain written informed consent from the participant and provide them with a copy of the signed consent form.
+
+Patients who agree to participate in the study will then be asked to identify a caregiver who might be interested in participating. Patients without a willing or interested caregiver will still be eligible to participate in the study. The caregiver will be eligible to enroll in the study either at the same time as the patient or within three business days after the patient provides written informed consent. We will have a separate consent form for caregivers at sites randomized to specialty PC or primary PC, which will similarly detail the study procedures. Caregivers will have the option of enrolling in the study in-person with a written informed consent or over the telephone with a verbal consent. Patients and/or caregivers who refuse study participation will be asked the reason for deferring. Caregivers will complete baseline self-report assessments on the same day as providing informed consent or within a one-week window. If caregivers provide consent, but do not complete baseline questionnaire, they will not count towards the caregiver accrual numbers.
+
+Patients and caregivers who speak other languages will have all study procedures and information regarding risks, benefits and study contacts explained to them orally via the use of an interpreter as a first preference, or family member as a second preference. Patients who speak other languages will be given the full consent form in their respective language for signing. The consent form will be signed by the participant, and by a witness. The witness will be either an interpreter or a family member. Potentially eligible caregivers will either provide written informed consent or over the telephone with a verbal consent with the assistance of an interpreter (or family member if interpreter is unavailable). 
+
+We will also consent key informants for the qualitative portion of this study. Specifically, we will conduct qualitative interviews stratified by the size of the leukemia program at participating sites. For each key informant group, we will interview 30 individuals, consisting of 10 from each size stratum (small, medium, or large leukemia program). Specifically, we will conduct interviews with 1) patients with AML receiving specialty PC and caregivers; 2) patients with AML receiving primary PC and caregivers; 3) oncology clinicians; 4) PC clinicians; and 5) hospital leaders to identify facilitators and barriers to the adoption, implementation, and maintenance of primary PC and specialty PC. Key informants will provide written or verbal consent over the telephone (given COVID-19 pandemic).
+
+## Process to Document Consent in Writing {#sec-document-consent}
+
+We will follow all the requirements of SOP: Informed Consent Process (CON-100) in obtaining informed consent for study participants.
+
+All patients participating in the study will provide written informed consent. Caregivers and key informants will have the option of enrolling in the study in-person with a written informed consent or over the telephone with a verbal consent given that the research presents no more than minimal risk of harm
+
+## Drugs or Devices {#sec-drugs_devices}
+
+<mark>Not applicable </mark>

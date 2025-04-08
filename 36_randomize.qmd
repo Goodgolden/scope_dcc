@@ -1,0 +1,41 @@
+---
+title: "Randomization"
+---
+
+
+## Study Design
+
+This is a cluster randomized comparative effectiveness trial of primary PC versus specialty PC in 1150 patients with AML and their caregivers. Patients and their caregivers will be recruited from 20 sites. During phase 2, the 16 sites will be randomized to specialty PC versus primary PC stratified by percent minority population to ensure a balanced proportion of minority participants across the arms. We will do this using covariated constrained randomization. This will generate all possible randomization scenarios, and one such randomization will be chosen from the list of possible randomizations that ensure balance on this binary variable. Seven additional sites will be randomized at the beginning of the study, but the list of allocations will be kept by the DCC and not shared with the CCC. Should a site drop out, one site from the respective arm will be selected from the additional backup sites, whose randomization was already assigned prior to the beginning of Phase II.
+
+*As per the requirement of the funding agency, phase 1 of this study will include implementing study procedures at four participating sites (two primary PC sites and two specialty PC sites) prior to opening the study at the remaining 16 sites. Phase 1 will be conducted over the first 18 months of the study period and enable us to optimize study procedures prior to opening the study at the remaining 16 sites during phase 2.*
+
+
+## Site Randomization {#sec-randomization}
+
+
+The four sites participating in Phase 1 will be randomized in 1:1 fashion without any stratification to specialty PC versus primary PC using a computer-generated randomization schema. The 16 sites participating in phase 2 will be randomized at the end of phase 1 in 1:1 fashion, stratified by percent minority (>=30% vs <30% minority) demographic to specialty PC versus primary PC using covariate constrained randomization.
+
+
+## Study Intervention and Comparator {#sec-intervention}
+
+We are comparing two evidenced-based interventions, a primary PC and a specialty PC intervention in patients with AML and their caregivers. The PC domains addressed with both interventions are identical and based on our prior studies (Table 3). While the PC domains in both interventions are the same, the approach by which clinicians utilize the strategies will differ based on clinician specialty (i.e., oncology versus PC).
+
+
+### Specialty PC Intervention
+
+All participating specialty PC clinicians will undergo training to ensure that the provision of services is consistent across study sites.. Prior to attending the training, the lead PC clinicians will review the specialty PC intervention guide. The lead PC clinicians will then train all participating PC clinicians at their site using the same training approach. Prior to the study start, all participating PC clinicians will review the specialty PC intervention guide, attend the site specialty PC training, and read required papers on the specialty PC model. Upon completion, trainees will complete a formal, post-training skills assessment (Section 9.3: Fidelity of study design, method, and intervention). Lead specialty PC clinicians will also be responsible for training any new clinicians at their sites using the same training approach. We will also conduct refresher trainings every six weeks during the first year of participant enrollment and then every 12 weeks thereafter with specialty PC clinicians.. PC clinicians will also document patient encounters in the electronic health record (EHR) of their respective institutions using a study specific template and complete a weekly electronic survey via REDCap to note the topics addressed during the visits for hospitalized patients and whether the caregiver was present.  
+
+Sites randomized to specialty PC will have their PC clinicians (physician or advance practice provider) see patients within three business days of enrollment. The PC clinicians will follow patients throughout their hospitalization for chemotherapy, seeing them at least twice per week. Patients and PC clinicians will be permitted to initiate additional visits as needed. PC clinicians will also follow patients during subsequent hospitalizations until death (or end of study period for those who are alive), with a minimum of two visits per week. Outpatient PC visits are not required. Although specialty PC is practiced by multidisciplinary clinicians, most inpatient practices are staffed predominantly by physicians and advanced practice providers. Study PC clinicians may involve additional clinicians (e.g., social workers, pastoral care) in the patient’s care, but these visits will not replace the required twice weekly intervention visits. 
+
+### Primary PC Comparator
+
+We will conduct a half-day in-person training at each site randomized to primary PC (or over video due to the COVID-19 pandemic). The MGH investigative team will lead the training sessions at each site in collaboration with the sites’ specialty PC clinicians. We will ask oncology clinicians to review the primary PC intervention guide prior to attending the training. During the training, the oncology clinicians will have the opportunity to practice new skills and receive feedback in a supportive environment. Upon completion, trainees will complete a formal, post-training skills assessment (@sec-fidelity). We will also video record the training to ensure it is available for oncology clinicians who miss the initial training session. We expect the leukemia practices at each site will have staff turnover and new hires, thus the training will be made available on an annual basis (over video) throughout the study period. We will also conduct refresher trainings every six weeks during the first year of participant enrollment and then every 12 weeks thereafter with the leukemia clinicians.
+
+Prior to the study start, all participating oncology clinicians will review the intervention guide, attend the primary PC training, and read several papers highlighting the PC needs of patients with AML and their caregivers. We will also ask oncology clinicians to document the PC domains addressed during patient encounters in the EHR using a study specific template. Oncology clinicians will also complete a weekly electronic survey through REDCap for hospitalized patients to note the PC topics addressed and whether the caregiver was present for clinical encounters.
+
+### Table3 
+
+```{r}
+knitr::include_graphics("figures/F30_table3.png", dpi = 100)
+```
+

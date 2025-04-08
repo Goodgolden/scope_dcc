@@ -75,25 +75,23 @@ knitr::opts_chunk$set(echo = TRUE,
     -   Telephone – 303-946-3578
     -   Fax – 303-946-3578
     -   E-mail Address: katie.colborn\@cuanschutz.edu
+
 -   Name: Elizabeth Juarez-Colunga
-    -   Institution: University of Colorado Denver - Anschutz Medical Campus <!-- - Address – 10 North Grove Street, Boston MA 02114 -->
+    -   Institution: University of Colorado Denver - Anschutz Medical Campus 
     -   Telephone – 303-724-6971
-    -   Fax – 303-724-6971
     -   E-mail Address: elizabeth.juarez-colunga\@cuanschutz.edu
 
 ### Other Contributors {#sec-other_contributors}
 
--   Name:
-    -   Institution:
-    -   Address –
-    -   Telephone –
-    -   Fax –
-    -   E-mail Address:
--   Name:
-    -   Institution:
-    -   Address –
-    -   Telephone –
-    -   Fax –
-    -   E-mail Address:
+-   Name: Randy Jin 
+    -   Institution: University of Colorado Denver - Anschutz Medical Campus 
+    -   Telephone – 314-305-1234
+    -   E-mail Address: xin.2.jin\@cuanschutz.edu
+
+<!--     -   Institution: -->
+<!--     -   Address – -->
+<!--     -   Telephone – -->
+<!--     -   Fax – -->
+<!--     -   E-mail Address: -->
 
 <!-- names affiliations, and roles of other SAP contributors (e.g. senior statistician) -->

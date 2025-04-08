@@ -1,0 +1,37 @@
+---
+title: "Study Measures"
+---
+
+## Study Measures {#sec-study_measures}
+
+Participant Self-Report Assessments: We selected measures based on our prior studies and the theoretical framework of delivering PC, in which the care domains aim to improve patients’ quality of life (QOL), illness understanding, coping, end-of-life (EOL) communication, and caregiver outcomes (see Table 5). Patients will complete self-report assessments at baseline, weeks 2 (± 4 days), 4 (± 7 days), 12 (± 7 days), and 24 (± 7 days) from enrollment. Caregivers will complete self-report assessments at baseline, weeks 4 (± 7 days), 12 (± 7 days), and 24 (± 7 days) from enrollment. All measures have strong psychometric properties, responsiveness to change, and have been validated in this population. Furthermore, all measures are available in English and Spanish; we are also translating them into Simplified Chinese, Traditional Chinese, Tagalog, Arabic, French, Vietnamese, Korean, Italian, Portuguese, and Haitian Creole. Participants who complete the Week 24 self-report assessment will receive a Certificate of Appreciation from the research team for their participation.
+
+### Patient Measures
+
+- **Demographics:** Age, race, ethnicity, gender identity, marital status, religion, education, and income.
+- **Functional Assessment of Cancer Therapy–Leukemia (FACT-Leukemia):** A 44-item QOL measure that assesses physical, social, emotional, and functional well-being, as well as leukemia-specific symptoms [@Cella2012].
+- **Post-traumatic Stress Checklist–Civilian Version:** A 17-item PTSD Checklist evaluating the severity of PTSD symptoms [@smith1999ptsd].
+- **Edmonton Symptom Assessment Scale (ESAS-R):** A 10-item instrument to assess various symptoms relevant to patients with AML.
+- **Patient Perception of Patient-Centeredness of Care (PPPC):** A 14-item measure of patients’ perceptions of the centeredness of care.
+
+### Caregiver Measures
+
+- **Demographics:** Age, race, ethnicity, gender identity, religion, education, and relationship to the patient.
+- **Caregiver Oncology QOL Questionnaire (CARGOQOL):** A 29-item caregiver QOL measure [@Minaya2012].
+- **Caregiver Reaction Assessment (CRA):** A 24-item measure of caregiver burden [@Given1992].
+
+### Patient and Caregiver Measures
+
+- **Hospital Anxiety and Depression Scale (HADS):** A 14-item measure with depression and anxiety subscales [@Zigmond1983].
+- **Brief COPE:** A measure assessing various coping strategies [@Carver1997].
+- **Prognostic Awareness Impact Scale (PAIS):** A tool to assess prognostic understanding and communication regarding prognosis and EOL care.
+
+### EOL Care
+
+EOL care data will be extracted from the electronic health record (EHR) at participating institutions. We will collect data on chemotherapy usage, hospitalizations, ICU admissions, and hospice utilization in the last 30 days of life, reflecting that patients with AML generally receive all of their medical care at their treating institution.
+
+
+```{r}
+knitr::include_graphics("figures/F38_table5.png", dpi = 100)
+```
+

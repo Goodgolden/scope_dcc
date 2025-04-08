@@ -23,7 +23,12 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-Description and justification for any pre-planned exploratory analyses and what methods will be
-used to conduct them
-Framework for conducting any unplanned exploratory analyses and how they will be integrated
-into the planned analysis
+## EDA
+
+Description and justification for any pre-planned exploratory analyses and what methods will be used to conduct them. 
+
+Framework for conducting any unplanned exploratory analyses and how they will be integrated into the planned analysis 
+
+
+
+

@@ -1,0 +1,64 @@
+---
+title: "Inclusion Exclusion"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## Inclusion and Exclusion Criteria {#sec-inclusion_exclusion}
+
+The clinical research coordinator (CRC) at participating sites will identify all patients admitted to the hospital with a diagnosis of AML on a daily basis to identify potentially eligible patients. The patient eligibility criteria is similar to our prior specialty PC studies in this patient population.
+
+## Eligibility Criteria {#sec-eligibility}
+
+### Patient Eligibility Criteria {#sec-patient-eligibility}
+
+Patient Inclusion Criteria:
+
+- Hospitalized patients (age > 18 years) with high-risk AML defined **as one of the following**:
+  - 1) Patients with new diagnosis > 60 years of age
+  - 2) An antecedent hematologic disorder
+  - 3) Therapy related-disease
+  - 4) Relapsed or primary refractory AML
+- Receiving treatment with either:
+  - a) intensive chemotherapy (7+3) or modification of this regimen on a clinical trial, or a similar intensive regimen requiring prolonged hospitalization; 
+  - b) hypomethylating agents +/- additional agents or modification of this regimen on a clinical trial
+
+Patient Exclusion Criteria:
+
+- 1) Patients with a diagnosis of acute promyelocytic leukemia 
+- 2) Patients with AML receiving supportive care alone 
+- 3) Patients with psychiatric or cognitive conditions which the treating clinicians believes prohibits informed consent or compliance with study procedures
+- 4) Patients seen by a palliative care clinician [MD, DO, or APP] during two previous hospitalizations in the six months prior to enrollment
+
+### Caregiver Eligibility Criteria {#sec-caregiver-eligibility}
+
+Caregiver Inclusion Criteria:
+
+- 1) Adult (> 18 years) relative or friend of a patient who agrees to participate in the study whom the patient identified as living with them or having in-person contact with them at least twice per week
+
+### Special Populations
+
+We will not enroll the following special populations: 
+
+- adults unable to consent
+- individuals who are not yet adults
+- pregnant women
+- prisoners.
+

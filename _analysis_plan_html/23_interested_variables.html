@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>SCOPE DCC Analytic Plan - 10&nbsp; Preliminary Data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./25_inclusion_exclusion.html" rel="next">
+<link href="./21_background.html" rel="prev">
+<link href="./SOM_c_clr.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script><link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+</head>
+<body class="nav-sidebar floating nav-fixed">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SCOPE DCC Analytic Plan</span>
+  </a>
+          <div class="quarto-toggle-container ms-auto">
+              <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+          </div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav><nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }"><div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">
+<span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Preliminary Data</span>
+</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        <div class="sidebar-tools-collapse tools-wide">
+    <a href="https://github.com/Goodgolden/scope_dcc" title="" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://medschool.cuanschutz.edu/health-care-policy-and-research" title="" class="sidebar-tool px-1"><i class="bi bi-info-circle"></i></a>
+    <a href="https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics" title="" class="sidebar-tool px-1"><i class="bi bi-hospital"></i></a>
+</div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Read Me First</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00_activity_log.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Activity Log</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00_sap_revisions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">SAP revisions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./10_administrative_information.html" class="sidebar-item-text sidebar-link">Administrative Information</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11_study_information.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Study Information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Responsibilities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./14_project_information.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project Information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./15_investigator_agreement.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Investigator Agreement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./16_signatures.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Signatures</span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./20_study_overview.html" class="sidebar-item-text sidebar-link">Study Overview</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./21_background.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./23_interested_variables.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Preliminary Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./25_inclusion_exclusion.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Inclusion Exclusion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./26_recruitment.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Recruitment Methods</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./27_site.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Multi-Site Research</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./28_timeline.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Timeline</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./29_stopping.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Study Endpoints</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./22_aims_and_hypotheses.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Aims and Hypotheses</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./24_causal_dag.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Causal Dag</span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./30_study_design.html" class="sidebar-item-text sidebar-link">Study Methods</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./36_randomize.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Randomization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./37_fidelity.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Fidelity of Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./38_measures.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Study Measures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./31_sample_size.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Sample Size</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./32_interim_analyses.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interim Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./33_data.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Data Information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./34_missing_data.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Missing Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./35_subjects.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Subjects</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./39_provisions_safety.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Safety of Subjects</span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./40_statistical_analysis.html" class="sidebar-item-text sidebar-link">Statistical Analysis</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./41_descriptive_statistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Descriptive Statistics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./42_analysis_methods.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Analysis Methods</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./43_additional.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Additional Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./43_sensitivity_analysis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Sensitivity Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./44_exploratory_analysis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Exploratory Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./47_simulations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Simulation Study</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./45_software.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Software and Packages</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./46_others.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Other Information</span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./50_tables_shells.html" class="sidebar-item-text sidebar-link">Tables Functions</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./51_a_tables.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Tables</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./52_figures.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Figures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./53_examples.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Example</span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./60_additional_information.html" class="sidebar-item-text sidebar-link">Additional Information</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./61_appendices.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Appencies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./62_glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Glossary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./63_addenda.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Addenda</span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">References</span>
+  </li>
+    </ul>
+</div>
+</nav><!-- margin-sidebar --><div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc"><h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+<li>
+<a href="#sec-outcomes" id="toc-sec-outcomes" class="nav-link active" data-scroll-target="#sec-outcomes"> <span class="header-section-number">10.1</span> Preliminary Data</a>
+  <ul class="collapse">
+<li><a href="#burden-of-aml" id="toc-burden-of-aml" class="nav-link" data-scroll-target="#burden-of-aml"> <span class="header-section-number">10.1.1</span> Burden of AML</a></li>
+  <li><a href="#specialty-pc" id="toc-specialty-pc" class="nav-link" data-scroll-target="#specialty-pc"> <span class="header-section-number">10.1.2</span> Specialty PC</a></li>
+  <li><a href="#primary-pc" id="toc-primary-pc" class="nav-link" data-scroll-target="#primary-pc"> <span class="header-section-number">10.1.3</span> Primary PC</a></li>
+  <li><a href="#tab-outcomes" id="toc-tab-outcomes" class="nav-link" data-scroll-target="#tab-outcomes"> <span class="header-section-number">10.1.4</span> Table Patient Outcomes with Specialty PC</a></li>
+  </ul>
+</li>
+  <li><a href="#sec-exposures" id="toc-sec-exposures" class="nav-link" data-scroll-target="#sec-exposures"> <span class="header-section-number">10.2</span> Exposure variables</a></li>
+  <li><a href="#sec-additional" id="toc-sec-additional" class="nav-link" data-scroll-target="#sec-additional"> <span class="header-section-number">10.3</span> Additional variables</a></li>
+  <li><a href="#sec-dictionary" id="toc-sec-dictionary" class="nav-link" data-scroll-target="#sec-dictionary"> <span class="header-section-number">10.4</span> Data dictionary</a></li>
+  <li><a href="#sec-transformations" id="toc-sec-transformations" class="nav-link" data-scroll-target="#sec-transformations"> <span class="header-section-number">10.5</span> Data transformations</a></li>
+  </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Goodgolden/scope_dcc/edit/main/23_interested_variables.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Goodgolden/scope_dcc/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title d-none d-lg-block">
+<span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Preliminary Data</span>
+</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header><div class="cell">
+<style type="text/css">
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+</style>
+</div>
+<!-- ## Outcomes variables {#sec-outcomes} -->
+<section id="sec-outcomes" class="level2" data-number="10.1"><h2 data-number="10.1" class="anchored" data-anchor-id="sec-outcomes">
+<span class="header-section-number">10.1</span> Preliminary Data</h2>
+<p><em>List of all outcome/endpoint variables, with a description of their coding/units, timing, and source, corresponding to the statistical hypotheses. If any variables are defined using ICD or CPT codes, list them out.</em></p>
+<section id="burden-of-aml" class="level3" data-number="10.1.1"><h3 data-number="10.1.1" class="anchored" data-anchor-id="burden-of-aml">
+<span class="header-section-number">10.1.1</span> Burden of AML</h3>
+<p>We demonstrated that patients with AML have a marked decline in their quality of life (QOL) during chemotherapy [B = -9.5, P &lt; 0.001] and that the proportion with clinically significant depression increases during the first month after treatment (34% to 46%, P = 0.01)<span class="citation" data-cites="eljawahri2019quality">(<a href="70_references.html#ref-eljawahri2019quality" role="doc-biblioref">A. El-Jawahri et al. 2019</a>)</span>. Caregivers similarly experience a deterioration in their QOL and the proportion with clinically significant depression almost doubles in the first month after treatment (17% to 31%, P = 0.03)<span class="citation" data-cites="eljawahri2019quality">(<a href="70_references.html#ref-eljawahri2019quality" role="doc-biblioref">A. El-Jawahri et al. 2019</a>)</span>. We have also shown that patients with AML spend two-thirds of their life from diagnosis to death in the hospital or clinic, and in the last month of life almost 90% are hospitalized, half receive chemotherapy, and one-third are admitted to the ICU <span class="citation" data-cites="eljawahri2015health">(<a href="70_references.html#ref-eljawahri2015health" role="doc-biblioref">A. R. El-Jawahri et al. 2015</a>)</span>.</p>
+</section><section id="specialty-pc" class="level3" data-number="10.1.2"><h3 data-number="10.1.2" class="anchored" data-anchor-id="specialty-pc">
+<span class="header-section-number">10.1.2</span> Specialty PC</h3>
+<p>The MGH research team has conducted six multi-site specialty PC trials in patients with cancer. In their landmark <em>New England Journal of Medicine</em> study, they showed that patients with advanced lung cancer assigned to specialty PC from the time of diagnosis had better QOL, less depression, higher rates of documented end-of-life (EOL) care preferences, lower rates of chemotherapy administration in the last month of life, and increased hospice utilization compared to patients receiving usual care <span class="citation" data-cites="temel2010early">(<a href="70_references.html#ref-temel2010early" role="doc-biblioref">J. S. Temel et al. 2010</a>)</span>. These findings were confirmed in a subsequent large-scale trial in patients with advanced lung and gastrointestinal cancers <span class="citation" data-cites="Temel2016">(<a href="70_references.html#ref-Temel2016" role="doc-biblioref">Jerome S. Temel et al. 2016</a>)</span>. Based on this work, specialty PC has become standard of care for patients with advanced solid tumors <span class="citation" data-cites="Ferrell2016">(<a href="70_references.html#ref-Ferrell2016" role="doc-biblioref">Ferrell et al. 2016</a>)</span>.</p>
+<p>Recognizing that specialty PC was rarely involved in the care of patients with hematologic malignancies, we studied the first specialty PC intervention for patients with hematologic malignancies undergoing stem cell transplantation. This trial demonstrated that specialty PC improved key patient outcomes—including QOL, depression, and anxiety <span class="citation" data-cites="tab-outcomes ElJawahri2016 ElJawahri2017">(<a href="70_references.html#ref-tab-outcomes" role="doc-biblioref"><strong>tab-outcomes?</strong></a>; <a href="70_references.html#ref-ElJawahri2016" role="doc-biblioref">Areej R. El-Jawahri et al. 2016</a>, <a href="70_references.html#ref-ElJawahri2017" role="doc-biblioref">2017</a>)</span>—and caregiver depression and coping <span class="citation" data-cites="ElJawahri2016 ElJawahri2017">(<a href="70_references.html#ref-ElJawahri2016" role="doc-biblioref">Areej R. El-Jawahri et al. 2016</a>, <a href="70_references.html#ref-ElJawahri2017" role="doc-biblioref">2017</a>)</span>. These benefits were sustained at 12- and 24-weeks post-transplant with improvements in patient depression and post-traumatic stress symptoms <span class="citation" data-cites="ElJawahri2016 ElJawahri2017">(<a href="70_references.html#ref-ElJawahri2016" role="doc-biblioref">Areej R. El-Jawahri et al. 2016</a>, <a href="70_references.html#ref-ElJawahri2017" role="doc-biblioref">2017</a>)</span>. Building on this work, we recently completed a multi-site randomized trial evaluating the efficacy of specialty PC for patients with AML. This study demonstrated early and sustained improvement in patients’ QOL, depression, anxiety, and post-traumatic stress symptoms <span class="citation" data-cites="tab-outcomes ElJawahri2021">(<a href="70_references.html#ref-tab-outcomes" role="doc-biblioref"><strong>tab-outcomes?</strong></a>; <a href="70_references.html#ref-ElJawahri2021" role="doc-biblioref">Areej El-Jawahri et al. 2021</a>)</span>. Patients receiving specialty PC were also significantly more likely to discuss their EOL care preferences with their clinicians and less likely to receive chemotherapy in the last 30 days of life <span class="citation" data-cites="ElJawahri2021">(<a href="70_references.html#ref-ElJawahri2021" role="doc-biblioref">Areej El-Jawahri et al. 2021</a>)</span>. Thus, the MGH team has substantial experience conducting large-scale PC trials in oncology that will ensure the success of this project.</p>
+</section><section id="primary-pc" class="level3" data-number="10.1.3"><h3 data-number="10.1.3" class="anchored" data-anchor-id="primary-pc">
+<span class="header-section-number">10.1.3</span> Primary PC</h3>
+<p>Our investigative team also has experience training clinicians to deliver primary PC. Dr.&nbsp;Yael Schenker conducted a single-arm pilot trial assessing the feasibility, acceptability, and perceived effectiveness of primary PC for patients with advanced cancer <span class="citation" data-cites="Schenker2015">(<a href="70_references.html#ref-Schenker2015" role="doc-biblioref">Schenker et al. 2015</a>)</span>. The primary PC intervention entailed training oncology clinicians to address symptoms, engage patients and caregivers in EOL discussions, provide emotional support, and coordinate care, especially at the EOL. All eligible oncology clinicians attended the training and felt it improved the quality of care they provided for patients with advanced cancer. Patients and caregivers reported high satisfaction with primary PC and perceived it as helpful in addressing symptoms, coping, and planning for the future <span class="citation" data-cites="Schenker2015">(<a href="70_references.html#ref-Schenker2015" role="doc-biblioref">Schenker et al. 2015</a>)</span>. Additionally, Dr.&nbsp;Vicki Jackson has expertise conducting primary PC training for clinicians in oncology and other medical specialties through her leadership of the Harvard Palliative Care Education and Practice course. More than 1200 clinicians have attended this course on the management of physical and psychological symptoms, coping, illness understanding, and EOL communication. Thus, our research team has the necessary expertise to train oncology clinicians successfully to deliver PC and evaluate the effectiveness of primary PC for patients with cancer.</p>
+</section><section id="tab-outcomes" class="level3" data-number="10.1.4"><h3 data-number="10.1.4" class="anchored" data-anchor-id="tab-outcomes">
+<span class="header-section-number">10.1.4</span> Table Patient Outcomes with Specialty PC</h3>
+<div class="cell">
+<details><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">knitr</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/knitr/man/include_graphics.html">include_graphics</a></span><span class="op">(</span><span class="st">"figures/F22_table1_outcomes.png"</span>,</span>
+<span>                        dpi <span class="op">=</span> <span class="fl">30</span>,<span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output-display">
+<p><img src="figures/F22_table1_outcomes.png" class="img-fluid" width="4234"></p>
+</div>
+</div>
+<details><summary><strong>Click to expand Table 1</strong>
+</summary><p>Table 1: Patient Outcomes with Specialty PC</p>
+<table class="table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 27%">
+<col style="width: 17%">
+<col style="width: 13%">
+</colgroup>
+<thead><tr class="header">
+<th style="text-align: right;"><strong>Clinical Trial</strong></th>
+<th style="text-align: right;"><strong>Intervention Effect (B)</strong></th>
+<th><strong>95% CI</strong></th>
+<th style="text-align: right;"><strong>P-value</strong></th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;"><strong>Specialty PC in Stem Cell Transplant</strong></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">QOL at 2 weeks</td>
+<td style="text-align: right;">7.73</td>
+<td>1.27, 14.19</td>
+<td style="text-align: right;">0.019</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Anxiety at 2 weeks</td>
+<td style="text-align: right;">-2.25</td>
+<td>-3.22, -1.29</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Depression at 2 weeks</td>
+<td style="text-align: right;">-1.74</td>
+<td>-3.01, -0.47</td>
+<td style="text-align: right;">0.007</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">QOL at 12 weeks</td>
+<td style="text-align: right;">5.34</td>
+<td>0.04, 10.64</td>
+<td style="text-align: right;">0.048</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Depression at 12 weeks</td>
+<td style="text-align: right;">-1.70</td>
+<td>-2.75, -0.65</td>
+<td style="text-align: right;">0.002</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">PTSD at 12 weeks</td>
+<td style="text-align: right;">-4.34</td>
+<td>-7.12, -1.57</td>
+<td style="text-align: right;">0.002</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><strong>Specialty PC in AML</strong></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">QOL at 2 weeks</td>
+<td style="text-align: right;">8.85</td>
+<td>0.43, 17.28</td>
+<td style="text-align: right;">0.039</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Anxiety at 2 weeks</td>
+<td style="text-align: right;">-1.41</td>
+<td>-2.56, -0.25</td>
+<td style="text-align: right;">0.017</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Depression at 2 weeks</td>
+<td style="text-align: right;">-1.51</td>
+<td>-2.80, -0.23</td>
+<td style="text-align: right;">0.021</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">QOL at 12 weeks</td>
+<td style="text-align: right;">11.11</td>
+<td>3.15, 19.06</td>
+<td style="text-align: right;">0.007</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Depression at 12 weeks</td>
+<td style="text-align: right;">-2.22</td>
+<td>-3.59, -0.85</td>
+<td style="text-align: right;">0.002</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Anxiety at 12 weeks</td>
+<td style="text-align: right;">-1.59</td>
+<td>-2.85, -0.33</td>
+<td style="text-align: right;">0.013</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">PTSD at 12 weeks</td>
+<td style="text-align: right;">-3.91</td>
+<td>-6.67, -1.16</td>
+<td style="text-align: right;">0.006</td>
+</tr>
+</tbody>
+</table></details><div class="cell">
+<details><summary>Code</summary><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode tex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">table</span>}[htbp]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">\centering</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">\caption</span>{Table 1: Patient Outcomes with Specialty PC}</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">tabular</span>}{<span class="ch">@{}</span> l c c c <span class="ch">@{}</span>}</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\toprule</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\textbf</span>{Clinical Trial} <span class="op">&amp;</span> <span class="fu">\textbf</span>{Intervention Effect (B)} <span class="op">&amp;</span> <span class="fu">\textbf</span>{95<span class="fu">\%</span> CI} <span class="op">&amp;</span> <span class="fu">\textbf</span>{P-value} <span class="fu">\\</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\midrule</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\textbf</span>{Specialty PC in Stem Cell Transplant} <span class="op">&amp;</span>  <span class="op">&amp;</span>  <span class="op">&amp;</span>  <span class="fu">\\</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    QOL at 2 weeks <span class="op">&amp;</span> 7.73 <span class="op">&amp;</span> 1.27, 14.19 <span class="op">&amp;</span> 0.019 <span class="fu">\\</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    Anxiety at 2 weeks <span class="op">&amp;</span> -2.25 <span class="op">&amp;</span> -3.22, -1.29 <span class="op">&amp;</span> <span class="ss">$&lt;$</span>0.001 <span class="fu">\\</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    Depression at 2 weeks <span class="op">&amp;</span> -1.74 <span class="op">&amp;</span> -3.01, -0.47 <span class="op">&amp;</span> 0.007 <span class="fu">\\</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    QOL at 12 weeks <span class="op">&amp;</span> 5.34 <span class="op">&amp;</span> 0.04, 10.64 <span class="op">&amp;</span> 0.048 <span class="fu">\\</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    Depression at 12 weeks <span class="op">&amp;</span> -1.70 <span class="op">&amp;</span> -2.75, -0.65 <span class="op">&amp;</span> 0.002 <span class="fu">\\</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    PTSD at 12 weeks <span class="op">&amp;</span> -4.34 <span class="op">&amp;</span> -7.12, -1.57 <span class="op">&amp;</span> 0.002 <span class="fu">\\</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\addlinespace</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\textbf</span>{Specialty PC in AML} <span class="op">&amp;</span>  <span class="op">&amp;</span>  <span class="op">&amp;</span>  <span class="fu">\\</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    QOL at 2 weeks <span class="op">&amp;</span> 8.85 <span class="op">&amp;</span> 0.43, 17.28 <span class="op">&amp;</span> 0.039 <span class="fu">\\</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    Anxiety at 2 weeks <span class="op">&amp;</span> -1.41 <span class="op">&amp;</span> -2.56, -0.25 <span class="op">&amp;</span> 0.017 <span class="fu">\\</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    Depression at 2 weeks <span class="op">&amp;</span> -1.51 <span class="op">&amp;</span> -2.80, -0.23 <span class="op">&amp;</span> 0.021 <span class="fu">\\</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    QOL at 12 weeks <span class="op">&amp;</span> 11.11 <span class="op">&amp;</span> 3.15, 19.06 <span class="op">&amp;</span> 0.007 <span class="fu">\\</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    Depression at 12 weeks <span class="op">&amp;</span> -2.22 <span class="op">&amp;</span> -3.59, -0.85 <span class="op">&amp;</span> 0.002 <span class="fu">\\</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    Anxiety at 12 weeks <span class="op">&amp;</span> -1.59 <span class="op">&amp;</span> -2.85, -0.33 <span class="op">&amp;</span> 0.013 <span class="fu">\\</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    PTSD at 12 weeks <span class="op">&amp;</span> -3.91 <span class="op">&amp;</span> -6.67, -1.16 <span class="op">&amp;</span> 0.006 <span class="fu">\\</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\bottomrule</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\end</span>{<span class="ex">tabular</span>}</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">table</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section></section><section id="sec-exposures" class="level2" data-number="10.2"><h2 data-number="10.2" class="anchored" data-anchor-id="sec-exposures">
+<span class="header-section-number">10.2</span> Exposure variables</h2>
+<p>List of all exposure variables, with a description of their coding/units, timing, and source, corresponding to the statistical hypotheses. If any variables are defined using ICD or CPT codes, list them out.</p>
+</section><section id="sec-additional" class="level2" data-number="10.3"><h2 data-number="10.3" class="anchored" data-anchor-id="sec-additional">
+<span class="header-section-number">10.3</span> Additional variables</h2>
+<p>List of any additional variables of interest (e.g.&nbsp;covariates, potential confounders, effect modifiers, etc.) in the analysis.</p>
+</section><section id="sec-dictionary" class="level2" data-number="10.4"><h2 data-number="10.4" class="anchored" data-anchor-id="sec-dictionary">
+<span class="header-section-number">10.4</span> Data dictionary</h2>
+<p>Location of data dictionary (or provided as an appendix)</p>
+<p>You can also use the <code><a href="https://rdrr.io/r/utils/help.html">help()</a></code> function in R to get the information about the dataset <code>help(dataset)</code>.</p>
+</section><section id="sec-transformations" class="level2" data-number="10.5"><h2 data-number="10.5" class="anchored" data-anchor-id="sec-transformations">
+<span class="header-section-number">10.5</span> Data transformations</h2>
+<p>Report category boundaries if continuous variables are collapsed into categories, and describe any other relevant data transformations</p>
+
+
+<!-- -->
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-eljawahri2015health" class="csl-entry" role="doc-biblioentry">
+El-Jawahri, A. R., G. A. Abel, D. P. Steensma, et al. 2015. <span>“Health Care Utilization and End-of-Life Care for Older Patients with Acute Myeloid Leukemia.”</span> <em>Cancer</em> 121: 2840–48.
+</div>
+<div id="ref-eljawahri2019quality" class="csl-entry" role="doc-biblioentry">
+El-Jawahri, A., G. A. Abel, L. Traeger, et al. 2019. <span>“Quality of Life and Mood of Older Patients with Acute Myeloid Leukemia (AML) Receiving Intensive and Non-Intensive Chemotherapy.”</span> <em>Leukemia</em> 33: 2393–2402.
+</div>
+<div id="ref-ElJawahri2016" class="csl-entry" role="doc-biblioentry">
+El-Jawahri, Areej R., Thomas LeBlanc, Hannah VanDusen, and et al. 2016. <span>“Effect of Inpatient Palliative Care on Quality of Life 2 Weeks After Hematopoietic Stem Cell Transplantation: A Randomized Clinical Trial.”</span> <em>JAMA</em> 316 (20): 2094–2103.
+</div>
+<div id="ref-ElJawahri2017" class="csl-entry" role="doc-biblioentry">
+El-Jawahri, Areej R., Leigh N. Traeger, Jennifer A. Greer, and et al. 2017. <span>“Effect of Inpatient Palliative Care During Hematopoietic Stem-Cell Transplant on Psychological Distress 6 Months After Transplant: Results of a Randomized Clinical Trial.”</span> <em>Journal of Clinical Oncology</em> 35 (32): 3714–21.
+</div>
+<div id="ref-ElJawahri2021" class="csl-entry" role="doc-biblioentry">
+El-Jawahri, Areej, Thomas W. LeBlanc, Alison Kavanaugh, and et al. 2021. <span>“Effectiveness of Integrated Palliative and Oncology Care for Patients with Acute Myeloid Leukemia: A Randomized Clinical Trial.”</span> <em>JAMA Oncology</em> 7 (2): 238–45.
+</div>
+<div id="ref-Ferrell2016" class="csl-entry" role="doc-biblioentry">
+Ferrell, B. T., J. S. Temin, S. Alesi, E. R. Balboni, T. A. Basch, E. M. Firn, J. I. Paice, et al. 2016. <span>“Integration of Palliative Care into Standard Oncology Care: American Society of Clinical Oncology Clinical Practice Guideline Update.”</span> <em>Journal of Clinical Oncology</em>.
+</div>
+<div id="ref-Schenker2015" class="csl-entry" role="doc-biblioentry">
+Schenker, Yael, D. White, M. Rosenzweig, et al. 2015. <span>“Care Management by Oncology Nurses to Address Palliative Care Needs: A Pilot Trial to Assess Feasibility, Acceptability, and Perceived Effectiveness of the CONNECT Intervention.”</span> <em>Journal of Palliative Medicine</em> 18: 232–40.
+</div>
+<div id="ref-temel2010early" class="csl-entry" role="doc-biblioentry">
+Temel, J. S., J. A. Greer, A. Muzikansky, et al. 2010. <span>“Early Palliative Care for Patients with Metastatic Non-Small-Cell Lung Cancer.”</span> <em>New England Journal of Medicine</em> 363: 733–42.
+</div>
+<div id="ref-Temel2016" class="csl-entry" role="doc-biblioentry">
+Temel, Jerome S., Jeanne A. Greer, Areej El-Jawahri, et al. 2016. <span>“Effects of Early Integrated Palliative Care in Patients with Lung and GI Cancer: A Randomized Clinical Trial.”</span> <em>Journal of Clinical Oncology</em>.
+</div>
+</div>
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
+      <a href="./21_background.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Background</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./25_inclusion_exclusion.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Inclusion Exclusion</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb3" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Preliminary Data"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> source</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="in">```{r setup, include=FALSE}</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">echo =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">warnings =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">message =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">comment =</span> <span class="st">"#&gt;"</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>            <span class="co">#results = "hide",</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">digits =</span> <span class="dv">4</span>,</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">error =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="in">```{css, echo=FALSE}</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">scroll</span><span class="dv">-100</span> <span class="op">{</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  max<span class="op">-</span>height<span class="op">:</span> 300px<span class="op">;</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  max<span class="op">-</span>width<span class="op">:</span> 1000px<span class="op">;</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  overflow<span class="op">-</span>y<span class="op">:</span> auto<span class="op">;</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>  background<span class="op">-</span>color<span class="op">:</span> inherit<span class="op">;</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ## Outcomes variables {#sec-outcomes} --&gt;</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## Preliminary Data {#sec-outcomes}</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>*List of all outcome/endpoint variables, with a description of their coding/units, timing, and source, corresponding to the statistical hypotheses. If any variables are defined using ICD or CPT codes, list them out.*</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="fu">### Burden of AML</span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>We demonstrated that patients with AML have a marked decline in their quality of life (QOL) during chemotherapy <span class="co">[</span><span class="ot">B = -9.5, P &lt; 0.001</span><span class="co">]</span> and that the proportion with clinically significant depression increases during the first month after treatment (34% to 46%, P = 0.01)<span class="co">[</span><span class="ot">@eljawahri2019quality</span><span class="co">]</span>. Caregivers similarly experience a deterioration in their QOL and the proportion with clinically significant depression almost doubles in the first month after treatment (17% to 31%, P = 0.03)<span class="co">[</span><span class="ot">@eljawahri2019quality</span><span class="co">]</span>. We have also shown that patients with AML spend two-thirds of their life from diagnosis to death in the hospital or clinic, and in the last month of life almost 90% are hospitalized, half receive chemotherapy, and one-third are admitted to the ICU <span class="co">[</span><span class="ot">@eljawahri2015health</span><span class="co">]</span>.</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="fu">### Specialty PC</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>The MGH research team has conducted six multi-site specialty PC trials in patients with cancer. In their landmark *New England Journal of Medicine* study, they showed that patients with advanced lung cancer assigned to specialty PC from the time of diagnosis had better QOL, less depression, higher rates of documented end-of-life (EOL) care preferences, lower rates of chemotherapy administration in the last month of life, and increased hospice utilization compared to patients receiving usual care <span class="co">[</span><span class="ot">@temel2010early</span><span class="co">]</span>. These findings were confirmed in a subsequent large-scale trial in patients with advanced lung and gastrointestinal cancers <span class="co">[</span><span class="ot">@Temel2016</span><span class="co">]</span>. Based on this work, specialty PC has become standard of care for patients with advanced solid tumors <span class="co">[</span><span class="ot">@Ferrell2016</span><span class="co">]</span>.</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>Recognizing that specialty PC was rarely involved in the care of patients with hematologic malignancies, we studied the first specialty PC intervention for patients with hematologic malignancies undergoing stem cell transplantation. This trial demonstrated that specialty PC improved key patient outcomes—including QOL, depression, and anxiety @tab-outcomes <span class="co">[</span><span class="ot">@ElJawahri2016; @ElJawahri2017</span><span class="co">]</span>—and caregiver depression and coping <span class="co">[</span><span class="ot">@ElJawahri2016; @ElJawahri2017</span><span class="co">]</span>. These benefits were sustained at 12- and 24-weeks post-transplant with improvements in patient depression and post-traumatic stress symptoms <span class="co">[</span><span class="ot">@ElJawahri2016; @ElJawahri2017</span><span class="co">]</span>. Building on this work, we recently completed a multi-site randomized trial evaluating the efficacy of specialty PC for patients with AML. This study demonstrated early and sustained improvement in patients’ QOL, depression, anxiety, and post-traumatic stress symptoms @tab-outcomes <span class="co">[</span><span class="ot">@ElJawahri2021</span><span class="co">]</span>. Patients receiving specialty PC were also significantly more likely to discuss their EOL care preferences with their clinicians and less likely to receive chemotherapy in the last 30 days of life <span class="co">[</span><span class="ot">@ElJawahri2021</span><span class="co">]</span>. Thus, the MGH team has substantial experience conducting large-scale PC trials in oncology that will ensure the success of this project.</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="fu">### Primary PC</span></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>Our investigative team also has experience training clinicians to deliver primary PC. Dr. Yael Schenker conducted a single-arm pilot trial assessing the feasibility, acceptability, and perceived effectiveness of primary PC for patients with advanced cancer <span class="co">[</span><span class="ot">@Schenker2015</span><span class="co">]</span>. The primary PC intervention entailed training oncology clinicians to address symptoms, engage patients and caregivers in EOL discussions, provide emotional support, and coordinate care, especially at the EOL. All eligible oncology clinicians attended the training and felt it improved the quality of care they provided for patients with advanced cancer. Patients and caregivers reported high satisfaction with primary PC and perceived it as helpful in addressing symptoms, coping, and planning for the future <span class="co">[</span><span class="ot">@Schenker2015</span><span class="co">]</span>. Additionally, Dr. Vicki Jackson has expertise conducting primary PC training for clinicians in oncology and other medical specialties through her leadership of the Harvard Palliative Care Education and Practice course. More than 1200 clinicians have attended this course on the management of physical and psychological symptoms, coping, illness understanding, and EOL communication. Thus, our research team has the necessary expertise to train oncology clinicians successfully to deliver PC and evaluate the effectiveness of primary PC for patients with cancer.</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a><span class="fu">### Table Patient Outcomes with Specialty PC {#tab-outcomes}</span></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"figures/F22_table1_outcomes.png"</span>,</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>                        <span class="at">dpi =</span> <span class="dv">30</span>,)</span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;details&gt;</span> <span class="kw">&lt;summary&gt;&lt;strong&gt;</span>Click to expand Table 1<span class="kw">&lt;/strong&gt;&lt;/summary&gt;</span></span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>Table 1: Patient Outcomes with Specialty PC</span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>| **Clinical Trial**  | **Intervention Effect (B)** | **95% CI** | **P-value** |</span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a>|-----------:|-------:|-----|---:|</span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>| **Specialty PC in Stem Cell Transplant** |  |  | |</span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>| QOL at 2 weeks  | 7.73  | 1.27, 14.19 | 0.019 |</span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>| Anxiety at 2 weeks  | -2.25  | -3.22, -1.29 | &lt;0.001 |</span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>| Depression at 2 weeks  | -1.74  | -3.01, -0.47 | 0.007 |</span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>| QOL at 12 weeks  | 5.34  | 0.04, 10.64 | 0.048 |</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>| Depression at 12 weeks  | -1.70  | -2.75, -0.65 | 0.002 |</span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>| PTSD at 12 weeks  | -4.34  | -7.12, -1.57 | 0.002 |</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>| **Specialty PC in AML**  |  |  | |</span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>| QOL at 2 weeks  | 8.85  | 0.43, 17.28 | 0.039 |</span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>| Anxiety at 2 weeks  | -1.41  | -2.56, -0.25 | 0.017 |</span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>| Depression at 2 weeks  | -1.51  | -2.80, -0.23 | 0.021 |</span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>| QOL at 12 weeks  | 11.11  | 3.15, 19.06 | 0.007 |</span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>| Depression at 12 weeks  | -2.22  | -3.59, -0.85 | 0.002 |</span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>| Anxiety at 12 weeks  | -1.59  | -2.85, -0.33 | 0.013 |</span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>| PTSD at 12 weeks  | -3.91  | -6.67, -1.16 | 0.006 |</span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/details&gt;</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a><span class="in">```{tex}</span></span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a><span class="in">\begin{table}[htbp]</span></span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a><span class="in">  \centering</span></span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a><span class="in">  \caption{Table 1: Patient Outcomes with Specialty PC}</span></span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a><span class="in">  \begin{tabular}{@{} l c c c @{}}</span></span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a><span class="in">    \toprule</span></span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a><span class="in">    \textbf{Clinical Trial} &amp; \textbf{Intervention Effect (B)} &amp; \textbf{95\% CI} &amp; \textbf{P-value} \\</span></span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a><span class="in">    \midrule</span></span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a><span class="in">    \textbf{Specialty PC in Stem Cell Transplant} &amp;  &amp;  &amp;  \\</span></span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a><span class="in">    QOL at 2 weeks &amp; 7.73 &amp; 1.27, 14.19 &amp; 0.019 \\</span></span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a><span class="in">    Anxiety at 2 weeks &amp; -2.25 &amp; -3.22, -1.29 &amp; $&lt;$0.001 \\</span></span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a><span class="in">    Depression at 2 weeks &amp; -1.74 &amp; -3.01, -0.47 &amp; 0.007 \\</span></span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a><span class="in">    QOL at 12 weeks &amp; 5.34 &amp; 0.04, 10.64 &amp; 0.048 \\</span></span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a><span class="in">    Depression at 12 weeks &amp; -1.70 &amp; -2.75, -0.65 &amp; 0.002 \\</span></span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a><span class="in">    PTSD at 12 weeks &amp; -4.34 &amp; -7.12, -1.57 &amp; 0.002 \\</span></span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a><span class="in">    \addlinespace</span></span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a><span class="in">    \textbf{Specialty PC in AML} &amp;  &amp;  &amp;  \\</span></span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a><span class="in">    QOL at 2 weeks &amp; 8.85 &amp; 0.43, 17.28 &amp; 0.039 \\</span></span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a><span class="in">    Anxiety at 2 weeks &amp; -1.41 &amp; -2.56, -0.25 &amp; 0.017 \\</span></span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a><span class="in">    Depression at 2 weeks &amp; -1.51 &amp; -2.80, -0.23 &amp; 0.021 \\</span></span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a><span class="in">    QOL at 12 weeks &amp; 11.11 &amp; 3.15, 19.06 &amp; 0.007 \\</span></span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a><span class="in">    Depression at 12 weeks &amp; -2.22 &amp; -3.59, -0.85 &amp; 0.002 \\</span></span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a><span class="in">    Anxiety at 12 weeks &amp; -1.59 &amp; -2.85, -0.33 &amp; 0.013 \\</span></span>
+<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a><span class="in">    PTSD at 12 weeks &amp; -3.91 &amp; -6.67, -1.16 &amp; 0.006 \\</span></span>
+<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a><span class="in">    \bottomrule</span></span>
+<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a><span class="in">  \end{tabular}</span></span>
+<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a><span class="in">\end{table}</span></span>
+<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-110"><a href="#cb3-110" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-111"><a href="#cb3-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-112"><a href="#cb3-112" aria-hidden="true" tabindex="-1"></a><span class="fu">## Exposure variables {#sec-exposures}</span></span>
+<span id="cb3-113"><a href="#cb3-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-114"><a href="#cb3-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-115"><a href="#cb3-115" aria-hidden="true" tabindex="-1"></a>List of all exposure variables, </span>
+<span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a>with a description of their coding/units, timing, and source,</span>
+<span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a>corresponding to the statistical hypotheses. </span>
+<span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a>If any variables are defined using ICD or CPT codes, list them out.</span>
+<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a><span class="fu">## Additional variables {#sec-additional}</span></span>
+<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a>List of any additional variables of interest </span>
+<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a>(e.g. covariates, potential confounders, effect modifiers, etc.) in the analysis.</span>
+<span id="cb3-125"><a href="#cb3-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-126"><a href="#cb3-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-127"><a href="#cb3-127" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data dictionary {#sec-dictionary}</span></span>
+<span id="cb3-128"><a href="#cb3-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-129"><a href="#cb3-129" aria-hidden="true" tabindex="-1"></a>Location of data dictionary (or provided as an appendix)</span>
+<span id="cb3-130"><a href="#cb3-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-131"><a href="#cb3-131" aria-hidden="true" tabindex="-1"></a>You can also use the <span class="in">`help()`</span> function in R to get the information about the dataset <span class="in">`help(dataset)`</span>.</span>
+<span id="cb3-132"><a href="#cb3-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-133"><a href="#cb3-133" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data transformations {#sec-transformations}</span></span>
+<span id="cb3-134"><a href="#cb3-134" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-135"><a href="#cb3-135" aria-hidden="true" tabindex="-1"></a>Report category boundaries if continuous variables are collapsed into categories,</span>
+<span id="cb3-136"><a href="#cb3-136" aria-hidden="true" tabindex="-1"></a>and describe any other relevant data transformations</span>
+<span id="cb3-137"><a href="#cb3-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-138"><a href="#cb3-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-139"><a href="#cb3-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-140"><a href="#cb3-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-141"><a href="#cb3-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-142"><a href="#cb3-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-143"><a href="#cb3-143" aria-hidden="true" tabindex="-1"></a></span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">This Analytic Plan was written by Randy.</div>   
+    <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+</body></html>

@@ -1,0 +1,16 @@
+---
+title: "Fidelity of Design"
+---
+
+## Fidelity of Study Design, Methods, and Intervention {#sec-fidelity}
+
+We are taking several steps to ensure the fidelity of our study design, training, and intervention delivery as noted in the Table 4 @sec-table4. To ensure the fidelity of our study design, we are implementing an evidence-based PC intervention, measuring the PC domains addressed in both study groups using clinician surveys, and monitoring the extent of contamination between groups. We will employ rigorous training procedures for all study personnel, as well as hold monthly video conferences with the site PIs and CRCs. To ensure the fidelity of intervention delivery, the DCC will generate primary and specialty PC fidelity reports based on the clinicians’ electronic surveys summarizing the PC domains addressed during clinical encounters. The MGH investigative team will review the intervention fidelity reports to ensure conformity between sites in addressing the domains and topics as specified by the guide. Based on these reviews, the study team will provide feedback to individual clinicians to ensure they are delivering the interventions in a consistent fashion. 
+
+### Table 4: Fidelity of Study Design, Methods, and Intervention {#sec-table4}
+
+```{r}
+#| fig-width: 7
+knitr::include_graphics("figures/F37_table4_fidelity.png", 
+  dpi = 100)
+```
+

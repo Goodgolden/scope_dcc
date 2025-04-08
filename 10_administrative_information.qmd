@@ -38,7 +38,8 @@ here::set_here()
 }
 ```
 
-## Information {#sec-1_administrative_information}
+
+## Administrative Information {#sec-1_administrative_information}
 
 ### Title
 
@@ -46,4 +47,19 @@ Specialty Compared to Oncology Delivered Palliative Care for Patients with Acute
 
 ### Protocol Version
 
-The Palliative Care Research Cooperative Group (PCRC) supports palliative care research in a number of ways, including regular “Intensive” short courses on the design and conduct of randomized trials  [@van_buuren_curve_2014]. The format of these Intensives combines didactic instruction and experiential learning, the latter of which is accomplished by dividing the participants into teams and having each team design a trial. Faculty members accompany the teams, and a notable feature is that each team includes a statistician. Collaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.
+Version 1.9, 2025-04-08
+
+## Study Information and Background 
+
+@sec-study_information
+
+## Responsibilities
+
+@sec-principal_investigators and #sec-statisticians
+
+## Project Information
+
+@sec-project_information
+
+## Agreements and Signatures 
+

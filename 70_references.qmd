@@ -1,11 +1,13 @@
 ---
 title: References
-bibliography: references.bib
 ---
 # References {.unnumbered}
 
 References for any non-standard statistical methods used
-References (and locations) for any relevant protocols, standard operating procedures, or other documents cited in the SAP
+References (and locations) for any relevant protocols, 
+standard operating procedures, or other documents cited in the SAP
+
+You can browse the list of more than 8,500 Creative Commons CSL definitions in the [CSL Project’s central repository](https://github.com/citation-style-language/styles/blob/master/diabetologia.csl)
 
 ::: {#refs}
 :::

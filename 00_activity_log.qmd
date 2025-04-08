@@ -1,6 +1,5 @@
 ---
 title: "Activity Log" 
-format: html
 editor: source
 ---
 
@@ -12,11 +11,7 @@ knitr::opts_chunk$set(echo = TRUE,
             #results = "hide",
             digits = 4,
             error = FALSE)
-## clean the R environment
-graphics.off()
-rm(list = ls())
-freshr::freshr()
-## load packages
+
 library(here, quietly = TRUE)
 library(tidyverse, quietly = TRUE)
 library(gtsummary, quietly = TRUE)
@@ -24,9 +19,6 @@ library(flextable, quietly = TRUE)
 ## check the directory for the file
 # here::dr_here()
 here::set_here()
-## the figure or results should be saved 
-# paste0("foldername/Sfilename_workingresult_", 
-#      Sys.Date(), ".filetype")
 ```
 
 ```{css, echo=FALSE}
@@ -66,8 +58,39 @@ here::set_here()
 ### 20250404 {.unnumbered}
 
 -   [x] Talking with EJC about the package project
--   [x] Filling up the project and add comments
--   [x] Build up the analysis plan for multiple members
--   [x] Check how to build up the website
--   [x] Check how to use github to include other people
+-   [ ] Filling up the project and add comments
+-   [ ] Build up the analysis plan for multiple members
+-   [ ] Check how to build up the website
+-   [ ] Check how to use github to include other people
 -   [x] You are cat's meow!
+
+
+### 20250408 {.unnumbered}
+
+-   [x] Filling up the project and add comments
+-   [x] Writing functions to create qmd files
+-   [x] New aim function and files
+-   [ ] Build up the analysis plan for multiple members
+-   [ ] Check how to build up the website
+-   [ ] Check how to use github to include other people
+- [x] You are excellent!
+
+
+### 20250410 {.unnumbered}
+
+- [ ] how to use argument in the YML
+- [ ] generate reports and analysis without coding
+- [ ] working on the figure and table
+- [ ] aim 1 analysis plan (to Katie)
+- [x] You are premium!
+
+### 20250415 {.unnumbered}
+Goal for this meeting with Katie
+
+- [x] show the demo case of the template / package 
+- [ ] better organize the template
+- [ ] add the function to create the qmd file or just copy paste
+- [ ] subfolder or generate the files all in one
+- [ ] styles and formatting?
+- [ ] asking help for the website
+- [x] You are swell!

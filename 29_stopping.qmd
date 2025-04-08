@@ -1,0 +1,38 @@
+---
+title: "Study Endpoints"
+---
+
+# Study Endpoints {#sec-endpoints}
+
+## Primary Endpoint {#sec-1endpoints}
+
+- To establish that primary PC is non-inferior to specialty PC in patient-reported QOL over at 12 weeks 
+
+## Secondary Endpoints {#sec-2endpoints}
+
+- To assess whether primary PC is non-inferior to specialty PC with respect to patient-reported QOL at 1week-2 and longitudinally2 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to depressions symptoms at 12 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to anxiety symptoms at 12 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to post-traumatic stress (PTSD) symptoms at 12 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to patient-reported EOL communication at 12 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to chemotherapy administration in the last 30 days of life
+- To assess whether primary PC is non-inferior to specialty PC with respect to caregiver QOL at 12 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to caregiving burden at 12 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to caregiver depression symptoms at 12 weeks
+- To assess whether primary PC is non-inferior to specialty PC with respect to caregiver anxiety symptoms  at 12 weeks
+
+## Exploratory Endpoints {#sec-3endpoints}
+
+- To compare the rate of change in patient-reported QOL longitudinally over 24 weeks between those receiving primary PC versus specialty PC
+- To compare patient prognostic understanding between those receiving primary PC versus specialty PC.
+- To compare patient coping between those receiving primary PC versus specialty PC
+- To compare hospitalization in the last 30 days of life between those receiving primary PC versus specialty PC
+- To compare intensive care unit admissions in the last 30 days of life between those receiving primary PC versus specialty PC
+- To compare hospice utilization between those receiving primary PC versus specialty PC
+- To explore differences in hospice length-of-stay between those receiving primary PC versus specialty PC
+- To compare patient symptom burden between those receiving primary PC versus specialty PC.
+- To compare patients’ perception of patient-centeredness of care (i.e., acceptability and satisfaction) between those receiving primary PC versus specialty PC
+- To compare caregiver-reported EOL communication between those receiving primary PC versus specialty PC
+- To compare caregiver prognostic understanding between those receiving primary PC versus specialty PC
+- To compare caregiver coping between those receiving primary PC versus specialty PC
+

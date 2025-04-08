@@ -1,0 +1,38 @@
+---
+title: "Safety of Subjects"
+---
+
+
+## Provisions to Monitor the Data to Ensure the Safety of Subjects {#sec-provisions_safety}
+
+The study will have a data safety and monitoring board (DSMB).  
+
+## Membership of the DSMB
+
+The DSMB will be responsible for safeguarding the interests of participants in the proposed trial. To fulfill its mission of ensuring the safety and integrity of the study, it is necessary that the DSMB committee be comprised of members who possess a high degree of competence and experience, as well as the ability to function independently of all other parties involved in the study. The DSMB members will consist of three members with 1) experience in conducting multi-site PC clinical trials, 2) expertise in biostatistics, and 3) a thorough knowledge of clinical trial ethics and human subject protection issues. The statistician will chair the committee. The DSMB will be advisory to the investigative team. The study team will be responsible for promptly reviewing any DSMB recommendations and deciding how to respond.
+
+## Functional Organization of the DSMB {#sec-functional_organization_dsm}
+
+The initial meeting of the DSMB will occur during phase 1 of the trial. This meeting will be organizational and will provide advisory review of scientific and ethical issues relating to the study design and conduct and review of standard operating procedures for the role and function of the DSMB and the reporting obligations. Participants in this meeting will include all members of the DSMB, the MGH investigative team, and members of the DCC. Subsequent meetings will occur annually via video conference, to review randomization data, audits, conformance with informed consent requirements, verification of source documents, investigator compliance, as well as adverse events. These adverse events will be tracked for IRB submission as well. Per the DF/HCC IRB, study related adverse events are reported in real time, and study unrelated adverse events are reported at each continuing review. 
+
+## Monitoring of Safety Data by the DSMB
+
+- Unblinded Reporting: Safety information for this study will be reported to the committee in an unblinded manner. A statistical penalty will not be assessed for the ongoing unblinded review of safety by the Committee. Unblinded data will not be released to the investigators unless necessary for safety reasons.
+
+- Range of Safety Reporting to the DSMB:  It is considered necessary for the purpose of monitoring the safety of the study that the committee review not only adverse events (AEs) and SAEs, but also other data that may reflect differences in safety between groups. This includes treatment retention rates and reasons for dropout.
+
+- Recruitment reports: The DCC will generate recruitment and retention reports that will be made available to the DSMB committee
+
+- Data Repository: The DCC will generate data collection and management reports (including rate of missing date) that will be made available to the DSMB committee.
+
+- Serious Adverse Events: Given that this is a supportive care study in a population at risk for disease progression and death due to their medical condition (unrelated to the study procedures), we do not expect any SAEs to be related to the study. Thus, SAEs will not be reported to the DSMB, unless they are potentially related to study procedures.
+
+- Non-Serious Adverse Events: At yearly intervals during the course of the study and then again at its completion, the DSMB will be provided with unblinded summaries of the numbers and rates of adverse events by treatment group. These reports will include types of events, severity, and treatment phase. 
+
+- Study Stopping Rules: If at any time during the course of the study, the committee judges that risk to subjects outweighs the potential benefits, the committee shall have the discretion and responsibility to recommend that the study be terminated.  We do not, however, have a pre-specified stopping rule. 
+
+- Procedures to ensure confidentiality, preparation of reports, minutes, and recommendations: The DCC will prepare study reports and circulate them to the DSMB members at least two weeks before each regularly scheduled DSMB meeting. These reports will include overall study progress and safety data. A study team member will draft minutes of the DSMB meetings, working closely with the DSMB chair. Minutes will be circulated only to DSMB members for editing and final approval. At the conclusion of each DSMB meeting, the members will determine whether any changes in the conduct of the trial are recommended. In case of difference of opinion, majority vote will determine the DSMB recommendations. The DSMB chair will forward these recommendations to the MGH investigative team within two weeks of the DSMB meeting. The MGH investigative team will be responsible for sharing the DSMB recommendations with all study staff and investigators, and providing a report back to the DSMB within two weeks of the receipt of the report for any substantive DSMB recommendations
+
+## Monitoring of Data Quality by the DSMB {#sec-monitoring_data_quality}
+
+We will provide the DSMB with a yearly report on data quality and completeness, including total participant, number of ineligible patients registered, proportion of missing participant-reported outcomes, proportion of missing clinician surveys, number of participants lost to follow-up, and number of adverse events. These reports will be used by the DSMB committee to evaluate the capacity of the data capture and processing to support scientifically valid analyses.  

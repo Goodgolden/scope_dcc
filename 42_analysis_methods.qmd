@@ -23,27 +23,11 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-For each aim/hypothesis (see items 9a/9b), a description of what analysis method will be used
-and how the results from this method will be reported and interpreted
-Description of any transformations, standardizations, covariate or confounder adjustments,
-weighting, or stratification methods to be used and why.
-For each analytic method proposed, a description of the assumptions of that method and what
-processes will be used to evaluate whether or not those assumptions hold
-Details of contingency plans/alternative methods to be used if the assumptions are found not to
-hold
-In the case of non-standard test statistics, formulas provided for the test statistic with a
-description of the mathematical null hypothesis, how significance is determined, and how the
-test statistic is interpreted
-In the case of regression models, formulas provided for the full model with a description of
-which parameters are to be used, how they will be interpreted, how confidence intervals will be
-constructed, etc.
-In the case of survey, hierarchical/nested, or clustered data, a description of what methods will be
-used to adjust for the data structure and why (e.g. if using a GEE, describing which correlation
-structure and why it was chosen, etc.)
-For non-continuous outcomes, clearly explain the effect used (e.g. risk difference, risk ratio,
-odds ratio, etc.), whether it is relative or absolute, and justify why that was chosen as the effect
-measure of interest
-Documentation of any non-standard methods used (e.g. using alternative degree of freedom
-calculation methods, using a non-canonical link function, etc.)
-Description of any limitations, sources of bias, internal/external validity, and other relevant
-discussions concerning the interpretation and generalizability of the design or methods used
+## Tests for Heterogeneity {#sec-heterogeneity}
+
+We will analyze HTE by testing for interaction effects between the two groups and the following variables: patient age (> 65 vs. < 65), gender (male vs. female), race/ethnicity (White vs. other; White vs. Black; White vs. Asian; Non-Hispanic white vs. Hispanic/Latino), AML diagnosis (newly diagnosed vs. relapsed/refractory AML), and enrollment of caregiver (yes vs. no). The interaction terms will be tested in the linear and logistic mixed effect models.. All HTE analyses are considered exploratory and hypothesis-generating. Prior studies have found that age, gender, and race can moderate the impact of specialty PC in patients with cancer. However, it remains unclear whether these factors would contribute to HTE of primary PC versus specialty PC. Lastly, since caregiver engagement may impact patient-outcomes, we will examine whether enrollment of a caregiver contributes to the HTE of specialty PC compared to primary PC. We chose to be conservative with our sample size estimate to account for HTE analyses for the primary endpoint of the study. 
+
+## Adjustment for a Moderate Number of Clusters {#sec-cluster}
+
+Although generalized linear mixed models (GLMMs) have been shown to produce robust inference for cluster randomized trials with at least 10 clusters, sensitivity analyses using an appropriate small-sample adjustment will be carried out for all primary and secondary outcomes [@Leyrat2018].
+

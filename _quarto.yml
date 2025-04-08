@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: _analysis_plan_html
+  # output-dir: _analysis_plan_pdf
 
 format:
   html:
@@ -65,13 +66,14 @@ book:
     # - intro.qmd
     - 00_activity_log.qmd
     - 00_sap_revisions.qmd
+    # - 00_template.qmd
     
     - part: 10_administrative_information.qmd
       chapters:
-        # - 10_template.qmd
+
         - 11_study_information.qmd
         - 12_roles_and_responsibilities.qmd
-        - 13_sap_information.qmd
+        # - 13_sap_information.qmd
         - 14_project_information.qmd
         - 15_investigator_agreement.qmd
         - 16_signatures.qmd
@@ -79,20 +81,28 @@ book:
 
     - part: 20_study_overview.qmd
       chapters:
-        # - 20_background.qmd
-        - 21_aims_and_hypotheses.qmd
-        - 22_interested_variables.qmd
-        - 23_causal_dag.qmd
+        - 21_background.qmd
+        - 23_interested_variables.qmd
+        - 25_inclusion_exclusion.qmd
+        - 26_recruitment.qmd
+        - 27_site.qmd
+        - 28_timeline.qmd
+        - 29_stopping.qmd
+        - 22_aims_and_hypotheses.qmd
+        - 24_causal_dag.qmd
 
 
     - part: 30_study_design.qmd
       chapters:
-        # - 30_study_design.qmd
+        - 36_randomize.qmd
+        - 37_fidelity.qmd
+        - 38_measures.qmd
         - 31_sample_size.qmd
         - 32_interim_analyses.qmd
         - 33_data.qmd
         - 34_missing_data.qmd
-        - 35_simulations.qmd
+        - 35_subjects.qmd
+        - 39_provisions_safety.qmd
 
 
     - part: 40_statistical_analysis.qmd
@@ -103,6 +113,7 @@ book:
         - 43_additional.qmd
         - 43_sensitivity_analysis.qmd
         - 44_exploratory_analysis.qmd
+        - 47_simulations.qmd
         - 45_software.qmd
         - 46_others.qmd
 
@@ -110,7 +121,6 @@ book:
     - part: 50_tables_shells.qmd
       chapters:
         - 51_a_tables.qmd
-        - 51_b_tables.qmd
         - 52_figures.qmd
         - 53_examples.qmd
 
@@ -126,6 +136,7 @@ book:
 
 
 bibliography: references.bib
+# csl: nature.csl
 
 editor: source
 

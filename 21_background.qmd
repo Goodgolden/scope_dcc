@@ -1,0 +1,73 @@
+---
+title: "Background"
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+## Scientific Background {#sec-background}
+
+### Patients with AML have a sudden life-threatening illness requiring urgent therapy
+
+AML is an aggressive disease, characterized by an abrupt onset, an urgent need to initiate treatment, and a poor prognosis with 80% risk of death at five years [@alibhai2007impact; @alibhai2015quality; @burnett2010attempts; @walter2020selection; @vey2020low]. Most patients with AML are treated with chemotherapy drugs that require hospitalization due to significant toxicities and potentially life-threatening complications, such as bleeding and sepsis [@rodin2013traumatic; @zimmermann2013symptom; @zittoun1999assessment; @eljawahri2015health]. Patients with AML often present to medical attention without prodromal symptoms, so they are quite shocked to learn that they have a life-threatening illness and must be immediately hospitalized to receive intensive chemotherapy [@alibhai2007impact; @alibhai2015quality; @burnett2010attempts].
+
+### Patients with AML face substantial physical and psychological symptoms
+
+During their hospitalization for chemotherapy, patients with AML often experience difficult physical symptoms, including fevers, fatigue, pain, insomnia, mucositis, nausea, vomiting, and diarrhea that negatively impact their quality of life (QOL) and physical function [@rodin2013traumatic; @zimmermann2013symptom; @zittoun1999assessment; @eljawahri2015health; @eljawahri2019quality; @loh2019health; @wiese2018unmet]. Psychological symptoms are also quite prominent in these patients, with over one-third experiencing acute stress reactions from the shock of their diagnosis and need for urgent hospitalization [@rodin2013traumatic; @zimmermann2013symptom; @zittoun1999assessment; @eljawahri2015health; @eljawahri2019quality; @loh2019health; @wiese2018unmet; @nissim2013abducted; @papadopoulou2013experience; @farsi2012coping; @nissim2014bearings; @gheihman2015depression; @ghodraty2015coping; @ghodraty2015oneday]. Notably, the psychological burden during this hospitalization also impacts patients’ long-term QOL, mood, and adaptation to their illness [@ghodraty2015coping; @ghodraty2015oneday]. Up to 40% of patients with AML suffer from post-traumatic stress symptoms due to the trauma of their diagnosis [@smith1999ptsd; @jacobsen1998ptsd; @jacobsen2002predictors; @mundy2000ptsd].Therefore, addressing the physical and psychological needs of hospitalized patients with AML has the potential to improve their outcomes significantly both during their hospitalization and in the long-term.
+
+### Patients with AML face difficult decisions about treatment
+
+Many treatments are available that offer a chance of cure for patients with AML, including stem cell transplant. However, the chance of cure is small and most patients with AML unfortunately die of their illness [@schlenk2017relapsed; @ganzel2018poor]. Consequently, to make informed decisions about whether to receive additional treatment, patients with AML must understand their prognosis and likelihood of cure [@eljawahri2020palliative; @eljawahri2018discordance]. Unfortunately, data suggest that 90% of patients with AML report overly optimistic estimates of their prognosis [@eljawahri2018discordance]. Thus, they are unprepared to make difficult decisions that require them to balance the risks and benefits of treatments that offer an uncertain chance of cure, but will worsen their QOL and require them to spend additional time in the hospital [@eljawahri2015health]. Therefore, patients with AML face considerable uncertainty and often misunderstand their prognosis, limiting their ability to make informed decisions about treatment.
+
+### Patients with AML rarely discuss their end-of-life (EOL) care preferences
+
+Due to the chance of cure even after multiple therapies, oncology clinicians often defer engaging in conversations with patients with AML about their EOL care preferences [@eljawahri2020palliative]. As the majority of these patients die, it is imperative that oncology clinicians elicit their goals and help them make decisions about their EOL care. Unfortunately, studies show that patients with AML do not engage in timely discussions with their clinicians about their care preferences and consequently receive aggressive care at the EOL [@ghodraty2015coping; @eljawahri2015utilization; @leblanc2019paradigms; @leblanc2018transfusion; @hui2014quality; @eljawahri2015utilization2; @eljawahri2020palliative; @bosshard2018economic; @klepin2014aml]. Specifically, while many patients with cancer express a preference to die at home and minimize time in the hospital, 80% of patients with AML are hospitalized in the last month of life, with 50% dying in the hospital. Over half receive chemotherapy in the last month of life and 30% die in the intensive care unit (ICU) [@ghodraty2015coping; @eljawahri2015utilization; @leblanc2019paradigms; @leblanc2018transfusion; @hui2014quality; @eljawahri2015utilization2; @eljawahri2020palliative; @bosshard2018economic; @klepin2014aml]. Evidence-based interventions are needed to enhance patient–clinician communication and optimize EOL care for patients with AML.
+
+### Caregivers of patients with AML experience tremendous burden and distress
+
+The family and close friends (“caregivers”) of patients with AML play a critical role in their care, but also experience distress as they face the shock of the patient’s diagnosis and cope with uncertainty [@eljawahri2019quality; @jia2015ptsdcaregivers; @gemmill2011caregivers; @fife2009adaptation]. During the patient’s hospitalization for treatment, caregivers report a marked decline in their QOL and mood as they witness the patient struggle with side effects [@eljawahri2019quality]. After the patient is discharged from the hospital, the caregiver helps manage the patient’s symptoms, attends multiple oncology appointments, coordinates medical care, and prepares for subsequent hospitalizations [@grover2019caregiver]. Caregivers experience the highest burden and psychological distress when caring for patients with AML near the EOL [@grover2019caregiver; @gerlach2019challenges]. Not surprisingly, caregivers of patients with AML have disruptions in their professional and personal lives. Thus, caregivers of patients with AML would benefit from support as they navigate the patient’s illness.
+
+### Specialty palliative care improves outcomes for patients and their caregivers
+
+A growing body of evidence has demonstrated the essential role of specialty palliative care (PC) clinicians in the care of patients with advanced solid tumors [@temel2010early; @temel2017integrated; @bakitas2009enable2; @bakitas2015enable3; @zimmermann2014cluster]. Integrating PC with oncology care from the time of diagnosis for patients with advanced solid tumors improves patients’ QOL, psychological health, and EOL care [@temel2010early; @temel2017integrated; @bakitas2009enable2; @bakitas2015enable3; @zimmermann2014cluster]. Emerging data have similarly shown the benefits of specialty PC for patients with hematologic malignancies [@ElJawahri2016; @ElJawahri2017; @ElJawahri2021]. We recently completed a multi-site randomized trial of specialty PC versus usual care in hospitalized patients with AML [@ElJawahri2021]. Patients assigned to specialty PC met with a PC clinician at least twice weekly during their hospitalization for chemotherapy and subsequent hospitalizations up to one year. Specialty PC improved patients’ QOL, depression and anxiety symptoms, as well as post-traumatic stress symptoms [@ElJawahri2021]. Importantly, specialty PC led to clinically meaningful and sustained improvements in patients’ QOL and psychological distress for six months after initiating chemotherapy [@ElJawahri2021]. Patients receiving specialty PC were also more likely to discuss their EOL care preferences and less likely to receive chemotherapy in the last month of life [@ElJawahri2021]. Thus, involvement of specialty PC improves the experience and outcomes of patients with serious cancer and their caregivers.
+
+### Specialty PC is not an accessible or scalable care model
+
+Despite the benefits of specialty PC for patients with cancer, it is not feasible to provide this care for all patients given the limited availability of trained PC clinicians [@Hui2010; @Lupu2010; @Blackhall2016]. Nearly half of National Cancer Institute-designated cancer centers do not have the specialty PC workforce to provide care for their patients with cancer [@Hui2010; @Lupu2010; @Blackhall2016]. Due to these workforce shortages, most specialty PC is triaged to provide care for patients with incurable cancer at the EOL. Thus, despite the growing evidence base, substantial challenges limit the scalability and dissemination of this care model, especially in caring for patients with hematologic malignancies [@eljawahri2020palliative; @LeBlanc2015]. Moreover, oncology clinicians caring for patients with hematologic malignancies rarely consult specialty PC as they view providing PC within their scope of practice [@eljawahri2020palliative; @LeBlanc2018; @ElJawahri2018; @Hui2015]. Furthermore, given the complex chemotherapy regimens used to treat patients with AML and their side effects, oncology clinicians may be the ideal clinicians to address these needs [@eljawahri2020palliative; @LeBlanc2018; @ElJawahri2018; @Hui2015].
+
+### Primary PC may be an alternative care model to specialty PC
+
+Training oncology clinicians to incorporate PC skills into their care practice (i.e., “primary PC”) is an alternative strategy to having specialty trained PC clinicians care for all patients with cancer. Recent studies have shown that primary PC interventions in which oncology clinicians are trained to address patient’s symptoms and engage in serious illness conversations are feasible, acceptable, and improve patient outcomes [@Bernacki2019; @Paladino2019]. These interventions have been shown to increase oncology clinicians’ knowledge about symptom assessment and management, as well as their comfort managing psychological distress [@Epstein2017; @Reddy2019; @Schenker2015]. In a cluster randomized trial in which oncology clinicians were trained in serious illness communication, patients receiving primary PC were more likely to have documented EOL discussions and reported lower anxiety and depression symptoms [@Bernacki2019; @Paladino2019]. While these primary PC studies are promising, it remains unknown how primary PC compares with specialty PC for improving QOL and EOL care for patients with cancer [@eljawahri2020palliative; @Kavalieratos2016]. Recent systematic reviews highlight the need for comparative effectiveness trials of primary versus specialty PC, to determine how to best meet the needs of patients with serious cancers, and especially those with hematologic malignancies [@eljawahri2020palliative; @Kavalieratos2016].
+
+## Resources Available {#sec-resources}
+
+### Team Qualifications and Oversight
+
+Due to the size and scope of this award, we have chosen a leadership plan with dual study PIs (Drs. Areej El-Jawahri and Jennifer Temel). The dual PIs have a long-standing history of collaboration with over 20 funded research projects, and led the specialty PC trial in leukemia, which serves as the preliminary data for the current project. The dual PIs pre-existing relationship, including a history of successful collaborations on grant applications and manuscripts in high tier medical journals, and complimentary experience conducing PC trials, will ensure they provide effective leadership of this study. 
+The University of Colorado Data, Informatics, and Statistics Core will serve as the DCC. Dr. Colborn will provide independent leadership of the DCC and have autonomy over data integrity, data quality, and data analysis during both the study phases.. Prior studies have highlighted the unique challenges of conducting PC research trials with adequate methodological oversight and appropriate data analytical approach. Specifically, given their experience with PC research methodology, our DCC possess the necessary expertise to:
+- 1) ensure adequate oversight of data collection procedures for participant-reported outcomes
+- 2) address challenges of attrition and missing data due to death in PC research
+- 3) implement statistical methods to address missing data
+- 4) measure PC intervention fidelity. Furthermore, the DCC investigative team has substantial expertise in serving as the DCC for multiple large-scale multi-site projects. 
+
+### Other Resources
+
+We solicited participating sites through The Palliative Care Research Cooperative (PCRC) with medium to large leukemia practices to ensure that each site would see a minimum of 50 new patients with AML per year. We also chose sites that have an inpatient specialty PC practice to accommodate patients who are randomized to receiving specialty PC. Prior to submitting this project, we conducted interviews with 35 sites and chose 20 sites with appropriate infrastructure to conduct the study. As many of these sites are tertiary care centers, we estimate that 15% of new patients will be second-opinion consultations only and therefore ineligible. We estimate that each site will have a minimum of 40 eligible patients per year. At MGH, we have enrolled 70% of eligible patients with AML in our prior PC trials. Since the proposed study is a cluster randomized trial, we anticipate that enrollment rates will be higher than prior studies, as patients are not being randomized. Nonetheless, we conservatively estimate that at least 60% of eligible patients will enroll in the study. In our prior studies, 60% of patients who enrolled had a caregiver who was willing to participate, so we conservatively estimate caregiver enrollment rates of approximately 50%. Therefore, we are confident in our ability to achieve our proposed enrollment goals for patients and caregivers. 
+

@@ -11,21 +11,6 @@ knitr::opts_chunk$set(echo = TRUE,
             #results = "hide",
             digits = 4,
             error = FALSE)
-# ## clean the R environment
-# graphics.off()
-# rm(list = ls())
-# freshr::freshr()
-# ## load packages
-# library(here, quietly = TRUE)
-# library(tidyverse, quietly = TRUE)
-# library(gtsummary, quietly = TRUE)
-# library(flextable, quietly = TRUE)
-# ## check the directory for the file
-# # here::dr_here()
-# here::set_here()
-## the figure or results should be saved 
-# paste0("foldername/Sfilename_workingresult_", 
-#      Sys.Date(), ".filetype")
 ```
 
 ```{css, echo=FALSE}
@@ -37,10 +22,42 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Glossary
+## Glossary (Alphabetical) {#sec-glossary}
 
-### Clinical
+- **APP**: Advanced Practice Provider
+- **AML**: Acute Myeloid Leukemia
+- **CarGOQOL**: CareGiver Oncology Quality of Life questionnaire
+- **CTMS**: Clinical Trials Management System
+- **COVID-19**: Coronavirus Disease 2019
+- **CRA**: Caregiver Reaction Assessment
+- **DCC**: Data Coordinating Center
+- **DF/HCC**: Dana-Farber/Harvard Cancer Center
+- **ECOG**: Eastern Cooperative Oncology Group (Performance Status)
+- **EHR**: Electronic Health Record
+- **ESAS-R**: Edmonton Symptom Assessment Scale – Revised
+- **FDA**: Food and Drug Administration
+- **FACT-Leukemia** (or **FACT-Leu**): Functional Assessment of Cancer Therapy – Leukemia
+- **GLMM**: Generalized Linear Mixed Model(s)
+- **HADS**: Hospital Anxiety and Depression Scale
+- **HTE**: Heterogeneity of Treatment Effect
+- **ICU**: Intensive Care Unit
+- **IPW**: Inverse Probability Weighting
+- **IRB**: Institutional Review Board
+- **ICC**: Intra-Cluster Correlation Coefficient
+- **ITT**: Intention-To-Treat
+- **MNAR**: Missing Not At Random
+- **MGH**: Massachusetts General Hospital
+- **NCI**: National Cancer Institute
+- **NVivo 12**: Qualitative Data Analysis Software
+- **PTPQ**: Patient-Reported measure for End-of-Life communication 
+- **PC**: Palliative Care
+- **PI**: Principal Investigator
+- **PPPC**: Patient Perception of Patient-Centeredness of Care
+- **QOL**: Quality of Life
+- **QuEST**: Qualitative Evaluation for Systematic Translation
+- **REDCap**: Research Electronic Data Capture
+- **RE-AIM**: Reach, Effectiveness, Adoption, Implementation, and Maintenance
+- **SAE**: Serious Adverse Event
+- **SOP**: Standard Operating Procedure
+- **SCOPE-Leukemia**: Specialty Compared to Oncology Delivered Palliative Care for Patients with Acute Myeloid Leukemia
 
-### Technical
-
-### Statistical

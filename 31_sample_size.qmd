@@ -22,17 +22,30 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Sample Size {#sec-sample_size}
+<!-- ## Sample Size {#sec-sample_size} -->
 
-Sample size calculation or justification (either provided in full or summarized, with link to
-original source)
+<!-- The study sample will include 1150 patients with AML and up to 1150 caregivers.  Patients can participate in the study without a caregiver, and we estimate that approximately 50% of patients will have a caregiver participate in the study. Thus, we anticipate the caregiver sample will be approximately 575 participants. Repeated information in @sec-recruitment -->
+
+## Sample Size and Power Calculations {#sec-sample_size_power}
+
+Our study is powered to assess multiple the primary outcome and multiple secondary outcomes as shown in Table 6. We chose non-inferiority margins below the threshold of what is considered a clinically significant based on the differences seen in our prior specialty PC trials. The primary endpoint of this study is to establish that primary PC is non-inferior to specialty PC in patient-reported QOL at week 12. As noted in table Table 1, in our prior study of specialty PC versus usual care in patients with AML, we found clinically and statistically significant differences between study groups at week-2 that persisted at week-12. Thus, we have chosen to power our study at week-12, which will enable us to conduct a longitudinal analysis examining the effect of the intervention over the first 12 weeks. In our prior study, we observed an 11-point difference in QOL between the two groups at week-12, favoring the specialty PC group. Thus, we chose a conservative non-inferiority margin of five points (less than 50% of the previously observed difference with specialty PC) which does not reach the threshold for clinically meaningful difference in QOL (six-point difference in FACT-Leukemia). With each of the 20 sites enrolling approximately 57-58 patients (total N=1150 patients), we will have >90% power to establish the non-inferiority of primary PC compared to specialty PC with a one-sided alpha of 0.025 and a non-inferiority margin of five points (assuming an intra-cluster correlation coefficient (ICC) = 0.03 and missing data rate of 20% at week 12). Notably, in our prior multi-site trial, the rate of missing data at week 12 was only 14%. Please note, we will be using a one-sided alpha of 0.025 for this proposed non-inferiority trial.
+
+```{r}
+knitr::include_graphics("figures/F33_table6.png")
+```
 
 
-### Subgroup analysis {#sec-subgroup_analysis}
 
-### Power {#sec-power}
+Additionally, in a recent cluster randomized trial of primary PC for patients with advanced cancer, the estimated ICC was 0.03. However, we chose to be conservative in accounting for missing data and our ICC to ensure adequate power. 
 
-### Multiple comparisons {#sec-multiple_comparison}
+*Sample size calculation or justification (either provided in full or summarized, with link to original source)*
+
+
+## Subgroup analysis {#sec-subgroup_analysis}
+
+## Power {#sec-power}
+
+## Multiple comparisons {#sec-multiple_comparison}
 
 Description of pre-planned subgroup analyses, power for these analyses, and planned multiple
 comparison adjustment procedures

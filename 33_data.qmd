@@ -11,21 +11,6 @@ knitr::opts_chunk$set(echo = TRUE,
             #results = "hide",
             digits = 4,
             error = FALSE)
-# ## clean the R environment
-# graphics.off()
-# rm(list = ls())
-# freshr::freshr()
-# ## load packages
-# library(here, quietly = TRUE)
-# library(tidyverse, quietly = TRUE)
-# library(gtsummary, quietly = TRUE)
-# library(flextable, quietly = TRUE)
-# ## check the directory for the file
-# # here::dr_here()
-# here::set_here()
-## the figure or results should be saved 
-# paste0("foldername/Sfilename_workingresult_", 
-#      Sys.Date(), ".filetype")
 ```
 
 ```{css, echo=FALSE}
@@ -38,24 +23,101 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 ## Data Information {#sec-data_info}
-Description of data collection/acquisition process, with contact information for team member responsible
+
+### Data Collection {#sec-data_collection}
+
+We developed data collection tools, dictionaries, collection instructions, and the REDCap database with the DCC to ensure that we collect data systematically from all study participants. We are utilizing similar data collection strategies from our prior multi-site trials with low rates of missing data. We will make every effort to accommodate patient schedules and to collect patient-reported assessments during regularly scheduled visits or hospitalizations when possible. We will ask participants to provide their email address to allow us to send study assessments using a secure electronic system when patients do not have a scheduled, in-person appointment within the follow-up time points. Participants who opt out of using secure email can either receive paper copies of the assessment by mail or complete the questionnaire verbally over the telephone. The participant-reported assessments take approximately 15 minutes to complete. We will also track the method of assessment completion. 
+Non-English-speaking participants will have the option of completing follow-up assessments in-person as a first preference, over the telephone with the assistance of an interpreter, or via mail. Study staff who are fluent in the participant’s language may administer assessments via telephone or via institution-approved video technology. Non-English assessments will not be administered via email as this is not possible with REDCap. 
+
+### Data Obtained from EHR
+
+In addition to collecting EOL care data from the EHR, we will also collect baseline clinical, disease, and treatment information including: ECOG performance status, clinical comorbidities (Sorror Comorbidity Index [@Sorror2013]), AML type, date of diagnosis, and disease risk (Disease Risk Index [@Armand2014], cytogenetics, and mutations). We will collect data on AML recurrence and additional treatments, including stem cell transplantation.
+
+
+### Data on Addressing PC Domains
+
+All participating clinicians will complete a brief REDCap survey weekly during study patient’s hospitalizations. This survey assesses PC domains and strategies addressed during clinical encounters. The survey is intentionally brief and takes approximately two minutes to complete to reduce burden on busy clinicians. In our prior studies, clinicians completed 100% of these weekly surveys. We will use the identical study procedures to ensure documentation of the PC domains addressed in the proposed trial. Specifically, prior to the study start, all participating PC will be trained on the use of the REDCap survey and the importance of entering these data. The site CRC will send a secure email with a link to the REDCap system on weekly basis. If clinicians do not complete the REDCap entry within 48 hours, they will receive a reminder email copied to the site PI.
+
+### Data Collection Based on RE-AIM Quest Framework
+
+We will utilize the RE-AIM (Reach, Effectiveness, Adoption, Implementation, and Maintenance) QuEST (Qualitative Evaluation for Systematic Translation) framework to systematically to assess key dimensions of intervention implementation to enable future dissemination in real-world clinical settings. We will audio record the monthly video conferences with participating sites and create a log describing the barriers and facilitators for primary and specialty PC implementation and adoption and use this log to develop the semi-structured interview guides for the qualitative interviews with key informants. Due to the potential impact of the size of the leukemia program on challenges pertaining to implementation and adoption, we will conduct qualitative interviews stratified by the size of the leukemia program at participating sites. For each key informant group, we will interview 30 individuals, including 10 from each size stratum (small, medium, or large leukemia program). 
+Specifically, we will conduct interviews with:
+- 1) patients with AML receiving specialty PC and caregivers; 
+- 2) patients with AML receiving primary PC and caregivers; 
+- 3) oncology clinicians; 
+- 4) PC clinicians; 
+- 5) hospital leaders to identify facilitators and barriers to the adoption, implementation, and maintenance of primary PC and specialty PC. 
+
+We will collect the following data:
+- Reach: We will assess: 
+  - 1) the number of eligible patients and caregivers who were approached about the study; 
+  - 2) number of patients enrolled, and characteristics of refusers and enrollees; 
+  - 3) reason for refusal. We will also utilize the qualitative interviews with patients, caregivers, oncology and PC clinicians to assess recruitment and retention facilitators and barriers and discuss how they can be addressed.
+
+- Effectiveness: We will evaluate effectiveness based on the comparative effectiveness of primary PC versus specialty PC on participant-reported outcomes. Additionally, we will analyze qualitative interviews of patients, caregivers, oncology and PC clinicians about the acceptability and perceived effective features of primary PC and specialty PC.
+
+- Adoption: To examine adoption, we will assess oncology and PC clinician participation rates (i.e., % of eligible clinicians completing training requirements for specialty and primary PC). We will also quantitatively summarize proportion of oncology and PC clinicians completing the visit note template and REDCap surveys. We will solicit feedback during our qualitative interviews with oncology and PC clinicians, as well as hospital leaders related to primary PC and specialty PC implementation logistics and barriers to integration of these care models into clinical practice. In qualitative interviews with patients and caregivers, we will focus on individual factors that may have affected their participation and their desire to engage with primary or specialty PC to address their needs.
+
+- Implementation: We will assess implementation based on fidelity to the protocol and intervention delivery (see Fidelity of Study Design, Methods, and Intervention). We will review and quantitatively summarize data on documentation of PC domains addressed during clinical encounters using the EHR. We will also review the REDCap surveys from participating clinicians longitudinally to assess changes in the patterns of PC domains addressed throughout the project period. We will also explore contamination, as noted previously, by recording patients’ use of specialty PC services in sites randomized to primary PC. In qualitative interviews with patients, caregivers, oncology and PC clinicians, we will assess overall satisfaction with the specialty and primary PC interventions and focus on ideas for intervention modification and adaptation to maximize implementation into practice. 
+
+- Maintenance: We will assess the comparative effectiveness of specialty PC versus primary PC on EOL care delivery to assess maintenance of intervention effects at the EOL. During qualitative interviews with patients and caregivers, we will explore whether modification to the specialty and primary PC interventions are needed. With the oncology and PC clinicians, as well as hospital leaders, we will explore barriers and facilitators to the specialty and primary PC maintenance and integration into standard oncology practice. Throughout the study, we will also utilize our Dissemination and Implementation stakeholder group meetings on bi-annual basis to discuss barriers and facilitators for primary and specialty PC sustainability (see Section H Engagement Approach) 
+
+
+## Data and Specimen Banking {#sec-data_banking}
+
+<mark>Not applicable </mark>
 
 ## Data Management {#sec-data_management}
-Description of data flow/transfer from primary data collection through to creation of final analysis dataset
-Data transfer method and date Folder location where datasets are stored
+
+### Data Storage {#sec-data_storage}
+
+All participant information and study source documents will remain confidential and be scanned and stored on secure institutional computers and in REDCap. Data abstracted from the EHR in <mark>Section 5.4.2</mark> will be maintained in REDCap. REDCap is a free, secure, HIPAA-compliant web-based application hosted by the Partners HealthCare Research Computing, Enterprise Research Infrastructure & Services (ERIS) group. Vanderbilt University, with collaboration from a consortium of academic and non-profit institutional partners, has developed this software toolset and workflow methodology for electronic collection and management of research and clinical study data. Data collection projects rely on a study-specific data dictionary defined by members of the study staff with planning assistance from the Data Coordinating Center (DCC). 
+
+<!-- Description of data flow/transfer from primary data collection through to creation of final analysis dataset -->
+<!-- Data transfer method and date Folder location where datasets are stored -->
+
+See @sec-sample_size for Sample Size and Power calculations.
+
+### Data Coordinating Center (DCC) and Data Quality Checks
+
+The DCC will lead the design and implementation of the statistics, informatics, and data management systems for the study. The DCC will work with the investigative team to develop, implement, and maintain systems for a central data repository. The DCC will be responsible for data cleaning and manipulation, generating monthly data collection and intervention fidelity reports, and providing necessary data for the Data Safety and Monitoring Board (DSMB). The DCC will be responsible for the following:
+
+- Multi-site data repository:  The data repository will contain all raw data from participating sites. The raw data will be organized into the master datasets that is ready for analysis based on established data standards and SDEs.
+- Monthly quality reports: The monthly quality reports will include the key study-specific metrics that will track essential progress measures such as enrollment, data quality, and adherence to the primary and specialty PC interventions.
+- Document library: All data collection protocols, policies, and procedures will be organized in a password-protected searchable online library for use by study personnel to assure the integrity of data collection procedures.
+- Software and results library: All computer code that is used to construct datasets and analyses will be archived with version control so that all analyses and reports can be exactly duplicated at any time.
+- Training materials and resources: Training procedures and manuals will be developed for all data collection procedures based on the corresponding data collection protocols. 
+
+#### REDCap {#sec-redcap}
+
+The DCC Informatics systems will be programmed and maintained by the DCC using REDCap. The REDCap database will be managed centrally in the DCC and will be accessible via the internet at remote sites. The DCC will utilize REDCap to generate the monthly data collection and intervention fidelity reports under the supervision of the DCC investigative team. They will also prepare specialized quality control reports as needed. 
+
+#### Pre-Specification of Research Projects {#sec-pre_specification}
+
+All publications or ancillary studies will be pre-planned in collaboration with the DCC. The DCC will evaluate the feasibility of proposed studies and will assist in development of statistical analysis plans.
+
+### Data Monitoring {#sec-data_monitoring}
+
+The DCC will assure data completeness, adherence to study protocols, and timelines by providing monthly quality reports for site PIs and the MGH investigative team. These monthly reports will include the key metrics including enrollment, data quality (i.e., missing data rates), and adherence to the primary and specialty PC interventions. The content of these monthly reports will be used by the study team to identify and correct problems as they occur. All study data will be collected through a REDCap central data repository at the University of Colorado. Data will be exported directly to a server behind the firewall for cleaning, manipulation, and analysis. Only the DCC team will have access to the data during the study. The DCC will generate the required data reports for the DSMB. 
+
+### Data Security {#sec-data_security}
+
+Participant data will be collected at each participating institution using REDCap. Each site will maintain their own separate list of patient names and study IDs, which will be saved in password-protected files. Participants will be identified on study forms by case number only to protect confidentiality. Identifiers such as name will only be used during the initial data retrieval process and can be destroyed once all data records have been obtained and data analysis has been completed as discussed previously. 
+
+Participants’ responses to survey questions will remain confidential. In addition, as stated previously, all study staff at all participating sites will undergo an extensive training on study procedure as well as data management to ensure data security and maintaining of confidentiality.
+
+
 
 
 ## Data Processing {#sec-data_processing}
-Description of any additional data management, quality control, or processing undertaken
+<!-- Description of any additional data management, quality control, or processing undertaken -->
 
 
 ## Data Extraction {#sec-data_extraction}
 
-If any data are extracted from a database, a description of the database and the query used for the
-extraction, and whether/how it was merged with any data from outside that database. If the study
-involved linkage of databases, consider use of a flow diagram to demonstrate the data linkage
-process, including the number of individuals with linked data at each stage.
+<!-- If any data are extracted from a database, a description of the database and the query used for the -->
+<!-- extraction, and whether/how it was merged with any data from outside that database. If the study -->
+<!-- involved linkage of databases, consider use of a flow diagram to demonstrate the data linkage -->
+<!-- process, including the number of individuals with linked data at each stage. -->
 
-## Data Sources {#sec-data_sources}
 
-Description of any other data sources incorporated in the analysis

@@ -1,0 +1,64 @@
+---
+title: "Subjects"
+---
+
+## Withdrawal of Subjects {#sec-withdrawal_subjects}
+
+We do not anticipate that any research participants will be withdrawn from the study without their consent. If a participant requests withdrawal from the study, we will ask them if they are comfortable sharing the reason for withdrawal to ensure that there are no adverse events to report to the IRB. We will ask the study participant if they are still willing to permit the study team to continue to monitor their health record, but withdraw from all other study procedures. Participants who withdraw,or transfer care within 30 days of enrollment will still be included in the analysis We will also recruit new patients for each patient withdrawn to ensure adequate study sample size. We will increase the total accrual goal within each cluster to account for patients who withdraw, or transfer care within 30 days of the study period.
+
+
+## Risks to Subjects {#sec-risks_subjects}
+
+Given that this study is a palliative care study, we do not anticipate any study-related events meeting the FDA definition of a SAE (i.e., any fatal event, immediately life-threatening event, permanently or substantially disabling event, event requiring or prolonging inpatient hospitalization, or any congenital anomaly). This study population is comprised of individuals with AML who frequently experience disease worsening, high rate of symptoms, and hospitalizations from the underlying disease and/or side effects of treatment. Therefore, regular fluctuations in cancer-related symptoms, disease worsening, hospitalizations, emergency department visits, and deaths are to be expected throughout the study, and we will not consider or report such events as SAEs in this trial.
+
+## Non-Serious Adverse Events
+
+The IRB will be provided with unblinded summaries of study related non-serious adverse events by treatment group at the continuing reviews. These reports will include types of events, severity, and treatment phase. To date, we have had very few non-serious events in our supportive care studies.
+
+As this is a behavioral study, there are no ingested medications, and no biomedical procedures.  It is unlikely that participants will be at any risk for physical harm as a result of study participation.  
+
+Participants may find some of the questions asked in the questionnaire to be emotionally upsetting, and may experience some fatigue from the length of the assessment battery.  As this is a study targeting symptoms that are debilitating and interfere with QOL, it is possible that some participants will experience depression.
+
+## Reaction Management
+
+We will obtain informed consent from all study participants. The consent will include all study procedures, information about potential risks and benefits of participation, and information regarding whom the participant can contact for further questions. It also will state that participation is voluntary, that participants can refuse to answer any question, that they can withdraw from the study at any time, and that study participation is in no way related to their medical care.  All study staff will complete the required human subjects training before working on any human subject aspects of the study.  
+
+Should a participant exhibit or express distress, they will be reassured by the study staff that they need not answer any questions they find upsetting. They will also be reminded that study participation is voluntary.  If participants remain distressed, both the site-PI and the primary oncology clinician will be notified. Should several participants express distress over an individual item, the research team will review the questionnaire and contact the IRB to consider removing it from the study.
+
+If a participant reports severe distress or suicidal ideation during the study conduct, the CRC will inform the site-PI. The site-PI will determine the need to involve psychiatry and take further action as deemed necessary. 
+
+## Potential Benefits to Subjects {#sec-benefits_subjects}
+
+Patients with AML and their caregivers struggle with this difficult cancer diagnosis that significantly impacts their health and wellbeing, requires them to make difficult medical and EOL decisions, and carries substantial uncertainty about the future. Current cancer care models do not attend to or address these immense unmet PC care needs, which causes suffering for patients and their caregivers. While specialty PC has been shown to improve the outcomes and experience for patients with cancer, including AML, it will not be a feasible or widely adopted care model unless we demonstrate that it is the optimal way to support patients and their caregivers. The results of this study will definitively demonstrate whether primary PC is an effective alternative care model to specialty PC and provide the necessary data for health care settings to implement these care models. It is possible that study participants would benefit from the specialty PC and/or primary PC model of care.
+
+## Vulnerable Populations {#sec-vulnerable_populations}
+<mark>Not applicable</mark>
+
+## Community-Based Participatory Research {#sec-community}
+
+<mark>Not applicable</mark>
+
+## Sharing of Results with Subjects {#sec-sharing_results_subjects}
+
+Given the nature of the population included in the study, it is not appropriate to proactively contact participants at the conclusion of this study. We anticipate that a significant proportion of our participants will die during or within months of completing the study. We do not wish to cause unnecessary distress to participants’ family members by attempting to contact participants who have died. Therefore, we provide the research team contact information to each participant and encourage them to contact us if they would like to receive updates and information on the research findings.
+
+
+## Recruitment Setting {#sec-recruitment_setting}
+
+Participants will be recruited for study participation across 20 sites. Patients will be approached for study participation in their private hospital room during their hospitalization for AML. Caregivers will be approached for study participation in-person in a private hospital room or over the telephone. For completion of follow-up assessments, participants can be approached on the inpatient unit in a private room, during a clinic visit in a private space, or over the telephone.
+
+## Local Number of Subjects {#sec-local_number_subjects}
+
+We anticipate that each site (including MGH) will recruit approximately 58 patients and up to 58 caregivers during the study period.
+
+## Provisions to Protect the Privacy Interests of Subjects {#sec-provisions_privacy_subjects}
+
+Participant data will be collected at each participating institution using REDCap. Each site will maintain their own separate list of patient names and study IDs, which will be saved in password-protected files. Participants will be identified on study forms by case number only to protect confidentiality. Identifiers such as name will only be used during the initial data retrieval process and can be destroyed once all data records have been obtained and data analysis has been completed as discussed previously. At the completion of the study, de-identified data files will be downloaded by the DCC from REDCap. Participants’ responses to survey questions will remain confidential.
+
+## Compensation for Research-Related Injury {#sec-compensation_injury}
+
+We do not anticipate any research-related injury due to involvement in this supportive care trial.
+
+## Economic Burden to Subjects {#sec-economic_burden_subjects}
+
+We do not anticipate any financial burden on study participants. Specialty palliative care consultations are standard of care and will be covered under the cost of participants’ hospitalizations. Patients will not be billed for palliative care visits. 

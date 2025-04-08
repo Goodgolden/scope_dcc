@@ -11,21 +11,6 @@ knitr::opts_chunk$set(echo = TRUE,
             #results = "hide",
             digits = 4,
             error = FALSE)
-# ## clean the R environment
-# graphics.off()
-# rm(list = ls())
-# freshr::freshr()
-# ## load packages
-# library(here, quietly = TRUE)
-# library(tidyverse, quietly = TRUE)
-# library(gtsummary, quietly = TRUE)
-# library(flextable, quietly = TRUE)
-# ## check the directory for the file
-# # here::dr_here()
-# here::set_here()
-## the figure or results should be saved 
-# paste0("foldername/Sfilename_workingresult_", 
-#      Sys.Date(), ".filetype")
 ```
 
 ```{css, echo=FALSE}
@@ -37,30 +22,30 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-
 ## Study Design {#sec-study_design}
 
-Description of the study design (e.g. parallel group randomized trial, case-control study, cohort
-study, etc.)
+*Description of the study design (e.g. parallel group randomized trial, case-control study, cohort study, etc.)*
 
-## Study Setups {#sec-study_setup}
-Study setting, location, and relevant dates (e.g. periods of enrolment, exposure, follow-up, and
-collection)
+<!-- ## Study Setups {#sec-study_setup} -->
+<!-- *Study setting, location, and relevant dates (e.g. periods of enrolment, exposure, follow-up, and collection)* -->
 
-## Intervention or Exposure {#sec-intervention_exposure}
-Description of intervention or exposure groups, with allocation ratios, and details of any matching criteria
+<!-- ## Intervention or Exposure {#sec-intervention_exposure} -->
+<!-- *Description of intervention or exposure groups, with allocation ratios, and details of any matching criteria* -->
 
 ## Randomization {#sec-randomization}
-Details on randomization (e.g. stratification factors) and blinding procedures
 
-## Eligibility Criteria {#sec-eligibility_criteria}
-List of eligibility and/or inclusion/exclusion criteria
+Details in @sec-randomization
 
-## Recruitment {#sec-recruitment}
-Description of screening/enrolment/recruitment processes
+## Eligibility Criteria 
+*List of eligibility and/or inclusion/exclusion criteria*,
+Details in @sec-inclusion_exclusion
+
+## Recruitment 
+*Description of screening/enrolment/recruitment processes*,
+Details in @sec-recruitment
 
 ## CONSORT {#sec-consort}
-Description of patient flow (e.g. CONSORT diagram)
+*Description of patient flow (e.g. CONSORT diagram)*
 
 ## Analysis Population {#sec-population}
 Description of analysis population (e.g. intention to treat, per protocol, etc.)
@@ -71,7 +56,7 @@ Definitions of adherence/compliance, protocol deviations, loss-to-follow-up, adv
 
 ### Adherence and Compliance {#sec-compliance}
 
-### Protocol deviations {#sec-protocol_deviations}
+### Protocol Deviations {#sec-protocol_deviations}
  
 ### Loss-to-follow-up {#sec-loss_to_follow_up}
 
@@ -82,6 +67,8 @@ Definitions of adherence/compliance, protocol deviations, loss-to-follow-up, adv
 
 ## Timeline for Outcomes {#sec-t_outcomes}
 Time points at which outcomes are measured
+Details in @sec-timeline
+
 
 ## Timeline for Analyses {#sec-t_analyses}
 
