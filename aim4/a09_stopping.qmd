@@ -1,5 +1,5 @@
 ---
-title: "Aim1 Stopping"
+title: "Aim4 Stopping"
 editor: source
 ---
 
@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE,
                       #results = "hide",
                       digits = 4,
                       error = FALSE)
+
 ```
 
 ```{css, echo=FALSE}

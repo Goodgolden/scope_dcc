@@ -1,12 +1,12 @@
 [
   {
-    "objectID": "a03_inclusion.html",
-    "href": "a03_inclusion.html",
-    "title": "\n6  Aim4 Inclusion\n",
+    "objectID": "a02_overviews.html",
+    "href": "a02_overviews.html",
+    "title": "\n5  Aim4 Overviews\n",
     "section": "",
-    "text": "6.1 Section\nContent for A03 Inclusion goes here.",
+    "text": "5.1 Section\nContent for A02 Overviews goes here.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aim4 Inclusion</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Aim4 Overviews</span>"
     ]
   },
   {
@@ -50,23 +50,23 @@
     ]
   },
   {
-    "objectID": "a02_overviews.html",
-    "href": "a02_overviews.html",
-    "title": "\n5  Aim4 Overviews\n",
+    "objectID": "a03_inclusion.html",
+    "href": "a03_inclusion.html",
+    "title": "\n6  Aim4 Inclusion\n",
     "section": "",
-    "text": "5.1 Section\nContent for A02 Overviews goes here.",
+    "text": "6.1 Section\nContent for A03 Inclusion goes here.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Aim4 Overviews</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aim4 Inclusion</span>"
     ]
   },
   {
     "objectID": "a04_randomization.html",
     "href": "a04_randomization.html",
-    "title": "\n7  Aim1 Randomization\n",
+    "title": "\n7  Aim4 Randomization\n",
     "section": "",
     "text": "7.1 Section\nContent for A04 Randomization goes here.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Aim1 Randomization</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Aim4 Randomization</span>"
     ]
   },
   {
@@ -112,11 +112,11 @@
   {
     "objectID": "a09_stopping.html",
     "href": "a09_stopping.html",
-    "title": "\n12  Aim1 Stopping\n",
+    "title": "\n12  Aim4 Stopping\n",
     "section": "",
     "text": "12.1 Section\nContent for A09 Stopping goes here.",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Aim1 Stopping</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Aim4 Stopping</span>"
     ]
   },
   {
@@ -162,11 +162,11 @@
   {
     "objectID": "a14_consort.html",
     "href": "a14_consort.html",
-    "title": "\n17  Aim1 Consort\n",
+    "title": "\n17  Aim4 Consort\n",
     "section": "",
     "text": "17.1 Section\nContent for A14 Consort goes here.",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aim1 Consort</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aim4 Consort</span>"
     ]
   },
   {
@@ -207,36 +207,6 @@
     "text": "References\nReferences for any non-standard statistical methods used References (and locations) for any relevant protocols, standard operating procedures, or other documents cited in the SAP",
     "crumbs": [
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>References</span>"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Aim4 Read Me First",
-    "section": "",
-    "text": "Preface\nThis is a Quarto book for 2025 SCOPE DCC project.\nA Visual Tool to Help Develop a Statistical Analysis Plan for Randomized Trials in Palliative Care\nCollaboration with a statistician about the design of a statistical analysis plan can be enhanced by illustrating how statisticians conceptualize their task. This conceptualization can be represented by a directed acyclic graph (DAG), which illustrates the statistician’s approach and also provides an actionable tool to assist in the development of the plan.\nCollaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.\nThe main documents are stored in this link",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim4 Read Me First</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#content",
-    "href": "index.html#content",
-    "title": "Aim4 Read Me First",
-    "section": "Content",
-    "text": "Content\n\n\n [1] \"00_activity_log.qmd\"     \"a00_hypothesis.qmd\"     \n [3] \"a01_outcomes.qmd\"        \"a02_overviews.qmd\"      \n [5] \"a03_inclusion.qmd\"       \"a04_randomization.qmd\"  \n [7] \"a05_sample_size.qmd\"     \"a06_population.qmd\"     \n [9] \"a07_missing.qmd\"         \"a08_monitoring.qmd\"     \n[11] \"a09_stopping.qmd\"        \"a10_software.qmd\"       \n[13] \"a11_figures.qmd\"         \"a12_tables.qmd\"         \n[15] \"a13_listing.qmd\"         \"a14_consort.qmd\"        \n[17] \"a15_adherence.qmd\"       \"a16_characteristics.qmd\"\n[19] \"a17_safety.qmd\"          \"index.qmd\"              \n[21] \"references.qmd\"",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim4 Read Me First</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#folders",
-    "href": "index.html#folders",
-    "title": "Aim4 Read Me First",
-    "section": "Folders",
-    "text": "Folders\nDocuments\n\n\ncharacter(0)\n\n\nData\n\n\ncharacter(0)\n\n\nCodes\n\n\ncharacter(0)\n\n\nFigures and Tables\n\n\ncharacter(0)\n\n\nReports",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim4 Read Me First</span>"
     ]
   }
 ]

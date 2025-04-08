@@ -190,7 +190,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./12_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Roles and Responsibilities</span></a>
+  <a href="./12_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Responsibilities</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -277,7 +277,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">40_statistical_analysis.qmd</a>
+            <a href="./40_statistical_analysis.html" class="sidebar-item-text sidebar-link">Statistical Analysis</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -522,8 +522,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell">
 <details><summary>Code</summary><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">flowchart2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-74767dbd3a3e96a913ee" style="width:100%;height:325px;"></div>
-<script type="application/json" data-for="htmlwidget-74767dbd3a3e96a913ee">{"x":{"diagram":"\ndigraph {\n  graph [layout = dot, rankdir = UD]\n\n  # Define node styles\n  node [shape = rectangle, style = filled, fontsize = 12, fontname = Helvetica]\n  {# Nodes with colors\n  edge [dir = none]\n  A [label = \"A: Study Group\"];\n  invis1 [shape = none, style = invis]\n  D [label = \"D*: Knowledge of Pain Coping Skills\", fillcolor = lightblue]\n  A -> invis1 [headclip=false]}\n  \n  E [label = \"E: Daily Pain Score\"];\n  F [label = \"F*: Quality of Life\\n(* Not used in Aim 1)\", fillcolor = lightblue];\n  {rank = same; A; invis1; D; E; F}\n  # Draw arrows from A to D, E, and F\n  invis1 -> D [tailclip=false]\n  D -> E -> F\n  \n  B [label = \"B*: Primary Diagnosis\\n(Effect Modifiers)\", fillcolor = lightblue];\n  B -> invis1 [headclip=false] # helps position B above\n  C [label = \"C: Age, Gender, etc.\\n(Adjustment Covariates)\", fillcolor = lightsalmon];\n  # Other arrows\n  C -> {D, E, F}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-cdd64fddcc69faded81c" style="width:100%;height:325px;"></div>
+<script type="application/json" data-for="htmlwidget-cdd64fddcc69faded81c">{"x":{"diagram":"\ndigraph {\n  graph [layout = dot, rankdir = UD]\n\n  # Define node styles\n  node [shape = rectangle, style = filled, fontsize = 12, fontname = Helvetica]\n  {# Nodes with colors\n  edge [dir = none]\n  A [label = \"A: Study Group\"];\n  invis1 [shape = none, style = invis]\n  D [label = \"D*: Knowledge of Pain Coping Skills\", fillcolor = lightblue]\n  A -> invis1 [headclip=false]}\n  \n  E [label = \"E: Daily Pain Score\"];\n  F [label = \"F*: Quality of Life\\n(* Not used in Aim 1)\", fillcolor = lightblue];\n  {rank = same; A; invis1; D; E; F}\n  # Draw arrows from A to D, E, and F\n  invis1 -> D [tailclip=false]\n  D -> E -> F\n  \n  B [label = \"B*: Primary Diagnosis\\n(Effect Modifiers)\", fillcolor = lightblue];\n  B -> invis1 [headclip=false] # helps position B above\n  C [label = \"C: Age, Gender, etc.\\n(Adjustment Covariates)\", fillcolor = lightsalmon];\n  # Other arrows\n  C -> {D, E, F}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

@@ -6,7 +6,7 @@ format:
   html:
     theme:
       light: united
-      dark: darkly
+      dark: vapor
     code-link: true
     code-fold: true
     code-tools: true
