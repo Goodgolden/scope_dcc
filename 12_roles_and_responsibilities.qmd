@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Principle Investigators {#sec-principle_investigators}
+## Investigators {#sec-investigators}
 
 <!-- In this section, listing of principal investigators,  -->
 

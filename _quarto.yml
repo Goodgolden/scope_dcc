@@ -1,7 +1,7 @@
 project:
   type: book
-  output-dir: _analysis_plan_html
-  # output-dir: _analysis_plan_pdf
+  # output-dir: _analysis_plan_html
+  output-dir: _analysis_plan_pdf
 
 format:
   html:
@@ -12,9 +12,12 @@ format:
     code-fold: true
     code-tools: true
     df-print: paged
-  # pdf:
-  #   documentclass: scrreprt
-  #   cover-image: SOM_c_clr.png
+  pdf:
+    documentclass: scrreprt
+    # documentclass: scrbook
+    toc: true
+    number-sections: true
+    cover-image: SOM_c_clr.png
   # epub:
   #   cover-image: SOM_c_clr.png
 
