@@ -22,7 +22,23 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Analyses
 
-Content for A13 Listing goes here.
+Analyses to address study questions/hypotheses. Some text here will help with writing later on. This would be a good place to mention specific analyses (e.g. multivariable linear regression, etc) and highlight pros and cons or issues that need to be addressed
+
+H1: The intention-to-treat (ITT) analysis serves as the primary approach to evaluating whether primary palliative care (PC) is non-inferior to specialty PC in improving quality of life (QOL) in patients with AML. The primary outcome, measured using FACT-Leukemia scores at week 12, will be analyzed using linear mixed-effects models (LMMs) to account for repeated measurements and clustering within study sites. Fixed effects in the model will include treatment group, time, demographic covariates (age, gender, race/ethnicity), and clinical covariates (AML diagnosis type and leukemia risk level) to control for potential confounders. Given the non-inferiority margin of 5.0 points, the ITT approach ensures that all randomized patients remain in their assigned treatment groups, regardless of adherence, thereby preserving the benefits of randomization and reducing selection bias. This strategy enhances the generalizability of findings while minimizing potential distortions caused by deviations from the assigned intervention. 
+
+Model Building for H1: 
+
+-	Use a linear mixed-effects model (LMM) with lme4::lmer() or nlme::lme() :
+    -Random intercepts for site clusters to account for cluster-randomization.
+    -Fixed effects for treatment group, baseline QOL, and other covariates (as sensitivity).
+    -Estimate mean difference in QOL between arms at 12 weeks.
+    -Assess non-inferiority by testing if the lower bound of the 95% confidence interval (CI) for the treatment effect is above -5.0 points.
+    -Software: R lme4 for mixed models, emmeans for post-hoc contrasts.
+    -Sensitivity: nlme, lmerTest, or geepack for robustness checks.
+
+H2. To complement the ITT approach, a per-protocol (PP) analysis will be conducted using inverse probability weighting (IPW) to account for treatment non-adherence. This analysis will provide insight into the effectiveness of primary PC among patients who adhered to their assigned intervention, addressing potential biases introduced by crossover or deviations from protocol. IPW weights will be computed based on key demographic and clinical characteristics, including age, sex, race/ethnicity, AML diagnosis, leukemia risk, and institutional factors, to balance the comparison groups more accurately. Sensitivity analyses will be performed by excluding patients with extreme weights to ensure robustness. The comparison of ITT and PP results will serve as a critical validation step, allowing for the assessment of potential treatment effects that may be masked in the ITT framework due to non-adherence.
+
+H3. The heterogeneity of treatment effect (HTE) analysis will explore whether the impact of primary PC varies across key patient subgroups. This analysis will focus on both primary and secondary outcomes, including QOL (FACT-Leukemia), psychological distress (HADS-Depression, HADS-Anxiety), PTSD symptoms (PTSD Checklist), symptom burden (ESAS-r), and patient perception of care (PPPC). Likelihood ratio tests will be used to compare models with and without interaction terms for age, gender, race/ethnicity, AML diagnosis (newly diagnosed vs. relapsed/refractory), and caregiver enrollment, helping to determine whether treatment effects differ significantly across these subgroups. Identifying treatment effect heterogeneity will enhance the ability to personalize palliative care approaches, ensuring that interventions are optimized for different patient populations.
 

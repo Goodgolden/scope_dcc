@@ -12,9 +12,9 @@ knitr::opts_chunk$set(echo = FALSE,
             digits = 4,
             error = FALSE)
 ## clean the R environment
-# graphics.off()
-# rm(list = ls())
-# freshr::freshr()
+graphics.off()
+rm(list = ls())
+freshr::freshr()
 ## load packages
 library(here, quietly = TRUE)
 library(tidyverse, quietly = TRUE)
@@ -49,136 +49,4 @@ Collaboration with a statistician can be enhanced by understanding how they conc
 
 The main documents are stored in this [link](https://olucdenver-my.sharepoint.com/shared?listurl=https%3A%2F%2Folucdenver%2Esharepoint%2Ecom%2Fsites%2FSCOPEDCC%2FShared%20Documents)
 
-## Content {.unnumbered}
 
-```{r}
-list.files(pattern = ".qmd$", 
-           recursive = TRUE)
-```
-
-<!-- -   Activity Log -->
-
-<!-- -   Administrative Information -->
-
-<!--     -   Analytic Plan Template -->
-
-<!--     -   Study Information -->
-
-<!--     -   Roles and Responsibilities -->
-
-<!--     -   SAP Information -->
-
-<!--     -   Project Information -->
-
-<!--     -   Investigator Agreement -->
-
-<!--     -   Signatures -->
-
-<!-- -   Study Overview -->
-
-<!--     -   Background -->
-
-<!--     -   Aims and Hypotheses -->
-
-<!--     -   Interested Aariables -->
-
-<!--     -   Causal DAG -->
-
-<!-- -   Study Methods -->
-
-<!--     -   Study Design -->
-
-<!--     -   Sample Size -->
-
-<!--     -   Interim Analyses -->
-
-<!--     -   Data -->
-
-<!--     -   Missing Data -->
-
-<!--     -   Simulations -->
-
-<!-- -   Statistical Analysis -->
-
-<!--     -   Significance -->
-
-<!--     -   Descriptive Statistics -->
-
-<!--     -   Analysis Methods -->
-
-<!--     -   Additional -->
-
-<!--     -   Sensitivity Analysis -->
-
-<!--     -   Exploratory Analysis -->
-
-<!--     -   Software -->
-
-<!--     -   Others -->
-
-<!-- -   Tables and Figures -->
-
-<!--     -   Tables Shells -->
-
-<!--     -   Tables -->
-
-<!--     -   Figures -->
-
-<!--     -   Examples -->
-
-<!-- -   Additional Information -->
-
-<!--     -   Appendices -->
-
-<!--     -   Glossary -->
-
-<!--     -   Addenda -->
-
-<!-- -   References -->
-
-## Folders {.unnumbered}
-
-### Documents {.unnumbered}
-
-```{r}
-?list.files
-list.files(path = "files", 
-           # pattern = "_input.txt$", 
-           recursive = TRUE)
-```
-
-### Data {.unnumbered}
-
-```{r}
-library(devtools)
-library(usethis)
-library(testthat)
-
-## including datasets into the package
-# use_data_raw("data-raw")
-# document()
-# use_data()
-
-list.files(path = "data-raw", 
-           # pattern = "_input.txt$", 
-           recursive = TRUE)
-
-```
-
-### Codes {.unnumbered}
-
-```{r}
-list.files(path = "R", 
-           # pattern = "_input.txt$", 
-           recursive = TRUE)
-```
-
-### Figures and Tables {.unnumbered}
-
-```{r}
-list.files(path = "figures", 
-           # pattern = "_input.txt$", 
-           recursive = TRUE)
-```
-
-### Reports {.unnumbered}

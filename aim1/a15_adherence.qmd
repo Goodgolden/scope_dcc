@@ -22,7 +22,18 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Adherence 
 
-Content for A15 Adherence goes here.
+Receipts of palliative care from the assigned intervention model (Primary PC or Specialty PC) without crossover. Adherence will be determined from intervention fidelity tracking via clinician surveys and EHR documentation. Descriptive statistics will summarize adherence rates by treatment group. Logistic regression models will explore demographic and clinical factors associated with non-adherence, adjusting for site clustering. A per-protocol analysis using inverse probability weighting (IPW) will estimate treatment effects among adherent patients. The impact of non-adherence on the primary outcome will be assessed via sensitivity analyses comparing ITT and per-protocol results.
 
+In the protocol, adherence is mentioned as staying within the assigned palliative care (PC) model:
+"We will also assess for potential factors that are associated with non-adherence to the assigned PC model such as age, sex, race/ethnicity, time from diagnosis, underlying leukemia diagnosis, leukemia risk, and institutional factors that might be associated with non-adherence (leukemia volume, size of leukemia program, and other institutional supportive care initiatives)."​
+
+
+Patients receiving palliative care from the assigned model (Primary PC or Specialty PC). No cross-contamination (i.e., patients in Primary PC receiving Specialty PC services or vice versa).
+
+### Adherence measurements
+
+Receiving at least 2 visits per week from the assigned PC team (as mentioned elsewhere in intervention delivery expectations).
+
+No crossover documented in intervention fidelity tracking.

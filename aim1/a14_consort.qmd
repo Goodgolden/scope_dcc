@@ -24,5 +24,55 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ## Section
 
-Content for A14 Consort goes here.
+```{r}
+library(DiagrammeR)
+
+grViz("
+  digraph consort_diagram {
+
+    graph [layout = dot, rankdir = TB]
+    node [shape = box, fontsize = 10, style = filled, color = lightgray]
+
+    # Site level
+    S0 [label = '20 Sites assessed for eligibility']
+    S1 [label = '20 Sites randomized']
+    S2a [label = '10 Sites allocated to Primary PC']
+    S2b [label = '10 Sites allocated to Specialty PC']
+
+    # Patient level - Primary PC
+    P1a [label = 'Patients assessed at Primary PC sites']
+    E1a [label = 'Excluded:\n- Ineligible diagnosis\n- Supportive care only\n- Psychiatric/cognitive issues\n- Prior PC exposure\n- Declined participation']
+    A1a [label = 'Patients enrolled (n ≈ 575)']
+    F1a [label = 'Follow-up:\n- Baseline\n- Week 2\n- Week 4\n- Week 12\n- Week 24\n\nLost to follow-up:\n- Death\n- Severe illness\n- Withdrawal']
+    An1a [label = 'Analyzed (ITT)']
+
+    # Patient level - Specialty PC
+    P1b [label = 'Patients assessed at Specialty PC sites']
+    E1b [label = 'Excluded:\n- Ineligible diagnosis\n- Supportive care only\n- Psychiatric/cognitive issues\n- Prior PC exposure\n- Declined participation']
+    A1b [label = 'Patients enrolled (n ≈ 575)']
+    F1b [label = 'Follow-up:\n- Baseline\n- Week 2\n- Week 4\n- Week 12\n- Week 24\n\nLost to follow-up:\n- Death\n- Severe illness\n- Withdrawal']
+    An1b [label = 'Analyzed (ITT)']
+
+    # Arrows
+    S0 -> S1
+    S1 -> S2a
+    S1 -> S2b
+
+    S2a -> P1a
+    P1a -> E1a
+    E1a -> A1a
+    A1a -> F1a
+    F1a -> An1a
+
+    S2b -> P1b
+    P1b -> E1b
+    E1b -> A1b
+    A1b -> F1b
+    F1b -> An1b
+  }
+")
+```
+
+20 Sites → Randomized → 10 Primary PC sites → Patients allocated → Follow-up → Analysis
+                        → 10 Specialty PC sites → Patients allocated → Follow-up → Analysis
 

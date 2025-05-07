@@ -22,7 +22,11 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Study-Wide Number of Subjects 
 
-Content for A06 Population goes here.
+The study sample will include 1150 patients with AML and up to 1150 caregivers.  Patients can participate in the study without a caregiver, and we estimate that approximately 50% of patients will have a caregiver participate in the study. Thus, we anticipate the caregiver sample will be approximately 575 participants. Repeated information
 
+
+## Study Population
+
+This study will enroll a population of hospitalized adult patients (aged over 18 years) diagnosed with high-risk Acute Myeloid Leukemia (AML), characterized by either new diagnoses in patients over 60 years, antecedent hematologic disorders, therapy-related disease, or relapsed/refractory AML. Eligible patients must be receiving treatment regimens requiring prolonged hospitalization, including intensive chemotherapy or hypomethylating agents. Patients with acute promyelocytic leukemia, those receiving supportive care alone, or those with psychiatric or cognitive impairments precluding informed consent will be excluded. In addition to patients, adult caregivers identified by patients—defined as individuals living with or seeing the patient at least twice weekly—will be recruited. Approximately 1150 patients and up to 575 caregivers are expected to participate across 20 clinical sites. The population is chosen to reflect the real-world diversity and clinical complexity of individuals with high-risk AML, ensuring that findings are generalizable to this vulnerable group.

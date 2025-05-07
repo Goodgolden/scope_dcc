@@ -22,7 +22,56 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Data and Safety Monitoring Board (DSMB)
+Purpose: The study will have a data safety and monitoring board (DSMB). The DSMB will be responsible for safeguarding the interests of participants in the proposed trial.
 
-Content for A08 Monitoring goes here.
+Membership:
+The DSMB members will consist of three members with 1) experience in conducting multi-site PC clinical trials, 2) expertise in biostatistics, and 3) a thorough knowledge of clinical trial ethics and human subject protection issues.
+The statistician will chair the committee.
+
+Advisory Role:
+The DSMB will be advisory to the investigative team. The study team will be responsible for promptly reviewing any DSMB recommendations and deciding how to respond.
+
+## Safety Data Monitoring
+Safety Data to Be Reviewed: The committee [DSMB] will review not only adverse events (AEs) and SAEs, but also other data that may reflect differences in safety between groups. This includes treatment retention rates and reasons for dropout.
+
+SAEs Reporting:
+Given that this is a supportive care study in a population at risk for disease progression and death due to their medical condition (unrelated to the study procedures), we do not expect any SAEs to be related to the study.
+
+SAEs Special Note:
+Thus, SAEs will not be reported to the DSMB, unless they are potentially related to study procedures.
+
+Non-Serious AEs Monitoring: At yearly intervals during the course of the study and then again at its completion, the DSMB will be provided with unblinded summaries of the numbers and rates of adverse events by treatment group.
+
+### Data Quality Monitoring
+
+Data Coordinating Center (DCC) Responsibilities: The DCC will assure data completeness, adherence to study protocols, and timelines by providing monthly quality reports for site PIs and the MGH investigative team."
+
+Monthly Quality Metrics Include: These monthly reports will include the key metrics including enrollment, data quality (i.e., missing data rates), and adherence to the primary and specialty PC interventions.
+
+System Management:
+All study data will be collected through a REDCap central data repository at the University of Colorado. Data will be exported directly to a server behind the firewall for cleaning, manipulation, and analysis.
+
+### Fidelity Monitoring
+Clinician Surveys:
+To ensure the fidelity of intervention delivery, the DCC will generate primary and specialty PC fidelity reports based on the clinicians’ electronic surveys summarizing the PC domains addressed during clinical encounters.
+
+Intervention Adherence Feedback:
+The MGH investigative team will review the intervention fidelity reports to ensure conformity between sites in addressing the domains and topics as specified by the guide.
+
+Training and Refresher Activities: We will also conduct refresher trainings every six weeks during the first year of participant enrollment and then every 12 weeks thereafter with the leukemia clinicians.
+
+### DSMB Meetings and Procedures
+First Organizational Meeting:
+The initial meeting of the DSMB will occur during phase 1 of the trial.
+
+Annual Reviews:
+Subsequent meetings will occur annually via video conference, to review randomization data, audits, conformance with informed consent requirements, verification of source documents, investigator compliance, as well as adverse events.
+
+Confidential Reporting:
+Safety information for this study will be reported to the committee in an unblinded manner.
+
+Preparation and Communication of Reports:
+The DCC will prepare study reports and circulate them to the DSMB members at least two weeks before each regularly scheduled DSMB meeting.
+At the conclusion of each DSMB meeting, the members will determine whether any changes in the conduct of the trial are recommended.
 

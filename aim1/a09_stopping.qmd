@@ -22,7 +22,10 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Stopping 
 
-Content for A09 Stopping goes here.
+Discretionary Stop by DSMB: If at any time during the course of the study, the committee judges that risk to subjects outweighs the potential benefits, the committee shall have the discretion and responsibility to recommend that the study be terminated.
+
+No Formal Pre-Specified Rule: 
+"We do not, however, have a pre-specified stopping rule."
 

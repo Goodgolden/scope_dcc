@@ -1,0 +1,30 @@
+---
+title: "Aim1 Data"
+---
+
+## DATA SOURCES:
+
+<!-- (identify existing data and additional data needed) -->
+
+### Electronic Health Records (EHR):
+
+-	Collection of end-of-life (EOL) care data.
+-	Baseline clinical, disease, and treatment information, including:
+  - ECOG performance status.
+  - Clinical comorbidities (Sorror Comorbidity Index).
+  - AML type, diagnosis, and disease risk (Disease Risk Index, cytogenetics, and mutations).
+  - AML recurrence and additional treatments, including stem cell transplantation.
+
+
+### REDCap:
+
+-	A secure, HIPAA-compliant web-based application for data collection and management.
+-	Storing data abstracted from EHR.
+-	Weekly palliative care (PC) surveys completed by clinicians.
+-	Maintaining study-related data securely
+
+### Data Coordinating Center (DCC):
+
+-	Centralized data repository for all sites.
+-	Responsible for data cleaning, quality checks, and analysis.
+-	Generates monthly reports on study progress, enrollment, and intervention fidelity

@@ -22,7 +22,35 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## PATIENT COHORT AND SUBJECTS {#sec-cohort}
 
-Content for A03 Inclusion goes here.
+Describe the patients who are part of this manuscript. Specify inclusion and exclusion criteria and study site(s).
+
+### Inclusion Criteria
+
+Hospitalized patients (age > 18 years) with high-risk AML, defined as one of the following:
+-	Patients with new diagnosis > 60 years of age.
+-	An antecedent hematologic disorder.
+-	Therapy-related AML.
+-	Relapsed or primary refractory AML.
+Receiving treatment with one of the following:
+-	Intensive chemotherapy (7+3 regimen or a modification on a clinical trial, or a similar intensive regimen requiring prolonged hospitalization).
+-	Hypomethylating agents ¬± additional agents or modifications on a clinical trial
+
+### Exclusion Criteria 
+
+-	Patients with a diagnosis of acute promyelocytic leukemia.
+-	Patients with AML receiving supportive care alone.
+-	Patients with psychiatric or cognitive conditions that the treating clinician believes prohibits informed consent or compliance with study procedures.
+-	Patients seen by a palliative care clinician (MD, DO, or APP) during two previous hospitalizations in the six months prior to enrollment.
+
+### Study Site(s) 
+The study is being conducted across 20 sites. These sites were selected through The Palliative Care Research Cooperative (PCRC), ensuring that each site has a medium to large leukemia practice and an inpatient specialty palliative care (PC) practice. Key criteria for site selection:
+
+-	Each site was required to see at least 50 new AML patients per year.
+-	Sites needed infrastructure to conduct the study, including access to inpatient specialty PC practice to accommodate patients randomized to specialty PC.
+-	Prior interviews were conducted with 35 potential sites, and the final 20 were selected based on their ability to conduct the study.
+Primary Coordinating Center: Massachusetts General Hospital (MGH) serves as the Clinical Coordinating Center (CCC) for the trial.
+
+
 

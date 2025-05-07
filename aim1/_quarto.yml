@@ -64,6 +64,7 @@ book:
     - index.qmd
     - 00_activity_log.qmd
     - a00_hypothesis.qmd
+    - a18_data.qmd
     - a01_outcomes.qmd
     - a02_overviews.qmd
     - a03_inclusion.qmd
@@ -74,9 +75,9 @@ book:
     - a08_monitoring.qmd
     - a09_stopping.qmd
     - a10_software.qmd
+    - a13_listing.qmd
     - a11_figures.qmd
     - a12_tables.qmd
-    - a13_listing.qmd
     - a14_consort.qmd
     - a15_adherence.qmd
     - a16_characteristics.qmd

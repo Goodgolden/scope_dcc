@@ -94,3 +94,24 @@ Goal for this meeting with Katie
 - [ ] styles and formatting?
 - [ ] asking help for the website
 - [x] You are swell!
+
+
+#### 202505
+
+
+- [x] cleaning out the dataset with R
+- [x] table1 with the redcap_repeat_instrument blank
+- [x] only have the baseline information
+- [x] sensitivity analysis in the futuer (not considering this time)
+- [x] involving with Yizhou's work in the furtuer.
+- [] the monitoring section? keep it or not. more about the analysis.
+we do not want the entire protocol but what we need to do. 
+- [] the specific analysis plan for each aim all together. 
+- [] the main paper, not by aim but by paper
+- [] we can put all the analysis the EDA and paper. and gettign ahead. 
+- [] the compos, the variable 12 week, link the names for the dictionary to the variables
+the primary and the secondary and the variables in the analysis for the names of the variables
+redcap rep the blanks the guide, I can 
+
+
+- [x] You are wondrous!

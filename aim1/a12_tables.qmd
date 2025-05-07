@@ -22,7 +22,112 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## 
 
-Content for A12 Tables goes here.
 
+```{r, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+options(scipen=999)
+
+library(knitr)
+library(arsenal)
+library(table1)
+library(dplyr)
+library(tidyr)
+
+
+# ### READ IN DATABASE ###
+# setwd("/Users/rileygillette/Library/CloudStorage/OneDrive-SharedLibraries-TheUniversityofColoradoDenver/SCOPE DCC - General/Rscripts")
+
+#Location on teams computer, make sure to save new data download under correct name (below)
+scopefull <- as.data.frame(read.csv("~/Desktop/scope/Data/SCOPELeukemiaMainDat_DATA.csv", encoding="UTF-1-BOM", stringsAsFactors = F))
+
+scopefull <- subset(scopefull, scopefull$study_id != '1')
+
+scopefull <- scopefull %>% mutate(sitel = substr(study_id,1,1)) %>%
+                                      dplyr::filter(!grepl('test', study_id))%>%
+                                      dplyr::filter(!grepl('Test', study_id))
+
+# fill in site for all rows 
+scopefull <- scopefull %>% 
+  group_by(study_id) %>% 
+  fill(study_site, .direction = "downup")%>%
+  ungroup()
+
+scopefull$Site <- ifelse(scopefull$sitel == "A", "MGH", "")
+scopefull$Site <- ifelse(scopefull$sitel == "B", "Mayo", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "C", "Penn", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "D", "Duke", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "R", "OHSU", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "E", "Dana-Farber", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "M", "Rochester", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "L", "Miami", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "S", "Colorado", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "P", "Moffitt", scopefull$Site)
+scopefull$Site <- ifelse(scopefull$sitel == "H", "Ohio State", scopefull$Site)
+
+
+scopemain <- scopefull %>%
+                 dplyr::filter(redcap_repeat_instrument=="")
+```
+
+```{r}
+# subset only patient enrolled on or before May 31, 2024
+scopemain$enrollment_date2 <- as.Date(scopemain$enrollment_date, "%m/%d/%y")
+scope_tab <- subset(scopemain, scopemain$enrollment_date2 <= as.Date("2024-05-31"))
+
+# demographic variables: gender_bl, ethnicity_bl, race_bl, religion_bl, religiosity_bl, spirituality_bl, relation_status_bl, education_bl, employment_bl, income_level_bl, isolation_bl
+
+# factor variables 
+scope_tab$gender_bl <- factor(scope_tab$gender_bl, levels = c(1,2,7), labels = c("Woman", "Man", "Option not listed"))
+scope_tab$ethnicity_bl <- factor(scope_tab$ethnicity_bl, levels = c(1:2), labels = c("Hispanic or Latino/a/x", "Not Hispanic or Latino/a/x"))
+scope_tab[315:321] <- lapply(scope_tab[315:321], function(x) factor(x, levels = c(0, 1), labels = c("No", "Yes"))) #race_bl
+scope_tab[323:332] <- lapply(scope_tab[323:332], function(x) factor(x, levels = c(0, 1), labels = c("No", "Yes"))) #religion_bl
+scope_tab$religiosity_bl <- factor(scope_tab$religiosity_bl, levels = c(1:4), labels = c("Very religious", "Moderately religious", "Slightly religious", "Not religious")) #religion_bl
+scope_tab$spirituality_bl <- factor(scope_tab$spirituality_bl, levels = c(1:4), labels = c("Very spiritual", "Moderately spiritual", "Slightly spiritual", "Not spiritual")) #spirituality_bl
+scope_tab$relation_status_bl <- factor(scope_tab$relation_status_bl, levels = c(1:6), labels = c("Single, not in a relationship", "In a relationship, not living together", "Married or living with a partner", "Divorced/Separated", "Widowed/Loss of long-term partner", "Option not listed")) #relation_status_bl
+scope_tab$education_bl <- factor(scope_tab$education_bl, levels = c(1:6), labels = c("Less than high school degree", "High school degree (grade 12 or GED)", "Some college, Associate degree, or technical/vocational school", "College degree (Bachelors)", "Some post-graduate or professional education", "Post-graduate, professional, or doctorate degree")) #education_bl
+scope_tab[339:345] <- lapply(scope_tab[339:345], function(x) factor(x, levels = c(0, 1), labels = c("No", "Yes"))) #employment_bl
+scope_tab$income_level_bl <- factor(scope_tab$income_level_bl, levels = c(1:6), labels = c("Less than $25,000", "$25,000 but less than $50,000", "$50,000 but less than $75,000", "$75,000 but less than $100,000", "$100,000 but less than $150,000", "$150,000 or greater")) #income_level_bl
+scope_tab$isolation_bl <- factor(scope_tab$isolation_bl, levels = c(1:4), labels = c("Never", "Not often", "Sometimes", "Most of the time")) #isolation_bl
+
+# label variables
+table1::label(scope_tab$gender_bl) <- "Gender"
+table1::label(scope_tab$ethnicity_bl) <- "Ethnicity"
+table1::label(scope_tab$race_bl___1) <- "Asian, Asian American, or of Asian background (including Indian subcontinent)"
+table1::label(scope_tab$race_bl___2) <- "Black, African American, or of African background"
+table1::label(scope_tab$race_bl___3) <- "Middle Eastern"
+table1::label(scope_tab$race_bl___4) <- "Native American, Indigenous American, or Alaskan Native"
+table1::label(scope_tab$race_bl___5) <- "Native Hawaiian or Pacific Islander"
+table1::label(scope_tab$race_bl___6) <- "White or of European background"
+table1::label(scope_tab$race_bl___7) <- "Option not listed"
+table1::label(scope_tab$religion_bl___1) <- "Agnostic"
+table1::label(scope_tab$religion_bl___2) <- "Atheist"
+table1::label(scope_tab$religion_bl___3) <- "Buddhist"
+table1::label(scope_tab$religion_bl___4) <- "Catholic Christian"
+table1::label(scope_tab$religion_bl___5) <- "Other Chrisitian (such as Protestant, Orthodox, Baptist, etc)"
+table1::label(scope_tab$religion_bl___6) <- "Hindu"
+table1::label(scope_tab$religion_bl___7) <- "Jewish"
+table1::label(scope_tab$religion_bl___8) <- "Muslim"
+table1::label(scope_tab$religion_bl___9) <- "None"
+table1::label(scope_tab$religion_bl___10) <- "Option not listed"
+table1::label(scope_tab$religiosity_bl) <- "To what extent do you consider yourself a relgious person?"
+table1::label(scope_tab$spirituality_bl) <- "To what extent do you consider yourself spiritual?"
+table1::label(scope_tab$relation_status_bl) <- "Relationship Status"
+table1::label(scope_tab$education_bl) <- "Highest or current level of education"
+table1::label(scope_tab$employment_bl___1) <- "Employed, full-time or part-time"
+table1::label(scope_tab$employment_bl___2) <- "Caring for your home or family full-time, not looking for paid work"
+table1::label(scope_tab$employment_bl___3) <- "Unemployed and looking for paid work"
+table1::label(scope_tab$employment_bl___4) <- "Not working due to illness or disability"
+table1::label(scope_tab$employment_bl___5) <- "Retired"
+table1::label(scope_tab$employment_bl___6) <- "Student"
+table1::label(scope_tab$employment_bl___7) <- "Option not listed"
+table1::label(scope_tab$income_level_bl) <- "Total Household Income"
+table1::label(scope_tab$isolation_bl) <- "To what extent do you feel isolated from others?"
+```
+
+```{r, results='asis'}
+demog_tab <-tableby(~ gender_bl + ethnicity_bl + race_bl___1 +  race_bl___2 +  race_bl___3 +  race_bl___4 +  race_bl___5 +  race_bl___6 +  race_bl___7 + religion_bl___1 + religion_bl___2 + religion_bl___3 + religion_bl___4 + religion_bl___5 + religion_bl___6 + religion_bl___7 + religion_bl___8 + religion_bl___9 + religion_bl___10 + religiosity_bl + spirituality_bl + relation_status_bl + education_bl + employment_bl___1 + employment_bl___2 + employment_bl___3 + employment_bl___4 + employment_bl___5 + employment_bl___6 + employment_bl___7 + income_level_bl + isolation_bl, data = scope_tab, control = tableby.control(cat.simplify = F, numeric.stats = c("Nmiss", "meansd", "medianq1q3"), cat.stats = c("countpct", "Nmiss"), stats.labels = list(meansd = "Mean (SD)", Nmiss = "Missing", medianq1q3 = "Median (IQR)"), test = F, total = T, digits = 2), chisq.correct = F)
+
+summary(demog_tab, title = "Demographics")
+
+```

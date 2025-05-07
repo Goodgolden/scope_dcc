@@ -1,242 +1,205 @@
 [
   {
-    "objectID": "00_activity_log.html",
-    "href": "00_activity_log.html",
-    "title": "\n2  Aim1 Activity Log\n",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aim1 Read Me First",
     "section": "",
-    "text": "2.1 Activity Log for Development",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aim1 Activity Log</span>"
-    ]
+    "text": "Preface\nThis is a Quarto book for 2025 SCOPE DCC project.\nA Visual Tool to Help Develop a Statistical Analysis Plan for Randomized Trials in Palliative Care\nCollaboration with a statistician about the design of a statistical analysis plan can be enhanced by illustrating how statisticians conceptualize their task. This conceptualization can be represented by a directed acyclic graph (DAG), which illustrates the statistician’s approach and also provides an actionable tool to assist in the development of the plan.\nCollaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.\nThe main documents are stored in this link"
   },
   {
     "objectID": "00_activity_log.html#sec-activity_log",
     "href": "00_activity_log.html#sec-activity_log",
     "title": "\n2  Aim1 Activity Log\n",
-    "section": "",
-    "text": "20250205\n\nGeneral SCOPE DCC / Grant Document Review\nRead through the analytic plan for Link\n\nThis is a clustered randomized trial\n\nsection 9.4 Analysis Section\nsection 11.2 Data Management page 7\nwrite a statistical analysis plan for each analysis\nprimary - &gt; caregiver\n\n\nRandy will map the protocol to the databases to the analysis\nWhat are the superior hypothesis and reject the \\(H_0\\)\nYou are fine!\n\nNotes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.\n20250305\n\nBuild up the analysis plan template and the package functions\nReference the SAP paper\nAsk Katie for approval on the package project\nYou are magnificent!\n20250404\n\nTalking with EJC about the package project\nFilling up the project and add comments\nBuild up the analysis plan for multiple members\nCheck how to build up the website\nCheck how to use github to include other people\nYou are cat’s meow!",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aim1 Activity Log</span>"
-    ]
+    "section": "\n2.1 Activity Log for Development",
+    "text": "2.1 Activity Log for Development\n20250205\n\n\n\nGeneral SCOPE DCC / Grant Document Review\n\n\nRead through the analytic plan for Link\n\n\n\nThis is a clustered randomized trial\n\n\nsection 9.4 Analysis Section\n\n\nsection 11.2 Data Management page 7\n\n\nwrite a statistical analysis plan for each analysis\n\n\nprimary - > caregiver\n\n\n\n\nRandy will map the protocol to the databases to the analysis\n\n\nWhat are the superior hypothesis and reject the \\(H_0\\)\n\n\n\nYou are fine!\n\nNotes: Yizhou is working on the truncated by death cases; probably can be shifted into the primary data analysis plan.\n20250305\n\n\n\nBuild up the analysis plan template and the package functions\n\n\nReference the SAP paper\n\n\n\nAsk Katie for approval on the package project\n\n\nYou are magnificent!\n20250404\n\n\n\nTalking with EJC about the package project\n\n\nFilling up the project and add comments\n\n\nBuild up the analysis plan for multiple members\n\n\nCheck how to build up the website\n\n\nCheck how to use github to include other people\n\n\nYou are cat’s meow!\n20250429"
   },
   {
-    "objectID": "a00_hypothesis.html",
-    "href": "a00_hypothesis.html",
+    "objectID": "a00_hypothesis.html#sec-hypothesis",
+    "href": "a00_hypothesis.html#sec-hypothesis",
     "title": "\n3  Aim1 Hypothesis\n",
-    "section": "",
-    "text": "3.1 Section\nContent for A00 Hypothesis goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Aim1 Hypothesis</span>"
-    ]
+    "section": "\n3.1 HYPOTHESES",
+    "text": "3.1 HYPOTHESES\n\nAim 1: To determine whether primary palliative care (PC) is non-inferior to specialty PC for improving quality of life (QOL) in patients with AML\nH1.1 (ITT): Primary palliative care (PC) is non-inferior to specialty PC in improving quality of life (QOL) for patients with AML (with non-inferiority margin: 5.0 points on the FACT-Leukemia scale). The primary endpoint comparison will be at week 12 - minimal cross-contamination between study groups in the cluster-randomized design. The ITT approach preserves the advantage of randomization, ensuring that all enrolled patients are analyzed in their assigned treatment group, minimizing selection bias.\nH1.2 (PP): The per-protocol analysis, adjusting for non-adherence using inverse probability weighting (IPW), will confirm that primary PC remains non-inferior to specialty PC in improving QOL and secondary outcomes among patients who adhered to their assigned treatment model with linear mixed model (LMM) assessed at week 12.\nH1.3 (HTE): The impact of primary PC vs. specialty PC on QOL and secondary outcomes may differ based on age, gender, race/ethnicity, AML diagnosis (newly diagnosed vs. relapsed/refractory), and enrollment of caregiver using interaction terms in the mixed models."
   },
   {
-    "objectID": "a01_outcomes.html",
-    "href": "a01_outcomes.html",
-    "title": "\n4  Aim1 Outcomes\n",
+    "objectID": "a18_data.html",
+    "href": "a18_data.html",
+    "title": "4  Aim1 Data",
     "section": "",
-    "text": "4.1 Section\nContent for A01 Outcomes goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Aim1 Outcomes</span>"
-    ]
+    "text": "Collection of end-of-life (EOL) care data.\nBaseline clinical, disease, and treatment information, including:\nECOG performance status.\nClinical comorbidities (Sorror Comorbidity Index).\nAML type, diagnosis, and disease risk (Disease Risk Index, cytogenetics, and mutations).\nAML recurrence and additional treatments, including stem cell transplantation.\n\n\n\n\n\nA secure, HIPAA-compliant web-based application for data collection and management.\nStoring data abstracted from EHR.\nWeekly palliative care (PC) surveys completed by clinicians.\nMaintaining study-related data securely\n\n\n\n\n\nCentralized data repository for all sites.\nResponsible for data cleaning, quality checks, and analysis.\nGenerates monthly reports on study progress, enrollment, and intervention fidelity"
   },
   {
-    "objectID": "a02_overviews.html",
-    "href": "a02_overviews.html",
-    "title": "\n5  Aim1 Overviews\n",
-    "section": "",
-    "text": "5.1 Section\nContent for A02 Overviews goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Aim1 Overviews</span>"
-    ]
+    "objectID": "a01_outcomes.html#sec-outcomes",
+    "href": "a01_outcomes.html#sec-outcomes",
+    "title": "\n5  Aim1 Outcomes\n",
+    "section": "\n5.1 Outcomes",
+    "text": "5.1 Outcomes\nDependent Variables:\n\nCodeknitr::include_graphics(\"~/Desktop/scope/aim1/aim1_figure/aim1_variables1.png\", \n  dpi = 50)\n\n\n\n\nIndependent Variables:\n\nCodeknitr::include_graphics(\"~/Desktop/scope/aim1/aim1_figure/aim1_variables2.png\", \n  dpi = 50)"
   },
   {
-    "objectID": "a03_inclusion.html",
-    "href": "a03_inclusion.html",
-    "title": "\n6  Aim1 Inclusion\n",
-    "section": "",
-    "text": "6.1 Section\nContent for A03 Inclusion goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aim1 Inclusion</span>"
-    ]
+    "objectID": "a02_overviews.html#sec-overview",
+    "href": "a02_overviews.html#sec-overview",
+    "title": "\n6  Aim1 Overviews\n",
+    "section": "\n6.1 Research Objective(s)",
+    "text": "6.1 Research Objective(s)\nThis study is a cluster randomized comparative effectiveness trial of primary palliative care (PC) versus specialty PC in 1,150 patients with acute myeloid leukemia (AML) and their caregivers. The primary objective is to determine whether primary PC is non-inferior to specialty PC for improving quality of life (QOL) in patients with AML. The primary hypothesis is that patients assigned to primary PC will report QOL that is non-inferior to patients receiving specialty PC, with a non-inferiority margin of 5.0 points. The study also includes several secondary and exploratory endpoints."
   },
   {
-    "objectID": "a04_randomization.html",
-    "href": "a04_randomization.html",
-    "title": "\n7  Aim1 Randomization\n",
-    "section": "",
-    "text": "7.1 Section\nContent for A04 Randomization goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Aim1 Randomization</span>"
-    ]
+    "objectID": "a02_overviews.html#timeline",
+    "href": "a02_overviews.html#timeline",
+    "title": "\n6  Aim1 Overviews\n",
+    "section": "\n6.2 Timeline",
+    "text": "6.2 Timeline\n\nCodeknitr::include_graphics(\"~/Desktop/scope/aim1/aim1_figure/timeline.png\", \n  dpi = 300)"
   },
   {
-    "objectID": "a05_sample_size.html",
-    "href": "a05_sample_size.html",
-    "title": "\n8  Aim1 Sample Size\n",
-    "section": "",
-    "text": "8.1 Section\nContent for A05 Sample Size goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Aim1 Sample Size</span>"
-    ]
+    "objectID": "a03_inclusion.html#sec-cohort",
+    "href": "a03_inclusion.html#sec-cohort",
+    "title": "\n7  Aim1 Inclusion\n",
+    "section": "\n7.1 PATIENT COHORT AND SUBJECTS",
+    "text": "7.1 PATIENT COHORT AND SUBJECTS\nDescribe the patients who are part of this manuscript. Specify inclusion and exclusion criteria and study site(s).\n\n7.1.1 Inclusion Criteria\nHospitalized patients (age > 18 years) with high-risk AML, defined as one of the following: - Patients with new diagnosis > 60 years of age. - An antecedent hematologic disorder. - Therapy-related AML. - Relapsed or primary refractory AML. Receiving treatment with one of the following: - Intensive chemotherapy (7+3 regimen or a modification on a clinical trial, or a similar intensive regimen requiring prolonged hospitalization). - Hypomethylating agents ¬± additional agents or modifications on a clinical trial\n\n7.1.2 Exclusion Criteria\n\nPatients with a diagnosis of acute promyelocytic leukemia.\nPatients with AML receiving supportive care alone.\nPatients with psychiatric or cognitive conditions that the treating clinician believes prohibits informed consent or compliance with study procedures.\nPatients seen by a palliative care clinician (MD, DO, or APP) during two previous hospitalizations in the six months prior to enrollment.\n\n7.1.3 Study Site(s)\nThe study is being conducted across 20 sites. These sites were selected through The Palliative Care Research Cooperative (PCRC), ensuring that each site has a medium to large leukemia practice and an inpatient specialty palliative care (PC) practice. Key criteria for site selection:\n\nEach site was required to see at least 50 new AML patients per year.\nSites needed infrastructure to conduct the study, including access to inpatient specialty PC practice to accommodate patients randomized to specialty PC.\nPrior interviews were conducted with 35 potential sites, and the final 20 were selected based on their ability to conduct the study. Primary Coordinating Center: Massachusetts General Hospital (MGH) serves as the Clinical Coordinating Center (CCC) for the trial."
   },
   {
-    "objectID": "a06_population.html",
-    "href": "a06_population.html",
-    "title": "\n9  Aim1 Population\n",
-    "section": "",
-    "text": "9.1 Section\nContent for A06 Population goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Aim1 Population</span>"
-    ]
+    "objectID": "a04_randomization.html#sec-randomization",
+    "href": "a04_randomization.html#sec-randomization",
+    "title": "\n8  Aim1 Randomization\n",
+    "section": "\n8.1 Study Design",
+    "text": "8.1 Study Design\nThe study follows a longitudinal design with multiple follow-up time points, using mixed-effects models for primary analyses: The study design is a cluster randomized comparative effectiveness trial conducted in two phases. Phase 1: Four sites will be randomized in a 1:1 fashion (without stratification) to specialty palliative care (PC) versus primary PC. Phase 2: Sixteen additional sites will be randomized at the end of phase 1, stratified by percent minority population (≥30% vs. <30%), using covariate constrained randomization.\n\n8.1.1 Cluster Randomization:\nSites, not individual patients, are randomized. Each clinical site (hospital) is a “cluster.”\n\n8.1.2 Two Phases:\n\n8.1.2.1 Phase 1:\nFour sites are randomized 1:1 to either primary PC or specialty PC.\nRandomization in Phase 1 is not stratified (pure random 1:1 assignment).\n\n8.1.2.2 Phase 2:\nSixteen additional sites are randomized 1:1 to primary PC versus specialty PC.\nStratified randomization is used based on the percent minority patient population at the site (≥30% vs. <30%).\nCovariate constrained randomization is used to ensure balance across arms by minority representation.\n\n8.1.2.3 Backup Sites:\nSeven backup sites are pre-randomized before Phase 2 begins. If a primary site drops out, a backup site from the same assigned group will be activated.\n\n8.1.3 Randomization Control:\nThe Data Coordinating Center (DCC) generates and controls the randomization list.\nAllocations are concealed and not shared with the Clinical Coordinating Center (CCC) until necessary."
   },
   {
-    "objectID": "a07_missing.html",
-    "href": "a07_missing.html",
-    "title": "\n10  Aim1 Missing\n",
-    "section": "",
-    "text": "10.1 Section\nContent for A07 Missing goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Aim1 Missing</span>"
-    ]
+    "objectID": "a05_sample_size.html#data-sources",
+    "href": "a05_sample_size.html#data-sources",
+    "title": "\n9  Aim1 Sample Size\n",
+    "section": "\n9.1 DATA SOURCES",
+    "text": "9.1 DATA SOURCES\n(identify existing data and additional data needed):\n\n9.1.1 Electronic Health Records (EHR)\n\nCollection of end-of-life (EOL) care data.\nBaseline clinical, disease, and treatment information, including:\n\nECOG performance status.\nClinical comorbidities (Sorror Comorbidity Index).\nAML type, diagnosis, and disease risk (Disease Risk Index, cytogenetics, and mutations). -AML recurrence and additional treatments, including stem cell transplantation.\n\n\n\n9.1.2 REDCap\n\nA secure, HIPAA-compliant web-based application for data collection and management.\nStoring data abstracted from EHR.\nWeekly palliative care (PC) surveys completed by clinicians.\nMaintaining study-related data securely\n\n9.1.3 Data Coordinating Center (DCC)\n\nCentralized data repository for all sites.\nResponsible for data cleaning, quality checks, and analysis.\nGenerates monthly reports on study progress, enrollment, and intervention fidelity"
   },
   {
-    "objectID": "a08_monitoring.html",
-    "href": "a08_monitoring.html",
-    "title": "\n11  Aim1 Monitoring\n",
-    "section": "",
-    "text": "11.1 Section\nContent for A08 Monitoring goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Aim1 Monitoring</span>"
-    ]
+    "objectID": "a06_population.html#study-wide-number-of-subjects",
+    "href": "a06_population.html#study-wide-number-of-subjects",
+    "title": "\n10  Aim1 Population\n",
+    "section": "\n10.1 Study-Wide Number of Subjects",
+    "text": "10.1 Study-Wide Number of Subjects\nThe study sample will include 1150 patients with AML and up to 1150 caregivers. Patients can participate in the study without a caregiver, and we estimate that approximately 50% of patients will have a caregiver participate in the study. Thus, we anticipate the caregiver sample will be approximately 575 participants. Repeated information"
   },
   {
-    "objectID": "a09_stopping.html",
-    "href": "a09_stopping.html",
-    "title": "\n12  Aim1 Stopping\n",
-    "section": "",
-    "text": "12.1 Section\nContent for A09 Stopping goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Aim1 Stopping</span>"
-    ]
+    "objectID": "a06_population.html#study-population",
+    "href": "a06_population.html#study-population",
+    "title": "\n10  Aim1 Population\n",
+    "section": "\n10.2 Study Population",
+    "text": "10.2 Study Population\nThis study will enroll a population of hospitalized adult patients (aged over 18 years) diagnosed with high-risk Acute Myeloid Leukemia (AML), characterized by either new diagnoses in patients over 60 years, antecedent hematologic disorders, therapy-related disease, or relapsed/refractory AML. Eligible patients must be receiving treatment regimens requiring prolonged hospitalization, including intensive chemotherapy or hypomethylating agents. Patients with acute promyelocytic leukemia, those receiving supportive care alone, or those with psychiatric or cognitive impairments precluding informed consent will be excluded. In addition to patients, adult caregivers identified by patients—defined as individuals living with or seeing the patient at least twice weekly—will be recruited. Approximately 1150 patients and up to 575 caregivers are expected to participate across 20 clinical sites. The population is chosen to reflect the real-world diversity and clinical complexity of individuals with high-risk AML, ensuring that findings are generalizable to this vulnerable group."
   },
   {
-    "objectID": "a10_software.html",
-    "href": "a10_software.html",
-    "title": "\n13  Aim1 Software\n",
-    "section": "",
-    "text": "13.1 Section\nContent for A10 Software goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Aim1 Software</span>"
-    ]
+    "objectID": "a07_missing.html#sec-missing",
+    "href": "a07_missing.html#sec-missing",
+    "title": "\n11  Aim1 Missing\n",
+    "section": "\n11.1 Missing",
+    "text": "11.1 Missing\nPotential missing data can occur mainly due to:\n\nPatient death before week 12 (expected because AML is high-risk)\nSevere illness making the patient unable to complete assessments\nTransfer of care to another institution\nWithdrawal of consent\nLoss to follow-up (unable to contact)\n\nThese missing events are considered non-ignorable in some cases (e.g., death related to disease severity), meaning that missingness could be related to the outcome."
   },
   {
-    "objectID": "a11_figures.html",
-    "href": "a11_figures.html",
-    "title": "\n14  Aim1 Figures\n",
-    "section": "",
-    "text": "14.1 Section\nContent for A11 Figures goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Aim1 Figures</span>"
-    ]
+    "objectID": "a07_missing.html#planned-handling-of-missing-data-per-protocol",
+    "href": "a07_missing.html#planned-handling-of-missing-data-per-protocol",
+    "title": "\n11  Aim1 Missing\n",
+    "section": "\n11.2 Planned Handling of Missing Data (per protocol)",
+    "text": "11.2 Planned Handling of Missing Data (per protocol)\nFurther analysis are required to determine the missing mechanism MCAR, MAR, or MNAR. The following methods can be used to assess the impact of missing data:\n\nThe intention-to-treat (ITT) principle will be used: all randomized patients will be analyzed according to their assigned group whenever possible.\nMixed-effects models will be used: These models naturally accommodate missing outcomes assuming the data are Missing at Random (MAR).\nInverse Probability Weighting (IPW): Planned for per-protocol analyses, adjusting for non-adherence and potential bias due to dropout.\nNo imputation for primary outcome (i.e., no single imputation for missing outcome values at week 12 directly in the primary analysis)."
   },
   {
-    "objectID": "a12_tables.html",
-    "href": "a12_tables.html",
-    "title": "\n15  Aim1 Tables\n",
-    "section": "",
-    "text": "15.1 Section\nContent for A12 Tables goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aim1 Tables</span>"
-    ]
+    "objectID": "a07_missing.html#sensitivity-analysis",
+    "href": "a07_missing.html#sensitivity-analysis",
+    "title": "\n11  Aim1 Missing\n",
+    "section": "\n11.3 Sensitivity analysis",
+    "text": "11.3 Sensitivity analysis\nReference-Based Multiple Imputation (Jump to Reference, J2R)\nAssess robustness assuming that after missingness, patients in the Primary PC arm behave like those in the Specialty PC (control) group.\nFor missing FACT-Leu scores among Primary PC patients: Impute post-missingness outcomes assuming the distribution observed in Specialty PC patients.\nFor missing Specialty PC patients:Impute under standard MAR.\nVariables in Imputation Model: Same as above (treatment arm, baseline FACT-Leu, age, minority race status, site cluster).\nAnalysis: Same substantive model as primary (linear mixed model with clustering adjustment).\nInterpretation: If non-inferiority holds even when Primary PC patients who dropout are assumed to decline toward Specialty PC outcomes, results are highly robust."
   },
   {
-    "objectID": "a13_listing.html",
-    "href": "a13_listing.html",
-    "title": "\n16  Aim1 Listing\n",
-    "section": "",
-    "text": "16.1 Section\nContent for A13 Listing goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Aim1 Listing</span>"
-    ]
+    "objectID": "a08_monitoring.html#data-and-safety-monitoring-board-dsmb",
+    "href": "a08_monitoring.html#data-and-safety-monitoring-board-dsmb",
+    "title": "\n12  Aim1 Monitoring\n",
+    "section": "\n12.1 Data and Safety Monitoring Board (DSMB)",
+    "text": "12.1 Data and Safety Monitoring Board (DSMB)\nPurpose: The study will have a data safety and monitoring board (DSMB). The DSMB will be responsible for safeguarding the interests of participants in the proposed trial.\nMembership: The DSMB members will consist of three members with 1) experience in conducting multi-site PC clinical trials, 2) expertise in biostatistics, and 3) a thorough knowledge of clinical trial ethics and human subject protection issues. The statistician will chair the committee.\nAdvisory Role: The DSMB will be advisory to the investigative team. The study team will be responsible for promptly reviewing any DSMB recommendations and deciding how to respond."
   },
   {
-    "objectID": "a14_consort.html",
-    "href": "a14_consort.html",
-    "title": "\n17  Aim1 Consort\n",
-    "section": "",
-    "text": "17.1 Section\nContent for A14 Consort goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aim1 Consort</span>"
-    ]
+    "objectID": "a08_monitoring.html#safety-data-monitoring",
+    "href": "a08_monitoring.html#safety-data-monitoring",
+    "title": "\n12  Aim1 Monitoring\n",
+    "section": "\n12.2 Safety Data Monitoring",
+    "text": "12.2 Safety Data Monitoring\nSafety Data to Be Reviewed: The committee [DSMB] will review not only adverse events (AEs) and SAEs, but also other data that may reflect differences in safety between groups. This includes treatment retention rates and reasons for dropout.\nSAEs Reporting: Given that this is a supportive care study in a population at risk for disease progression and death due to their medical condition (unrelated to the study procedures), we do not expect any SAEs to be related to the study.\nSAEs Special Note: Thus, SAEs will not be reported to the DSMB, unless they are potentially related to study procedures.\nNon-Serious AEs Monitoring: At yearly intervals during the course of the study and then again at its completion, the DSMB will be provided with unblinded summaries of the numbers and rates of adverse events by treatment group.\n\n12.2.1 Data Quality Monitoring\nData Coordinating Center (DCC) Responsibilities: The DCC will assure data completeness, adherence to study protocols, and timelines by providing monthly quality reports for site PIs and the MGH investigative team.”\nMonthly Quality Metrics Include: These monthly reports will include the key metrics including enrollment, data quality (i.e., missing data rates), and adherence to the primary and specialty PC interventions.\nSystem Management: All study data will be collected through a REDCap central data repository at the University of Colorado. Data will be exported directly to a server behind the firewall for cleaning, manipulation, and analysis.\n\n12.2.2 Fidelity Monitoring\nClinician Surveys: To ensure the fidelity of intervention delivery, the DCC will generate primary and specialty PC fidelity reports based on the clinicians’ electronic surveys summarizing the PC domains addressed during clinical encounters.\nIntervention Adherence Feedback: The MGH investigative team will review the intervention fidelity reports to ensure conformity between sites in addressing the domains and topics as specified by the guide.\nTraining and Refresher Activities: We will also conduct refresher trainings every six weeks during the first year of participant enrollment and then every 12 weeks thereafter with the leukemia clinicians.\n\n12.2.3 DSMB Meetings and Procedures\nFirst Organizational Meeting: The initial meeting of the DSMB will occur during phase 1 of the trial.\nAnnual Reviews: Subsequent meetings will occur annually via video conference, to review randomization data, audits, conformance with informed consent requirements, verification of source documents, investigator compliance, as well as adverse events.\nConfidential Reporting: Safety information for this study will be reported to the committee in an unblinded manner.\nPreparation and Communication of Reports: The DCC will prepare study reports and circulate them to the DSMB members at least two weeks before each regularly scheduled DSMB meeting. At the conclusion of each DSMB meeting, the members will determine whether any changes in the conduct of the trial are recommended."
   },
   {
-    "objectID": "a15_adherence.html",
-    "href": "a15_adherence.html",
-    "title": "\n18  Aim1 Adherence\n",
-    "section": "",
-    "text": "18.1 Section\nContent for A15 Adherence goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Aim1 Adherence</span>"
-    ]
+    "objectID": "a09_stopping.html#stopping",
+    "href": "a09_stopping.html#stopping",
+    "title": "\n13  Aim1 Stopping\n",
+    "section": "\n13.1 Stopping",
+    "text": "13.1 Stopping\nDiscretionary Stop by DSMB: If at any time during the course of the study, the committee judges that risk to subjects outweighs the potential benefits, the committee shall have the discretion and responsibility to recommend that the study be terminated.\nNo Formal Pre-Specified Rule: “We do not, however, have a pre-specified stopping rule.”"
   },
   {
-    "objectID": "a16_characteristics.html",
-    "href": "a16_characteristics.html",
-    "title": "\n19  Aim1 Characteristics\n",
-    "section": "",
-    "text": "19.1 Section\nContent for A16 Characteristics goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Aim1 Characteristics</span>"
-    ]
+    "objectID": "a10_software.html#software",
+    "href": "a10_software.html#software",
+    "title": "\n14  Aim1 Software\n",
+    "section": "\n14.1 Software",
+    "text": "14.1 Software\n\nCode# Data Management\nlibrary(tidyverse)\n\n# Modeling\nlibrary(lme4)\nlibrary(nlme)\nlibrary(emmeans)\nlibrary(contrast)\n\n# Multiple Imputation\nlibrary(mice)\n\n# Cluster Adjustment\nlibrary(clubSandwich)\n\n# Plotting and Reporting\nlibrary(ggplot2)\nlibrary(broom.mixed)\nlibrary(gtsummary)\n\nsessionInfo()\n\n#> R version 4.4.1 (2024-06-14)\n#> Platform: aarch64-apple-darwin20\n#> Running under: macOS 15.4.1\n#> \n#> Matrix products: default\n#> BLAS:   /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRblas.0.dylib \n#> LAPACK: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.0\n#> \n#> locale:\n#> [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8\n#> \n#> time zone: America/Denver\n#> tzcode source: internal\n#> \n#> attached base packages:\n#> [1] stats     graphics  grDevices utils     datasets  methods   base     \n#> \n#> other attached packages:\n#>  [1] gtsummary_2.0.3     broom.mixed_0.2.9.5 clubSandwich_0.6.0 \n#>  [4] mice_3.17.0         contrast_0.24.2     emmeans_1.11.0     \n#>  [7] nlme_3.1-166        lme4_1.1-37         Matrix_1.7-0       \n#> [10] lubridate_1.9.3     forcats_1.0.0       stringr_1.5.1      \n#> [13] dplyr_1.1.4         purrr_1.0.2         readr_2.1.5        \n#> [16] tidyr_1.3.1         tibble_3.2.1        ggplot2_3.5.1      \n#> [19] tidyverse_2.0.0    \n#> \n#> loaded via a namespace (and not attached):\n#>  [1] tidyselect_1.2.1   fastmap_1.2.0      TH.data_1.1-3      digest_0.6.37     \n#>  [5] rpart_4.1.23       estimability_1.5.1 timechange_0.3.0   lifecycle_1.0.4   \n#>  [9] cluster_2.1.6      survival_3.7-0     magrittr_2.0.3     compiler_4.4.1    \n#> [13] rlang_1.1.4        Hmisc_5.2-3        tools_4.4.1        utf8_1.2.4        \n#> [17] yaml_2.3.10        data.table_1.16.0  knitr_1.48         htmlwidgets_1.6.4 \n#> [21] multcomp_1.4-28    polspline_1.1.25   withr_3.0.1        foreign_0.8-87    \n#> [25] nnet_7.3-19        grid_4.4.1         fansi_1.0.6        jomo_2.7-6        \n#> [29] future_1.34.0      xtable_1.8-4       colorspace_2.1-1   globals_0.16.3    \n#> [33] iterators_1.0.14   scales_1.3.0       MASS_7.3-61        cli_3.6.3         \n#> [37] mvtnorm_1.3-1      rmarkdown_2.28     reformulas_0.4.0   rms_8.0-0         \n#> [41] generics_0.1.3     rstudioapi_0.16.0  tzdb_0.4.0         minqa_1.2.8       \n#> [45] splines_4.4.1      parallel_4.4.1     base64enc_0.1-3    vctrs_0.6.5       \n#> [49] glmnet_4.1-8       boot_1.3-31        sandwich_3.1-1     jsonlite_1.8.9    \n#> [53] SparseM_1.84-2     hms_1.1.3          mitml_0.4-5        Formula_1.2-5     \n#> [57] htmlTable_2.4.3    listenv_0.9.1      foreach_1.5.2      parallelly_1.38.0 \n#> [61] glue_1.8.0         pan_1.9            nloptr_2.1.1       codetools_0.2-20  \n#> [65] shape_1.4.6.1      stringi_1.8.4      gtable_0.3.5       munsell_0.5.1     \n#> [69] furrr_0.3.1        pillar_1.9.0       htmltools_0.5.8.1  quantreg_5.98     \n#> [73] R6_2.5.1           Rdpack_2.6.2       evaluate_1.0.0     lattice_0.22-6    \n#> [77] rbibutils_2.3      backports_1.5.0    broom_1.0.7        MatrixModels_0.5-3\n#> [81] Rcpp_1.0.13        coda_0.19-4.1      gridExtra_2.3      checkmate_2.3.2   \n#> [85] xfun_0.48          zoo_1.8-12         pkgconfig_2.0.3"
   },
   {
-    "objectID": "a17_safety.html",
-    "href": "a17_safety.html",
-    "title": "\n20  Aim1 Safety\n",
-    "section": "",
-    "text": "20.1 Section\nContent for A17 Safety goes here.",
-    "crumbs": [
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Aim1 Safety</span>"
-    ]
+    "objectID": "a13_listing.html#analyses",
+    "href": "a13_listing.html#analyses",
+    "title": "\n15  Aim1 Listing\n",
+    "section": "\n15.1 Analyses",
+    "text": "15.1 Analyses\nAnalyses to address study questions/hypotheses. Some text here will help with writing later on. This would be a good place to mention specific analyses (e.g. multivariable linear regression, etc) and highlight pros and cons or issues that need to be addressed\nH1: The intention-to-treat (ITT) analysis serves as the primary approach to evaluating whether primary palliative care (PC) is non-inferior to specialty PC in improving quality of life (QOL) in patients with AML. The primary outcome, measured using FACT-Leukemia scores at week 12, will be analyzed using linear mixed-effects models (LMMs) to account for repeated measurements and clustering within study sites. Fixed effects in the model will include treatment group, time, demographic covariates (age, gender, race/ethnicity), and clinical covariates (AML diagnosis type and leukemia risk level) to control for potential confounders. Given the non-inferiority margin of 5.0 points, the ITT approach ensures that all randomized patients remain in their assigned treatment groups, regardless of adherence, thereby preserving the benefits of randomization and reducing selection bias. This strategy enhances the generalizability of findings while minimizing potential distortions caused by deviations from the assigned intervention.\nModel Building for H1:\n\nUse a linear mixed-effects model (LMM) with lme4::lmer() or nlme::lme() : -Random intercepts for site clusters to account for cluster-randomization. -Fixed effects for treatment group, baseline QOL, and other covariates (as sensitivity). -Estimate mean difference in QOL between arms at 12 weeks. -Assess non-inferiority by testing if the lower bound of the 95% confidence interval (CI) for the treatment effect is above -5.0 points. -Software: R lme4 for mixed models, emmeans for post-hoc contrasts. -Sensitivity: nlme, lmerTest, or geepack for robustness checks.\n\nH2. To complement the ITT approach, a per-protocol (PP) analysis will be conducted using inverse probability weighting (IPW) to account for treatment non-adherence. This analysis will provide insight into the effectiveness of primary PC among patients who adhered to their assigned intervention, addressing potential biases introduced by crossover or deviations from protocol. IPW weights will be computed based on key demographic and clinical characteristics, including age, sex, race/ethnicity, AML diagnosis, leukemia risk, and institutional factors, to balance the comparison groups more accurately. Sensitivity analyses will be performed by excluding patients with extreme weights to ensure robustness. The comparison of ITT and PP results will serve as a critical validation step, allowing for the assessment of potential treatment effects that may be masked in the ITT framework due to non-adherence.\nH3. The heterogeneity of treatment effect (HTE) analysis will explore whether the impact of primary PC varies across key patient subgroups. This analysis will focus on both primary and secondary outcomes, including QOL (FACT-Leukemia), psychological distress (HADS-Depression, HADS-Anxiety), PTSD symptoms (PTSD Checklist), symptom burden (ESAS-r), and patient perception of care (PPPC). Likelihood ratio tests will be used to compare models with and without interaction terms for age, gender, race/ethnicity, AML diagnosis (newly diagnosed vs. relapsed/refractory), and caregiver enrollment, helping to determine whether treatment effects differ significantly across these subgroups. Identifying treatment effect heterogeneity will enhance the ability to personalize palliative care approaches, ensuring that interventions are optimized for different patient populations."
+  },
+  {
+    "objectID": "a11_figures.html#figure",
+    "href": "a11_figures.html#figure",
+    "title": "\n16  Aim1 Figures\n",
+    "section": "\n16.1 Figure",
+    "text": "16.1 Figure"
+  },
+  {
+    "objectID": "a11_figures.html#recruitment-progress-by-site",
+    "href": "a11_figures.html#recruitment-progress-by-site",
+    "title": "\n16  Aim1 Figures\n",
+    "section": "\n16.2 Recruitment Progress by Site",
+    "text": "16.2 Recruitment Progress by Site"
+  },
+  {
+    "objectID": "a11_figures.html#missing",
+    "href": "a11_figures.html#missing",
+    "title": "\n16  Aim1 Figures\n",
+    "section": "\n16.3 Missing",
+    "text": "16.3 Missing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nColorado (N=16)\nDana-Farber (N=23)\nDuke (N=31)\nEmory (N=8)\nFred Hutch (N=9)\nIndiana (N=14)\nJohn Hopkins (N=11)\nMayo (N=30)\nMGH (N=33)\nMiami (N=9)\nMoffitt (N=21)\nNorthwestern (N=16)\nOhio State (N=11)\nOHSU (N=21)\nPenn (N=30)\nRochester (N=14)\nStanford (N=7)\nUAB (N=11)\nUNC Chapel Hill (N=12)\nWisconsin (N=8)\nTotal (N=335)\n\n\n\nGender\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   Woman\n7 (43.8%)\n10 (45.5%)\n10 (32.3%)\n7 (87.5%)\n3 (33.3%)\n7 (53.8%)\n4 (36.4%)\n8 (26.7%)\n14 (42.4%)\n2 (22.2%)\n7 (33.3%)\n9 (56.2%)\n4 (36.4%)\n6 (28.6%)\n11 (36.7%)\n9 (64.3%)\n3 (42.9%)\n7 (63.6%)\n6 (50.0%)\n5 (62.5%)\n139 (41.7%)\n\n\n   Men\n9 (56.2%)\n12 (54.5%)\n21 (67.7%)\n1 (12.5%)\n6 (66.7%)\n6 (46.2%)\n7 (63.6%)\n22 (73.3%)\n19 (57.6%)\n7 (77.8%)\n14 (66.7%)\n7 (43.8%)\n7 (63.6%)\n15 (71.4%)\n19 (63.3%)\n5 (35.7%)\n4 (57.1%)\n4 (36.4%)\n6 (50.0%)\n3 (37.5%)\n194 (58.3%)\n\n\n   Option not listed (please specify)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n\n\n   Missing\n0\n1\n0\n0\n0\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n2\n\n\nRace\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   Missing\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n1 (3.3%)\n0 (0.0%)\n2 (22.2%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n1 (14.3%)\n0 (0.0%)\n0 (0.0%)\n0 (0.0%)\n4 (1.2%)\n\n\n   Not Missing\n16 (100.0%)\n23 (100.0%)\n31 (100.0%)\n8 (100.0%)\n9 (100.0%)\n14 (100.0%)\n11 (100.0%)\n29 (96.7%)\n33 (100.0%)\n7 (77.8%)\n21 (100.0%)\n16 (100.0%)\n11 (100.0%)\n21 (100.0%)\n30 (100.0%)\n14 (100.0%)\n6 (85.7%)\n11 (100.0%)\n12 (100.0%)\n8 (100.0%)\n331 (98.8%)"
+  },
+  {
+    "objectID": "a12_tables.html#section",
+    "href": "a12_tables.html#section",
+    "title": "\n17  Aim1 Tables\n",
+    "section": "\n17.1 ",
+    "text": "17.1 \n\nCode# subset only patient enrolled on or before May 31, 2024\nscopemain$enrollment_date2 <- as.Date(scopemain$enrollment_date, \"%m/%d/%y\")\nscope_tab <- subset(scopemain, scopemain$enrollment_date2 <= as.Date(\"2024-05-31\"))\n\n# demographic variables: gender_bl, ethnicity_bl, race_bl, religion_bl, religiosity_bl, spirituality_bl, relation_status_bl, education_bl, employment_bl, income_level_bl, isolation_bl\n\n# factor variables \nscope_tab$gender_bl <- factor(scope_tab$gender_bl, levels = c(1,2,7), labels = c(\"Woman\", \"Man\", \"Option not listed\"))\nscope_tab$ethnicity_bl <- factor(scope_tab$ethnicity_bl, levels = c(1:2), labels = c(\"Hispanic or Latino/a/x\", \"Not Hispanic or Latino/a/x\"))\nscope_tab[315:321] <- lapply(scope_tab[315:321], function(x) factor(x, levels = c(0, 1), labels = c(\"No\", \"Yes\"))) #race_bl\nscope_tab[323:332] <- lapply(scope_tab[323:332], function(x) factor(x, levels = c(0, 1), labels = c(\"No\", \"Yes\"))) #religion_bl\nscope_tab$religiosity_bl <- factor(scope_tab$religiosity_bl, levels = c(1:4), labels = c(\"Very religious\", \"Moderately religious\", \"Slightly religious\", \"Not religious\")) #religion_bl\nscope_tab$spirituality_bl <- factor(scope_tab$spirituality_bl, levels = c(1:4), labels = c(\"Very spiritual\", \"Moderately spiritual\", \"Slightly spiritual\", \"Not spiritual\")) #spirituality_bl\nscope_tab$relation_status_bl <- factor(scope_tab$relation_status_bl, levels = c(1:6), labels = c(\"Single, not in a relationship\", \"In a relationship, not living together\", \"Married or living with a partner\", \"Divorced/Separated\", \"Widowed/Loss of long-term partner\", \"Option not listed\")) #relation_status_bl\nscope_tab$education_bl <- factor(scope_tab$education_bl, levels = c(1:6), labels = c(\"Less than high school degree\", \"High school degree (grade 12 or GED)\", \"Some college, Associate degree, or technical/vocational school\", \"College degree (Bachelors)\", \"Some post-graduate or professional education\", \"Post-graduate, professional, or doctorate degree\")) #education_bl\nscope_tab[339:345] <- lapply(scope_tab[339:345], function(x) factor(x, levels = c(0, 1), labels = c(\"No\", \"Yes\"))) #employment_bl\nscope_tab$income_level_bl <- factor(scope_tab$income_level_bl, levels = c(1:6), labels = c(\"Less than $25,000\", \"$25,000 but less than $50,000\", \"$50,000 but less than $75,000\", \"$75,000 but less than $100,000\", \"$100,000 but less than $150,000\", \"$150,000 or greater\")) #income_level_bl\nscope_tab$isolation_bl <- factor(scope_tab$isolation_bl, levels = c(1:4), labels = c(\"Never\", \"Not often\", \"Sometimes\", \"Most of the time\")) #isolation_bl\n\n# label variables\ntable1::label(scope_tab$gender_bl) <- \"Gender\"\ntable1::label(scope_tab$ethnicity_bl) <- \"Ethnicity\"\ntable1::label(scope_tab$race_bl___1) <- \"Asian, Asian American, or of Asian background (including Indian subcontinent)\"\ntable1::label(scope_tab$race_bl___2) <- \"Black, African American, or of African background\"\ntable1::label(scope_tab$race_bl___3) <- \"Middle Eastern\"\ntable1::label(scope_tab$race_bl___4) <- \"Native American, Indigenous American, or Alaskan Native\"\ntable1::label(scope_tab$race_bl___5) <- \"Native Hawaiian or Pacific Islander\"\ntable1::label(scope_tab$race_bl___6) <- \"White or of European background\"\ntable1::label(scope_tab$race_bl___7) <- \"Option not listed\"\ntable1::label(scope_tab$religion_bl___1) <- \"Agnostic\"\ntable1::label(scope_tab$religion_bl___2) <- \"Atheist\"\ntable1::label(scope_tab$religion_bl___3) <- \"Buddhist\"\ntable1::label(scope_tab$religion_bl___4) <- \"Catholic Christian\"\ntable1::label(scope_tab$religion_bl___5) <- \"Other Chrisitian (such as Protestant, Orthodox, Baptist, etc)\"\ntable1::label(scope_tab$religion_bl___6) <- \"Hindu\"\ntable1::label(scope_tab$religion_bl___7) <- \"Jewish\"\ntable1::label(scope_tab$religion_bl___8) <- \"Muslim\"\ntable1::label(scope_tab$religion_bl___9) <- \"None\"\ntable1::label(scope_tab$religion_bl___10) <- \"Option not listed\"\ntable1::label(scope_tab$religiosity_bl) <- \"To what extent do you consider yourself a relgious person?\"\ntable1::label(scope_tab$spirituality_bl) <- \"To what extent do you consider yourself spiritual?\"\ntable1::label(scope_tab$relation_status_bl) <- \"Relationship Status\"\ntable1::label(scope_tab$education_bl) <- \"Highest or current level of education\"\ntable1::label(scope_tab$employment_bl___1) <- \"Employed, full-time or part-time\"\ntable1::label(scope_tab$employment_bl___2) <- \"Caring for your home or family full-time, not looking for paid work\"\ntable1::label(scope_tab$employment_bl___3) <- \"Unemployed and looking for paid work\"\ntable1::label(scope_tab$employment_bl___4) <- \"Not working due to illness or disability\"\ntable1::label(scope_tab$employment_bl___5) <- \"Retired\"\ntable1::label(scope_tab$employment_bl___6) <- \"Student\"\ntable1::label(scope_tab$employment_bl___7) <- \"Option not listed\"\ntable1::label(scope_tab$income_level_bl) <- \"Total Household Income\"\ntable1::label(scope_tab$isolation_bl) <- \"To what extent do you feel isolated from others?\"\n\n\nCodedemog_tab <-tableby(~ gender_bl + ethnicity_bl + race_bl___1 +  race_bl___2 +  race_bl___3 +  race_bl___4 +  race_bl___5 +  race_bl___6 +  race_bl___7 + religion_bl___1 + religion_bl___2 + religion_bl___3 + religion_bl___4 + religion_bl___5 + religion_bl___6 + religion_bl___7 + religion_bl___8 + religion_bl___9 + religion_bl___10 + religiosity_bl + spirituality_bl + relation_status_bl + education_bl + employment_bl___1 + employment_bl___2 + employment_bl___3 + employment_bl___4 + employment_bl___5 + employment_bl___6 + employment_bl___7 + income_level_bl + isolation_bl, data = scope_tab, control = tableby.control(cat.simplify = F, numeric.stats = c(\"Nmiss\", \"meansd\", \"medianq1q3\"), cat.stats = c(\"countpct\", \"Nmiss\"), stats.labels = list(meansd = \"Mean (SD)\", Nmiss = \"Missing\", medianq1q3 = \"Median (IQR)\"), test = F, total = T, digits = 2), chisq.correct = F)\n\nsummary(demog_tab, title = \"Demographics\")\n\nDemographics\n\n\n\n\n\n\nOverall (N=111)\n\n\n\nGender\n\n\n\n   Woman\n38 (34.5%)\n\n\n   Man\n72 (65.5%)\n\n\n   Option not listed\n0 (0.0%)\n\n\n   Missing\n1\n\n\nEthnicity\n\n\n\n   Hispanic or Latino/a/x\n3 (2.7%)\n\n\n   Not Hispanic or Latino/a/x\n107 (97.3%)\n\n\n   Missing\n1\n\n\nAsian, Asian American, or of Asian background (including Indian subcontinent)\n\n\n\n   Mean (SD)\n0.03 (0.16)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nBlack, African American, or of African background\n\n\n\n   Mean (SD)\n0.06 (0.24)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nMiddle Eastern\n\n\n\n   Mean (SD)\n0.00 (0.00)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nNative American, Indigenous American, or Alaskan Native\n\n\n\n   Mean (SD)\n0.01 (0.09)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nNative Hawaiian or Pacific Islander\n\n\n\n   Mean (SD)\n0.00 (0.00)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nWhite or of European background\n\n\n\n   Mean (SD)\n0.88 (0.32)\n\n\n   Median (IQR)\n1.00 (1.00, 1.00)\n\n\nOption not listed\n\n\n\n   Mean (SD)\n0.03 (0.16)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nAgnostic\n\n\n\n   Mean (SD)\n0.05 (0.23)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nAtheist\n\n\n\n   Mean (SD)\n0.03 (0.16)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nBuddhist\n\n\n\n   Mean (SD)\n0.04 (0.19)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nCatholic Christian\n\n\n\n   Mean (SD)\n0.32 (0.47)\n\n\n   Median (IQR)\n0.00 (0.00, 1.00)\n\n\nOther Chrisitian (such as Protestant, Orthodox, Baptist, etc)\n\n\n\n   Mean (SD)\n0.41 (0.49)\n\n\n   Median (IQR)\n0.00 (0.00, 1.00)\n\n\nHindu\n\n\n\n   Mean (SD)\n0.01 (0.09)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nJewish\n\n\n\n   Mean (SD)\n0.05 (0.21)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nMuslim\n\n\n\n   Mean (SD)\n0.00 (0.00)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nNone\n\n\n\n   Mean (SD)\n0.06 (0.24)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nOption not listed\n\n\n\n   Mean (SD)\n0.08 (0.27)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nTo what extent do you consider yourself a relgious person?\n\n\n\n   Very religious\n27 (24.5%)\n\n\n   Moderately religious\n32 (29.1%)\n\n\n   Slightly religious\n29 (26.4%)\n\n\n   Not religious\n22 (20.0%)\n\n\n   Missing\n1\n\n\nTo what extent do you consider yourself spiritual?\n\n\n\n   Very spiritual\n44 (40.0%)\n\n\n   Moderately spiritual\n23 (20.9%)\n\n\n   Slightly spiritual\n30 (27.3%)\n\n\n   Not spiritual\n13 (11.8%)\n\n\n   Missing\n1\n\n\nRelationship Status\n\n\n\n   Single, not in a relationship\n11 (10.0%)\n\n\n   In a relationship, not living together\n6 (5.5%)\n\n\n   Married or living with a partner\n77 (70.0%)\n\n\n   Divorced/Separated\n6 (5.5%)\n\n\n   Widowed/Loss of long-term partner\n9 (8.2%)\n\n\n   Option not listed\n1 (0.9%)\n\n\n   Missing\n1\n\n\nHighest or current level of education\n\n\n\n   Less than high school degree\n3 (2.7%)\n\n\n   High school degree (grade 12 or GED)\n27 (24.3%)\n\n\n   Some college, Associate degree, or technical/vocational school\n31 (27.9%)\n\n\n   College degree (Bachelors)\n21 (18.9%)\n\n\n   Some post-graduate or professional education\n6 (5.4%)\n\n\n   Post-graduate, professional, or doctorate degree\n23 (20.7%)\n\n\nEmployed, full-time or part-time\n\n\n\n   Mean (SD)\n0.27 (0.45)\n\n\n   Median (IQR)\n0.00 (0.00, 1.00)\n\n\nCaring for your home or family full-time, not looking for paid work\n\n\n\n   Mean (SD)\n0.04 (0.19)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nUnemployed and looking for paid work\n\n\n\n   Mean (SD)\n0.00 (0.00)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nNot working due to illness or disability\n\n\n\n   Mean (SD)\n0.14 (0.35)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nRetired\n\n\n\n   Mean (SD)\n0.57 (0.50)\n\n\n   Median (IQR)\n1.00 (0.00, 1.00)\n\n\nStudent\n\n\n\n   Mean (SD)\n0.00 (0.00)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nOption not listed\n\n\n\n   Mean (SD)\n0.04 (0.19)\n\n\n   Median (IQR)\n0.00 (0.00, 0.00)\n\n\nTotal Household Income\n\n\n\n   Less than $25,000\n10 (10.3%)\n\n\n   $25,000 but less than $50,000\n18 (18.6%)\n\n\n   $50,000 but less than $75,000\n16 (16.5%)\n\n\n   $75,000 but less than $100,000\n14 (14.4%)\n\n\n   $100,000 but less than $150,000\n17 (17.5%)\n\n\n   $150,000 or greater\n22 (22.7%)\n\n\n   Missing\n14\n\n\nTo what extent do you feel isolated from others?\n\n\n\n   Never\n79 (73.8%)\n\n\n   Not often\n17 (15.9%)\n\n\n   Sometimes\n6 (5.6%)\n\n\n   Most of the time\n5 (4.7%)\n\n\n   Missing\n4"
+  },
+  {
+    "objectID": "a14_consort.html#section",
+    "href": "a14_consort.html#section",
+    "title": "\n18  Aim1 Consort\n",
+    "section": "\n18.1 Section",
+    "text": "18.1 Section\n\nCodelibrary(DiagrammeR)\n\ngrViz(\"\n  digraph consort_diagram {\n\n    graph [layout = dot, rankdir = TB]\n    node [shape = box, fontsize = 10, style = filled, color = lightgray]\n\n    # Site level\n    S0 [label = '20 Sites assessed for eligibility']\n    S1 [label = '20 Sites randomized']\n    S2a [label = '10 Sites allocated to Primary PC']\n    S2b [label = '10 Sites allocated to Specialty PC']\n\n    # Patient level - Primary PC\n    P1a [label = 'Patients assessed at Primary PC sites']\n    E1a [label = 'Excluded:\\n- Ineligible diagnosis\\n- Supportive care only\\n- Psychiatric/cognitive issues\\n- Prior PC exposure\\n- Declined participation']\n    A1a [label = 'Patients enrolled (n ≈ 575)']\n    F1a [label = 'Follow-up:\\n- Baseline\\n- Week 2\\n- Week 4\\n- Week 12\\n- Week 24\\n\\nLost to follow-up:\\n- Death\\n- Severe illness\\n- Withdrawal']\n    An1a [label = 'Analyzed (ITT)']\n\n    # Patient level - Specialty PC\n    P1b [label = 'Patients assessed at Specialty PC sites']\n    E1b [label = 'Excluded:\\n- Ineligible diagnosis\\n- Supportive care only\\n- Psychiatric/cognitive issues\\n- Prior PC exposure\\n- Declined participation']\n    A1b [label = 'Patients enrolled (n ≈ 575)']\n    F1b [label = 'Follow-up:\\n- Baseline\\n- Week 2\\n- Week 4\\n- Week 12\\n- Week 24\\n\\nLost to follow-up:\\n- Death\\n- Severe illness\\n- Withdrawal']\n    An1b [label = 'Analyzed (ITT)']\n\n    # Arrows\n    S0 -> S1\n    S1 -> S2a\n    S1 -> S2b\n\n    S2a -> P1a\n    P1a -> E1a\n    E1a -> A1a\n    A1a -> F1a\n    F1a -> An1a\n\n    S2b -> P1b\n    P1b -> E1b\n    E1b -> A1b\n    A1b -> F1b\n    F1b -> An1b\n  }\n\")\n\n\n\n\n\n20 Sites → Randomized → 10 Primary PC sites → Patients allocated → Follow-up → Analysis → 10 Specialty PC sites → Patients allocated → Follow-up → Analysis"
+  },
+  {
+    "objectID": "a15_adherence.html#adherence",
+    "href": "a15_adherence.html#adherence",
+    "title": "\n19  Aim1 Adherence\n",
+    "section": "\n19.1 Adherence",
+    "text": "19.1 Adherence\nReceipts of palliative care from the assigned intervention model (Primary PC or Specialty PC) without crossover. Adherence will be determined from intervention fidelity tracking via clinician surveys and EHR documentation. Descriptive statistics will summarize adherence rates by treatment group. Logistic regression models will explore demographic and clinical factors associated with non-adherence, adjusting for site clustering. A per-protocol analysis using inverse probability weighting (IPW) will estimate treatment effects among adherent patients. The impact of non-adherence on the primary outcome will be assessed via sensitivity analyses comparing ITT and per-protocol results.\nIn the protocol, adherence is mentioned as staying within the assigned palliative care (PC) model: “We will also assess for potential factors that are associated with non-adherence to the assigned PC model such as age, sex, race/ethnicity, time from diagnosis, underlying leukemia diagnosis, leukemia risk, and institutional factors that might be associated with non-adherence (leukemia volume, size of leukemia program, and other institutional supportive care initiatives).”​\nPatients receiving palliative care from the assigned model (Primary PC or Specialty PC). No cross-contamination (i.e., patients in Primary PC receiving Specialty PC services or vice versa).\n\n19.1.1 Adherence measurements\nReceiving at least 2 visits per week from the assigned PC team (as mentioned elsewhere in intervention delivery expectations).\nNo crossover documented in intervention fidelity tracking."
+  },
+  {
+    "objectID": "a16_characteristics.html#characteristics",
+    "href": "a16_characteristics.html#characteristics",
+    "title": "\n20  Aim1 Characteristics\n",
+    "section": "\n20.1 Characteristics",
+    "text": "20.1 Characteristics\n\n\n\n\n\n\n\nCategory\nCharacteristics\nReference\n\n\n\nDemographic Factors\nAge\n[Section 11.2 Data Analysis]\n\n\n\nSex\n[Section 11.2 Data Analysis]\n\n\n\nRace/Ethnicity\n[Section 11.2 Data Analysis]\n\n\n\nGender Identity\n[Section 9.4 Study Measures]\n\n\n\nMarital Status\n[Section 9.4 Study Measures]\n\n\n\nReligion\n[Section 9.4 Study Measures]\n\n\n\nEducation\n[Section 9.4 Study Measures]\n\n\n\nIncome\n[Section 9.4 Study Measures]\n\n\nClinical Factors\nTime from Diagnosis\n[Section 11.2 Data Analysis]\n\n\n\nUnderlying Leukemia Diagnosis (Newly Diagnosed vs Relapsed/Refractory)\n[Section 11.2 Data Analysis]\n\n\n\nLeukemia Risk\n[Section 11.2 Data Analysis]\n\n\n\nECOG Performance Status\n[Section 9.5 Data Collection]\n\n\n\nComorbidities (Sorror Comorbidity Index)\n[Section 9.5 Data Collection]\n\n\nSite-Level Factors\nLeukemia Volume\n[Section 11.2 Data Analysis]\n\n\n\nSize of Leukemia Program\n[Section 11.2 Data Analysis]\n\n\n\nInstitutional Supportive Care Initiatives\n[Section 11.2 Data Analysis]\n\n\nPatient-Reported Measures\nBaseline QOL (FACT-Leukemia)\n[Section 9.4 Study Measures]\n\n\n\nPTSD Symptoms (PCL-C)\n[Section 9.4 Study Measures]\n\n\n\nSymptom Burden (ESAS-R)\n[Section 9.4 Study Measures]\n\n\n\nPatient-Centeredness of Care (PPPC)\n[Section 9.4 Study Measures]\n\n\nCaregiver Factors (if applicable)\nCaregiver QOL (CarGOQOL)\n[Section 9.4 Study Measures]\n\n\n\nCaregiver Burden (CRA)\n[Section 9.4 Study Measures]\n\n\n\nCaregiver Depression/Anxiety (HADS)\n[Section 9.4 Study Measures]"
+  },
+  {
+    "objectID": "a17_safety.html#sec-safety",
+    "href": "a17_safety.html#sec-safety",
+    "title": "\n21  Aim1 Safety\n",
+    "section": "\n21.1 Safety",
+    "text": "21.1 Safety\nParticipant safety will be overseen by an independent Data Safety Monitoring Board (DSMB) composed of three members with expertise in palliative care clinical trials, biostatistics, and clinical trial ethics. Safety information, including serious adverse events potentially related to study procedures, non-serious adverse events, recruitment and retention rates, and data quality metrics, will be reviewed annually in unblinded reports prepared by the Data Coordinating Center (DCC). The DSMB has the authority to recommend study termination if participant risks outweigh potential benefits; however, no formal statistical stopping boundary has been prespecified. Study conduct and data quality reports will ensure continuous monitoring to safeguard participants and preserve trial integrity."
   },
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "21  References",
+    "title": "22  References",
     "section": "",
-    "text": "References\nReferences for any non-standard statistical methods used References (and locations) for any relevant protocols, standard operating procedures, or other documents cited in the SAP",
-    "crumbs": [
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>References</span>"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Aim1 Read Me First",
-    "section": "",
-    "text": "Preface\nThis is a Quarto book for 2025 SCOPE DCC project.\nA Visual Tool to Help Develop a Statistical Analysis Plan for Randomized Trials in Palliative Care\nCollaboration with a statistician about the design of a statistical analysis plan can be enhanced by illustrating how statisticians conceptualize their task. This conceptualization can be represented by a directed acyclic graph (DAG), which illustrates the statistician’s approach and also provides an actionable tool to assist in the development of the plan.\nCollaboration with a statistician can be enhanced by understanding how they conceptualize questions of study design and data analysis. In the language of constructivism: by explicitly encountering their “mental maps” of these topics. One such mental map pertains to the development of a statistical analysis plan (SAP), an outline of which is one of each team’s work products. Here, we use a figure to describe how statisticians typically conceptualize SAPs, and then illustrate how this figure can be used to develop an outline of a generic SAP for a randomized trial of a pain coping intervention in palliative care. It is our hope that making this conceptual framework explicit can help support more productive interactions between palliative care researchers and statisticians.\nThe main documents are stored in this link",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim1 Read Me First</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#content",
-    "href": "index.html#content",
-    "title": "Aim1 Read Me First",
-    "section": "Content",
-    "text": "Content\n\n\n [1] \"00_activity_log.qmd\"     \"a00_hypothesis.qmd\"     \n [3] \"a01_outcomes.qmd\"        \"a02_overviews.qmd\"      \n [5] \"a03_inclusion.qmd\"       \"a04_randomization.qmd\"  \n [7] \"a05_sample_size.qmd\"     \"a06_population.qmd\"     \n [9] \"a07_missing.qmd\"         \"a08_monitoring.qmd\"     \n[11] \"a09_stopping.qmd\"        \"a10_software.qmd\"       \n[13] \"a11_figures.qmd\"         \"a12_tables.qmd\"         \n[15] \"a13_listing.qmd\"         \"a14_consort.qmd\"        \n[17] \"a15_adherence.qmd\"       \"a16_characteristics.qmd\"\n[19] \"a17_safety.qmd\"          \"index.qmd\"              \n[21] \"references.qmd\"",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim1 Read Me First</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#folders",
-    "href": "index.html#folders",
-    "title": "Aim1 Read Me First",
-    "section": "Folders",
-    "text": "Folders\nDocuments\n\n\ncharacter(0)\n\n\nData\n\n\ncharacter(0)\n\n\nCodes\n\n\ncharacter(0)\n\n\nFigures and Tables\n\n\ncharacter(0)\n\n\nReports",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Aim1 Read Me First</span>"
-    ]
+    "text": "References for any non-standard statistical methods used References (and locations) for any relevant protocols, standard operating procedures, or other documents cited in the SAP"
   }
 ]

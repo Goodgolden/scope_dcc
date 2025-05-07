@@ -22,7 +22,17 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## HYPOTHESES {#sec-hypothesis}
 
-Content for A00 Hypothesis goes here.
+<!-- State key hypotheses explicitly. If there is no specific hypothesis (e.g. descriptive) simply state what is proposed. Include specific time points if longitudinal. -->
+
+Aim 1: To determine whether primary palliative care (PC) is non-inferior to specialty PC for improving quality of life (QOL) in patients with AML
+
+H1.1 (ITT):  Primary palliative care (PC) is non-inferior to specialty PC in improving quality of life (QOL) for patients with AML (with non-inferiority margin: 5.0 points on the FACT-Leukemia scale). The primary endpoint comparison will be at week 12
+-	minimal cross-contamination between study groups in the cluster-randomized design. The ITT approach preserves the advantage of randomization, ensuring that all enrolled patients are analyzed in their assigned treatment group, minimizing selection bias.
+
+H1.2 (PP): The per-protocol analysis, adjusting for non-adherence using inverse probability weighting (IPW), will confirm that primary PC remains non-inferior to specialty PC in improving QOL and secondary outcomes among patients who adhered to their assigned treatment model with linear mixed model (LMM) assessed at week 12.
+
+H1.3 (HTE): The impact of primary PC vs. specialty PC on QOL and secondary outcomes may differ based on age, gender, race/ethnicity, AML diagnosis (newly diagnosed vs. relapsed/refractory), and enrollment of caregiver using interaction terms in the mixed models.
+
 

@@ -22,7 +22,36 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Study Design {#sec-randomization}
 
-Content for A04 Randomization goes here.
+The study follows a longitudinal design with multiple follow-up time points, using mixed-effects models for primary analyses: The study design is a cluster randomized comparative effectiveness trial conducted in two phases. Phase 1: Four sites will be randomized in a 1:1 fashion (without stratification) to specialty palliative care (PC) versus primary PC. Phase 2: Sixteen additional sites will be randomized at the end of phase 1, stratified by percent minority population (≥30% vs. <30%), using covariate constrained randomization.
 
+### Cluster Randomization:
+
+Sites, not individual patients, are randomized. Each clinical site (hospital) is a "cluster."
+
+### Two Phases:
+
+#### Phase 1:
+
+Four sites are randomized 1:1 to either primary PC or specialty PC.
+
+Randomization in Phase 1 is not stratified (pure random 1:1 assignment).
+
+#### Phase 2:
+
+Sixteen additional sites are randomized 1:1 to primary PC versus specialty PC.
+
+Stratified randomization is used based on the percent minority patient population at the site (≥30% vs. <30%).
+
+Covariate constrained randomization is used to ensure balance across arms by minority representation.
+
+#### Backup Sites:
+
+Seven backup sites are pre-randomized before Phase 2 begins. If a primary site drops out, a backup site from the same assigned group will be activated.
+
+### Randomization Control:
+
+The Data Coordinating Center (DCC) generates and controls the randomization list.
+
+Allocations are concealed and not shared with the Clinical Coordinating Center (CCC) until necessary.

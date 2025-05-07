@@ -3,3 +3,15 @@
 .RData
 .Ruserdata
 /.quarto/
+.rda
+.rdata
+/site_libs/
+.js
+.css
+.woff
+.pdf
+.html
+.csv
+/Data/
+/data/
+/raw_data/

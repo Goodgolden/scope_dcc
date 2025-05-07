@@ -22,7 +22,23 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Outcomes {#sec-outcomes}
 
-Content for A01 Outcomes goes here.
+Dependent Variables: 
+
+```{r}
+#| fig-width: 8
+knitr::include_graphics("~/Desktop/scope/aim1/aim1_figure/aim1_variables1.png", 
+  dpi = 50)
+```
+
+
+Independent Variables: 
+
+```{r}
+#| fig-width: 8
+knitr::include_graphics("~/Desktop/scope/aim1/aim1_figure/aim1_variables2.png", 
+  dpi = 50)
+```
+
 

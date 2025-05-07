@@ -22,7 +22,33 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Characteristics
 
-Content for A16 Characteristics goes here.
+| **Category** | **Characteristics** | **Reference** |
+|:-------------|:---------------------|:--------------|
+| **Demographic Factors** | Age | [Section 11.2 Data Analysis] |
+|  | Sex | [Section 11.2 Data Analysis] |
+|  | Race/Ethnicity | [Section 11.2 Data Analysis] |
+|  | Gender Identity | [Section 9.4 Study Measures] |
+|  | Marital Status | [Section 9.4 Study Measures] |
+|  | Religion | [Section 9.4 Study Measures] |
+|  | Education | [Section 9.4 Study Measures] |
+|  | Income | [Section 9.4 Study Measures] |
+| **Clinical Factors** | Time from Diagnosis | [Section 11.2 Data Analysis] |
+|  | Underlying Leukemia Diagnosis (Newly Diagnosed vs Relapsed/Refractory) | [Section 11.2 Data Analysis] |
+|  | Leukemia Risk | [Section 11.2 Data Analysis] |
+|  | ECOG Performance Status | [Section 9.5 Data Collection] |
+|  | Comorbidities (Sorror Comorbidity Index) | [Section 9.5 Data Collection] |
+| **Site-Level Factors** | Leukemia Volume | [Section 11.2 Data Analysis] |
+|  | Size of Leukemia Program | [Section 11.2 Data Analysis] |
+|  | Institutional Supportive Care Initiatives | [Section 11.2 Data Analysis] |
+| **Patient-Reported Measures** | Baseline QOL (FACT-Leukemia) | [Section 9.4 Study Measures] |
+|  | PTSD Symptoms (PCL-C) | [Section 9.4 Study Measures] |
+|  | Symptom Burden (ESAS-R) | [Section 9.4 Study Measures] |
+|  | Patient-Centeredness of Care (PPPC) | [Section 9.4 Study Measures] |
+| **Caregiver Factors (if applicable)** | Caregiver QOL (CarGOQOL) | [Section 9.4 Study Measures] |
+|  | Caregiver Burden (CRA) | [Section 9.4 Study Measures] |
+|  | Caregiver Depression/Anxiety (HADS) | [Section 9.4 Study Measures] |
+
+
 

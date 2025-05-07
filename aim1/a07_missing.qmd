@@ -22,7 +22,46 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Missing {#sec-missing}
 
-Content for A07 Missing goes here.
+Potential missing data can occur mainly due to:
 
+- Patient death before week 12 (expected because AML is high-risk)
+
+- Severe illness making the patient unable to complete assessments
+
+- Transfer of care to another institution
+
+- Withdrawal of consent
+
+- Loss to follow-up (unable to contact)
+
+These missing events are considered non-ignorable in some cases (e.g., death related to disease severity), meaning that missingness could be related to the outcome.
+
+## Planned Handling of Missing Data (per protocol)
+
+Further analysis are required to determine the missing mechanism MCAR, MAR, or MNAR. The following methods can be used to assess the impact of missing data:
+
+- The intention-to-treat (ITT) principle will be used: all randomized patients will be analyzed according to their assigned group whenever possible.
+
+- Mixed-effects models will be used: These models naturally accommodate missing outcomes assuming the data are Missing at Random (MAR).
+
+- Inverse Probability Weighting (IPW): Planned for per-protocol analyses, adjusting for non-adherence and potential bias due to dropout.
+
+- No imputation for primary outcome (i.e., no single imputation for missing outcome values at week 12 directly in the primary analysis).
+
+## Sensitivity analysis
+
+Reference-Based Multiple Imputation (Jump to Reference, J2R)
+
+Assess robustness assuming that after missingness, patients in the Primary PC arm behave like those in the Specialty PC (control) group.
+
+For missing FACT-Leu scores among Primary PC patients: Impute post-missingness outcomes assuming the distribution observed in Specialty PC patients.
+
+For missing Specialty PC patients:Impute under standard MAR.
+
+Variables in Imputation Model: Same as above (treatment arm, baseline FACT-Leu, age, minority race status, site cluster).
+
+Analysis: Same substantive model as primary (linear mixed model with clustering adjustment).
+
+Interpretation: If non-inferiority holds even when Primary PC patients who dropout are assumed to decline toward Specialty PC outcomes, results are highly robust.

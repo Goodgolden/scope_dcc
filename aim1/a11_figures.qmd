@@ -3,6 +3,7 @@ title: "Aim1 Figures"
 editor: source
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
                       warnings = FALSE,
@@ -22,7 +23,278 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Figure
 
-Content for A11 Figures goes here.
 
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+# The goal of these data quality and study progress reports is to ensure data fidelity and study progress for the SCOPE-Leukemia trial. The reports will focus on:
+  #   	Identifying outliers
+  #   	Identifying missing data fields
+  #   	Examining temporal patterns within sites with respect to missing data fields and patient         dropout
+  #   	Monitor patient recruitment by site longitudinally
+
+# The DCC will generate these reports by study intervention arm and the MGH investigative team will be responsible for addressing any issues identified directly with participating sites.
+
+## NOTE: Review code before running each time, specifically  make sure all current enrolled sites are accounted for in chunk 1
+```
+
+```{r, results = 'asis', include=FALSE, echo = FALSE, warning = FALSE, message = FALSE}
+options(scipen = 999, knitr.table.format = "html")
+library(knitr)
+library(arsenal)
+library(purrr)
+library(expss)
+library(dplyr)
+library(tidyr)
+library(kableExtra)
+library(styler)
+library(gtsummary)
+library(lubridate)
+library(tidyverse)
+library(ggplot2)
+library(tibble)
+library(janitor)
+
+### READ IN DATABASE ###
+#Location
+
+scopefull <- as.data.frame(read.csv("~/Desktop/scope/Data/SCOPELeukemiaMainDat_DATA.csv", encoding="UTF-8-BOM", stringsAsFactors = F))
+
+scopefull <- subset(scopefull, scopefull$study_id != '1')
+
+scopefull <- scopefull %>% mutate(sitel = substr(study_id,1,1)) %>%
+                                      dplyr::filter(!grepl('test', study_id))%>%
+                                      dplyr::filter(!grepl('Test', study_id))
+
+# 0. Renaming
+names(scopefull)[1] <- "study_id"
+scopemain <- scopefull %>%
+  mutate(sitel = substr(study_id, 1, 1)) %>%
+  dplyr::filter(!grepl("test", study_id) & redcap_repeat_instrument == "")
+scopemain$Site <- ifelse(scopemain$sitel == "A", "MGH", "")
+scopemain$Site <- ifelse(scopemain$sitel == "B", "Mayo", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "C", "Penn", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "D", "Duke", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "R", "OHSU", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "E", "Dana-Farber", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "M", "Rochester", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "L", "Miami", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "S", "Colorado", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "P", "Moffitt", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "H", "Ohio State", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "G", "Fred Hutch", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "K", "UAB", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "U", "Wisconsin", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "N", "Indiana", scopemain$Site)
+
+
+scopemain <- subset(scopemain, as.Date(scopemain$enrollment_date, format="%m/%d/%y") < as.Date("07/01/24", format="%m/%d/%y"))
+```
+
+## Recruitment Progress by Site
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+### A. Recruitment Progress by Site: The DCC will generate a bar graph as depicted below showing recruitment at each site relative to the goal. The goal per site is to enroll 1.2 patients per month from 1/1/2024 to 1/1/2028 (over 4 year period). 
+
+feasibility <- subset(scopemain, scopemain$study_site < 5)
+
+feasibility$enrollment_date<-as.Date(feasibility$enrollment_date, format="%m/%d/%y")
+
+### Determine first day of enrollment for each site -------------------------
+enroll_date<- feasibility %>%
+    group_by(Site) %>%
+    arrange(enrollment_date) %>%
+    slice(1L) %>%
+    dplyr::select(Site, enrollment_date)
+
+enroll_date$enrollment_date <- as.Date("01/01/23", format="%m/%d/%y")
+
+# determine number of months site has been enrolling
+enroll_date$months_enrolling<-interval(enroll_date$enrollment_date, Sys.Date()) %/% months(1)
+
+# calculate 'goal' per month per site (1.2*months_enrolling)
+enroll_date$goal<-1.2*enroll_date$months_enrolling
+
+# select only site and goal
+enroll_exp<-dplyr::select(enroll_date, Site, goal)
+
+### Calculate current number of patients enrolled per site -------------------------
+enroll_obs <- feasibility %>% 
+  group_by(Site) %>%
+  summarise(n_enrolled = length(study_id))
+
+### Merge observed and expected, determine difference in actual enrollment and goal -------------
+enroll_oe <- merge(enroll_exp, enroll_obs, by = "Site")
+enroll_oe$n_diff <- round(enroll_oe$goal - enroll_oe$n_enrolled, 1)
+enroll_oe$n_diff<-ifelse(enroll_oe$n_diff < 0, 0, enroll_oe$n_diff) # set any negative 'short of goal' to 0 
+
+# drop "goal" column 
+enroll_oe1 <- dplyr::select(enroll_oe, Site, n_enrolled, n_diff)
+colnames(enroll_oe1)<-c("Study Site", "Total Enrolled", "Short of Goal")
+
+### Set up stacked bar plot ----------------------
+#enroll_tab1 <- enroll_oe %>%
+ # gather(P, value, `Total Enrolled`:`Short of Goal`) %>%
+ # arrange(`Study Site`)
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+### A. Recruitment Progress by Site: The DCC will generate a bar graph as depicted below showing recruitment at each site relative to the goal. The goal per site is to enroll 1.2 patients per month from 1/1/2024 to 1/1/2028 (over 4 year period). 
+
+nonfeasibility <- subset(scopemain, scopemain$study_site > 4)
+
+nonfeasibility$enrollment_date<-as.Date(nonfeasibility$enrollment_date, format="%m/%d/%y")
+
+### Determine first day of enrollment for each site -------------------------
+enroll_date<- nonfeasibility %>%
+    group_by(Site) %>%
+    arrange(enrollment_date) %>%
+    slice(1L) %>%
+    dplyr::select(Site, enrollment_date)
+
+# add sites not entered in REDCap yet - non-feasibility specialty sites
+site_name<-list("Colorado", "Wisconsin","John Hopkins", "Indiana", "UNC", "Moffitt", "Northwestern", "OHSU", "Dana-Farber", "Emory", "Fred Hutch", "Ohio State", "UAB", "Rochester", "Stanford", "Miami")
+
+not_enrolling <- site_name[!(site_name %in% enroll_date$Site)]
+n_sites <- length(not_enrolling)
+
+not_enroll_date <- data.table(Site = as.character(not_enrolling),
+                              enrollment_date = rep(as.Date("05/01/24", format="%m/%d/%y"), n_sites))
+
+not_enroll_date <- data.frame(not_enroll_date)
+
+enroll_date <- rbind(enroll_date, not_enroll_date)
+
+
+# determine number of months site has been enrolling
+enroll_date$months_enrolling<-interval(enroll_date$enrollment_date, Sys.Date()) %/% months(1)
+
+# calculate 'goal' per month per site (1.2*months_enrolling)
+enroll_date$goal<-1.2*enroll_date$months_enrolling
+
+# select only site and goal
+enroll_exp<-dplyr::select(enroll_date, Site, goal)
+
+### Calculate current number of patients enrolled per site -------------------------
+enroll_obs <- nonfeasibility %>% 
+  group_by(Site) %>%
+  summarise(n_enrolled = length(study_id))
+
+# add sites not entered into REDCap yet 
+not_enroll_obs <- data.table(Site = as.character(not_enrolling),
+                              n_enrolled = rep(0, n_sites))
+
+enroll_obs <- rbind(enroll_obs, not_enroll_obs)
+
+### Merge observed and expected, determine difference in actual enrollment and goal -------------
+enroll_oe <- merge(enroll_exp, enroll_obs, by = "Site")
+enroll_oe$n_diff <- round(enroll_oe$goal - enroll_oe$n_enrolled, 1)
+enroll_oe$n_diff<-ifelse(enroll_oe$n_diff < 0, 0, enroll_oe$n_diff) # set any negative 'short of goal' to 0 
+
+# drop "goal" column 
+enroll_oe2 <- dplyr::select(enroll_oe, Site, n_enrolled, n_diff)
+colnames(enroll_oe2)<-c("Study Site", "Total Enrolled", "Short of Goal")
+
+enroll_oe <- rbind(enroll_oe1, enroll_oe2)
+enroll_oe <- enroll_oe %>% arrange(desc(`Total Enrolled`))
+
+enroll_oe$plot0rder <- rep(1:20)
+
+### Set up stacked bar plot ----------------------
+enroll_tab <- enroll_oe %>%
+  gather(P, value, `Total Enrolled`:`Short of Goal`)
+
+
+ggplot(enroll_tab, aes(x = reorder(`Study Site`, plot0rder), y = value, fill = P)) + 
+  geom_col(position = position_stack()) +
+  geom_text(data = subset(enroll_tab, value != 0), aes(label = value), stat = "identity", position = position_stack(vjust = .5), colour = 'white', size = 3) +
+  scale_fill_manual(values=c("darkorange3", "darkblue"))+ 
+  theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ theme(panel.border = element_blank())+
+  ggtitle("SCOPE-Leukemia Enrollment") +
+  theme(plot.title = element_text(hjust = 0.5)) + 
+  labs(y = "Number of Patients", x = "Study Site", fill = " ") + 
+  theme(legend.position="bottom")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+
+## Missing
+
+
+
+```{r, results = 'asis', include=FALSE, echo = FALSE, warning = FALSE, message = FALSE}
+options(scipen = 999, knitr.table.format = "html")
+library(knitr)
+library(arsenal)
+library(purrr)
+library(expss)
+library(dplyr)
+library(tidyr)
+library(kableExtra)
+library(styler)
+library(gtsummary)
+library(lubridate)
+library(tidyverse)
+library(ggplot2)
+library(tibble)
+library(janitor)
+
+
+### READ IN DATABASE ###
+
+
+scopefull <- as.data.frame(read.csv("~/Desktop/scope/Data/SCOPELeukemiaMainDat_DATA.csv", encoding="UTF-8-BOM", stringsAsFactors = F))
+
+scopefull <- subset(scopefull, scopefull$study_id != '1')
+
+scopefull <- scopefull %>% mutate(sitel = substr(study_id,1,1)) %>%
+                                      dplyr::filter(!grepl('test', study_id))%>%
+                                      dplyr::filter(!grepl('Test', study_id))
+
+#fill enrollment date for all records not just first occurance of study_id
+scopefull$enroll_dt <- as.Date(scopefull$enrollment_date, format = "%m/%d/%y")
+scopefull <- scopefull %>% group_by(study_id)%>% fill(enroll_dt, .direction = "down") %>% ungroup()
+dt <- as.Date(paste("2025", "03", "01", sep = "-"))
+scopefull <- subset(scopefull, scopefull$enroll_dt < dt)
+
+# 0. Renaming
+names(scopefull)[1] <- "study_id"
+scopemain <- scopefull %>%
+  mutate(sitel = substr(study_id, 1, 1)) %>%
+  dplyr::filter(!grepl("test", study_id) & redcap_repeat_instrument == "")
+scopemain$Site <- ifelse(scopemain$sitel == "A", "MGH", "")
+scopemain$Site <- ifelse(scopemain$sitel == "B", "Mayo", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "C", "Penn", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "D", "Duke", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "R", "OHSU", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "E", "Dana-Farber", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "M", "Rochester", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "L", "Miami", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "S", "Colorado", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "P", "Moffitt", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "H", "Ohio State", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "G", "Fred Hutch", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "K", "UAB", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "U", "Wisconsin", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "N", "Indiana", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "I", "Stanford", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "O", "John Hopkins", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "Q", "Northwestern", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "T", "UNC Chapel Hill", scopemain$Site)
+scopemain$Site <- ifelse(scopemain$sitel == "F", "Emory", scopemain$Site)
+```
+
+```{r, echo=F, message=F, warning=F, results='asis', class.output="scroll-100"}
+# factor race and gender variables
+scopemain$gender <- factor(scopemain$gender_bl, levels = c(1,2,7), labels = c("Woman", "Men", "Option not listed (please specify)"))
+scopemain$race_miss <- ifelse(scopemain$race_bl___1==0 & scopemain$race_bl___2==0 &  scopemain$race_bl___3==0 &  scopemain$race_bl___4==0 & scopemain$race_bl___5==0 &  scopemain$race_bl___6==0 & scopemain$race_bl___7==0 , "Missing", "Not Missing")
+
+# label variables
+library(table1)
+label(scopemain$gender)<-"Gender"
+label(scopemain$race_miss)<- "Race"
+
+tab1<-tableby(Site ~ gender + race_miss, data = scopemain, control = tableby.control(cat.simplify = F, numeric.stats = c("Nmiss", "meansd", "medianq1q3"), cat.stats = c("countpct", "Nmiss"), stats.labels = list(meansd = "Mean (SD)", Nmiss = "Missing", medianq1q3 = "Median (IQR)"), test = F, total = T, digits = 2), chisq.correct = F)
+
+summary(tab1)
+```

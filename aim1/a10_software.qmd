@@ -22,7 +22,29 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Software
 
-Content for A10 Software goes here.
+```{r}
+# Data Management
+library(tidyverse)
+
+# Modeling
+library(lme4)
+library(nlme)
+library(emmeans)
+library(contrast)
+
+# Multiple Imputation
+library(mice)
+
+# Cluster Adjustment
+library(clubSandwich)
+
+# Plotting and Reporting
+library(ggplot2)
+library(broom.mixed)
+library(gtsummary)
+
+sessionInfo()
+```
 

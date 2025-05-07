@@ -22,7 +22,9 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Safety {#sec-safety}
 
-Content for A17 Safety goes here.
+Participant safety will be overseen by an independent Data Safety Monitoring Board (DSMB) composed of three members with expertise in palliative care clinical trials, biostatistics, and clinical trial ethics. Safety information, including serious adverse events potentially related to study procedures, non-serious adverse events, recruitment and retention rates, and data quality metrics, will be reviewed annually in unblinded reports prepared by the Data Coordinating Center (DCC). The DSMB has the authority to recommend study termination if participant risks outweigh potential benefits; however, no formal statistical stopping boundary has been prespecified. Study conduct and data quality reports will ensure continuous monitoring to safeguard participants and preserve trial integrity.
+
+
 

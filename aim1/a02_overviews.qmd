@@ -22,7 +22,15 @@ knitr::opts_chunk$set(echo = TRUE,
 }
 ```
 
-## Section
+## Research Objective(s) {#sec-overview}
 
-Content for A02 Overviews goes here.
+This study is a cluster randomized comparative effectiveness trial of primary palliative care (PC) versus specialty PC in 1,150 patients with acute myeloid leukemia (AML) and their caregivers. The primary objective is to determine whether primary PC is non-inferior to specialty PC for improving quality of life (QOL) in patients with AML. The primary hypothesis is that patients assigned to primary PC will report QOL that is non-inferior to patients receiving specialty PC, with a non-inferiority margin of 5.0 points. The study also includes several secondary and exploratory endpoints.
+
+
+## Timeline
+
+```{r}
+knitr::include_graphics("~/Desktop/scope/aim1/aim1_figure/timeline.png", 
+  dpi = 300)
+```
 
