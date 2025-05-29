@@ -295,17 +295,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </div>
   
 
-</header><div class="cell">
-<style type="text/css">
-.scroll-100 {
-  max-height: 300px;
-  max-width: 1000px;
-  overflow-y: auto;
-  background-color: inherit;
-}
-</style>
-</div>
-<section id="section" class="level2" data-number="18.1"><h2 data-number="18.1" class="anchored" data-anchor-id="section">
+</header><section id="section" class="level2" data-number="18.1"><h2 data-number="18.1" class="anchored" data-anchor-id="section">
 <span class="header-section-number">18.1</span> Section</h2>
 <div class="cell">
 <details><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rich-iannone.github.io/DiagrammeR/">DiagrammeR</a></span><span class="op">)</span></span>
@@ -355,8 +345,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span><span class="st">  }</span></span>
 <span><span class="st">"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-f02a7ab24e4f41f54c1d" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-f02a7ab24e4f41f54c1d">{"x":{"diagram":"\n  digraph consort_diagram {\n\n    graph [layout = dot, rankdir = TB]\n    node [shape = box, fontsize = 10, style = filled, color = lightgray]\n\n    # Site level\n    S0 [label = \"20 Sites assessed for eligibility\"]\n    S1 [label = \"20 Sites randomized\"]\n    S2a [label = \"10 Sites allocated to Primary PC\"]\n    S2b [label = \"10 Sites allocated to Specialty PC\"]\n\n    # Patient level - Primary PC\n    P1a [label = \"Patients assessed at Primary PC sites\"]\n    E1a [label = \"Excluded:\n- Ineligible diagnosis\n- Supportive care only\n- Psychiatric/cognitive issues\n- Prior PC exposure\n- Declined participation\"]\n    A1a [label = \"Patients enrolled (n ≈ 575)\"]\n    F1a [label = \"Follow-up:\n- Baseline\n- Week 2\n- Week 4\n- Week 12\n- Week 24\n\nLost to follow-up:\n- Death\n- Severe illness\n- Withdrawal\"]\n    An1a [label = \"Analyzed (ITT)\"]\n\n    # Patient level - Specialty PC\n    P1b [label = \"Patients assessed at Specialty PC sites\"]\n    E1b [label = \"Excluded:\n- Ineligible diagnosis\n- Supportive care only\n- Psychiatric/cognitive issues\n- Prior PC exposure\n- Declined participation\"]\n    A1b [label = \"Patients enrolled (n ≈ 575)\"]\n    F1b [label = \"Follow-up:\n- Baseline\n- Week 2\n- Week 4\n- Week 12\n- Week 24\n\nLost to follow-up:\n- Death\n- Severe illness\n- Withdrawal\"]\n    An1b [label = \"Analyzed (ITT)\"]\n\n    # Arrows\n    S0 -> S1\n    S1 -> S2a\n    S1 -> S2b\n\n    S2a -> P1a\n    P1a -> E1a\n    E1a -> A1a\n    A1a -> F1a\n    F1a -> An1a\n\n    S2b -> P1b\n    P1b -> E1b\n    E1b -> A1b\n    A1b -> F1b\n    F1b -> An1b\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-4d694e3dec359d74cd69" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-4d694e3dec359d74cd69">{"x":{"diagram":"\n  digraph consort_diagram {\n\n    graph [layout = dot, rankdir = TB]\n    node [shape = box, fontsize = 10, style = filled, color = lightgray]\n\n    # Site level\n    S0 [label = \"20 Sites assessed for eligibility\"]\n    S1 [label = \"20 Sites randomized\"]\n    S2a [label = \"10 Sites allocated to Primary PC\"]\n    S2b [label = \"10 Sites allocated to Specialty PC\"]\n\n    # Patient level - Primary PC\n    P1a [label = \"Patients assessed at Primary PC sites\"]\n    E1a [label = \"Excluded:\n- Ineligible diagnosis\n- Supportive care only\n- Psychiatric/cognitive issues\n- Prior PC exposure\n- Declined participation\"]\n    A1a [label = \"Patients enrolled (n ≈ 575)\"]\n    F1a [label = \"Follow-up:\n- Baseline\n- Week 2\n- Week 4\n- Week 12\n- Week 24\n\nLost to follow-up:\n- Death\n- Severe illness\n- Withdrawal\"]\n    An1a [label = \"Analyzed (ITT)\"]\n\n    # Patient level - Specialty PC\n    P1b [label = \"Patients assessed at Specialty PC sites\"]\n    E1b [label = \"Excluded:\n- Ineligible diagnosis\n- Supportive care only\n- Psychiatric/cognitive issues\n- Prior PC exposure\n- Declined participation\"]\n    A1b [label = \"Patients enrolled (n ≈ 575)\"]\n    F1b [label = \"Follow-up:\n- Baseline\n- Week 2\n- Week 4\n- Week 12\n- Week 24\n\nLost to follow-up:\n- Death\n- Severe illness\n- Withdrawal\"]\n    An1b [label = \"Analyzed (ITT)\"]\n\n    # Arrows\n    S0 -> S1\n    S1 -> S2a\n    S1 -> S2b\n\n    S2a -> P1a\n    P1a -> E1a\n    E1a -> A1a\n    A1a -> F1a\n    F1a -> An1a\n\n    S2b -> P1b\n    P1b -> E1b\n    E1b -> A1b\n    A1b -> F1b\n    F1b -> An1b\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>20 Sites → Randomized → 10 Primary PC sites → Patients allocated → Follow-up → Analysis → 10 Specialty PC sites → Patients allocated → Follow-up → Analysis</p>
@@ -640,68 +630,59 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>                      <span class="at">error =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="in">```{css, echo=FALSE}</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">scroll</span><span class="dv">-100</span> <span class="op">{</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  max<span class="op">-</span>height<span class="op">:</span> 300px<span class="op">;</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  max<span class="op">-</span>width<span class="op">:</span> 1000px<span class="op">;</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  overflow<span class="op">-</span>y<span class="op">:</span> auto<span class="op">;</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  background<span class="op">-</span>color<span class="op">:</span> inherit<span class="op">;</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="fu">## Section</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DiagrammeR)</span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="fu">grViz</span>(<span class="st">"</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="st">  digraph consort_diagram {</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## Section</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DiagrammeR)</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="fu">grViz</span>(<span class="st">"</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="st">  digraph consort_diagram {</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="st">    graph [layout = dot, rankdir = TB]</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="st">    node [shape = box, fontsize = 10, style = filled, color = lightgray]</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="st">    # Site level</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="st">    S0 [label = '20 Sites assessed for eligibility']</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="st">    S1 [label = '20 Sites randomized']</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="st">    S2a [label = '10 Sites allocated to Primary PC']</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="st">    S2b [label = '10 Sites allocated to Specialty PC']</span></span>
 <span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="st">    graph [layout = dot, rankdir = TB]</span></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="st">    node [shape = box, fontsize = 10, style = filled, color = lightgray]</span></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="st">    # Site level</span></span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="st">    S0 [label = '20 Sites assessed for eligibility']</span></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="st">    S1 [label = '20 Sites randomized']</span></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="st">    S2a [label = '10 Sites allocated to Primary PC']</span></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="st">    S2b [label = '10 Sites allocated to Specialty PC']</span></span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="st">    # Patient level - Primary PC</span></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="st">    P1a [label = 'Patients assessed at Primary PC sites']</span></span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="st">    E1a [label = 'Excluded:</span><span class="sc">\n</span><span class="st">- Ineligible diagnosis</span><span class="sc">\n</span><span class="st">- Supportive care only</span><span class="sc">\n</span><span class="st">- Psychiatric/cognitive issues</span><span class="sc">\n</span><span class="st">- Prior PC exposure</span><span class="sc">\n</span><span class="st">- Declined participation']</span></span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="st">    A1a [label = 'Patients enrolled (n ≈ 575)']</span></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="st">    F1a [label = 'Follow-up:</span><span class="sc">\n</span><span class="st">- Baseline</span><span class="sc">\n</span><span class="st">- Week 2</span><span class="sc">\n</span><span class="st">- Week 4</span><span class="sc">\n</span><span class="st">- Week 12</span><span class="sc">\n</span><span class="st">- Week 24</span><span class="sc">\n\n</span><span class="st">Lost to follow-up:</span><span class="sc">\n</span><span class="st">- Death</span><span class="sc">\n</span><span class="st">- Severe illness</span><span class="sc">\n</span><span class="st">- Withdrawal']</span></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="st">    An1a [label = 'Analyzed (ITT)']</span></span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="st">    # Patient level - Specialty PC</span></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="st">    P1b [label = 'Patients assessed at Specialty PC sites']</span></span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="st">    E1b [label = 'Excluded:</span><span class="sc">\n</span><span class="st">- Ineligible diagnosis</span><span class="sc">\n</span><span class="st">- Supportive care only</span><span class="sc">\n</span><span class="st">- Psychiatric/cognitive issues</span><span class="sc">\n</span><span class="st">- Prior PC exposure</span><span class="sc">\n</span><span class="st">- Declined participation']</span></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="st">    A1b [label = 'Patients enrolled (n ≈ 575)']</span></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="st">    F1b [label = 'Follow-up:</span><span class="sc">\n</span><span class="st">- Baseline</span><span class="sc">\n</span><span class="st">- Week 2</span><span class="sc">\n</span><span class="st">- Week 4</span><span class="sc">\n</span><span class="st">- Week 12</span><span class="sc">\n</span><span class="st">- Week 24</span><span class="sc">\n\n</span><span class="st">Lost to follow-up:</span><span class="sc">\n</span><span class="st">- Death</span><span class="sc">\n</span><span class="st">- Severe illness</span><span class="sc">\n</span><span class="st">- Withdrawal']</span></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="st">    An1b [label = 'Analyzed (ITT)']</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="st">    # Arrows</span></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="st">    S0 -&gt; S1</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="st">    S1 -&gt; S2a</span></span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="st">    S1 -&gt; S2b</span></span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="st">    S2a -&gt; P1a</span></span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="st">    P1a -&gt; E1a</span></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="st">    E1a -&gt; A1a</span></span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="st">    A1a -&gt; F1a</span></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="st">    F1a -&gt; An1a</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="st">    # Patient level - Primary PC</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="st">    P1a [label = 'Patients assessed at Primary PC sites']</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="st">    E1a [label = 'Excluded:</span><span class="sc">\n</span><span class="st">- Ineligible diagnosis</span><span class="sc">\n</span><span class="st">- Supportive care only</span><span class="sc">\n</span><span class="st">- Psychiatric/cognitive issues</span><span class="sc">\n</span><span class="st">- Prior PC exposure</span><span class="sc">\n</span><span class="st">- Declined participation']</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="st">    A1a [label = 'Patients enrolled (n ≈ 575)']</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="st">    F1a [label = 'Follow-up:</span><span class="sc">\n</span><span class="st">- Baseline</span><span class="sc">\n</span><span class="st">- Week 2</span><span class="sc">\n</span><span class="st">- Week 4</span><span class="sc">\n</span><span class="st">- Week 12</span><span class="sc">\n</span><span class="st">- Week 24</span><span class="sc">\n\n</span><span class="st">Lost to follow-up:</span><span class="sc">\n</span><span class="st">- Death</span><span class="sc">\n</span><span class="st">- Severe illness</span><span class="sc">\n</span><span class="st">- Withdrawal']</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="st">    An1a [label = 'Analyzed (ITT)']</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="st">    # Patient level - Specialty PC</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="st">    P1b [label = 'Patients assessed at Specialty PC sites']</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="st">    E1b [label = 'Excluded:</span><span class="sc">\n</span><span class="st">- Ineligible diagnosis</span><span class="sc">\n</span><span class="st">- Supportive care only</span><span class="sc">\n</span><span class="st">- Psychiatric/cognitive issues</span><span class="sc">\n</span><span class="st">- Prior PC exposure</span><span class="sc">\n</span><span class="st">- Declined participation']</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="st">    A1b [label = 'Patients enrolled (n ≈ 575)']</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="st">    F1b [label = 'Follow-up:</span><span class="sc">\n</span><span class="st">- Baseline</span><span class="sc">\n</span><span class="st">- Week 2</span><span class="sc">\n</span><span class="st">- Week 4</span><span class="sc">\n</span><span class="st">- Week 12</span><span class="sc">\n</span><span class="st">- Week 24</span><span class="sc">\n\n</span><span class="st">Lost to follow-up:</span><span class="sc">\n</span><span class="st">- Death</span><span class="sc">\n</span><span class="st">- Severe illness</span><span class="sc">\n</span><span class="st">- Withdrawal']</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="st">    An1b [label = 'Analyzed (ITT)']</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="st">    # Arrows</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="st">    S0 -&gt; S1</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="st">    S1 -&gt; S2a</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="st">    S1 -&gt; S2b</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="st">    S2a -&gt; P1a</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="st">    P1a -&gt; E1a</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="st">    E1a -&gt; A1a</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="st">    A1a -&gt; F1a</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="st">    F1a -&gt; An1a</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="st">    S2b -&gt; P1b</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="st">    P1b -&gt; E1b</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="st">    E1b -&gt; A1b</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="st">    A1b -&gt; F1b</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="st">    F1b -&gt; An1b</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="st">  }</span></span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="st">    S2b -&gt; P1b</span></span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="st">    P1b -&gt; E1b</span></span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="st">    E1b -&gt; A1b</span></span>
-<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="st">    A1b -&gt; F1b</span></span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="st">    F1b -&gt; An1b</span></span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="st">  }</span></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>20 Sites → Randomized → 10 Primary PC sites → Patients allocated → Follow-up → Analysis</span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>                        → 10 Specialty PC sites → Patients allocated → Follow-up → Analysis</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>20 Sites → Randomized → 10 Primary PC sites → Patients allocated → Follow-up → Analysis</span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>                        → 10 Specialty PC sites → Patients allocated → Follow-up → Analysis</span>
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

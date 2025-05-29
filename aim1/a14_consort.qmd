@@ -13,15 +13,6 @@ knitr::opts_chunk$set(echo = TRUE,
                       error = FALSE)
 ```
 
-```{css, echo=FALSE}
-.scroll-100 {
-  max-height: 300px;
-  max-width: 1000px;
-  overflow-y: auto;
-  background-color: inherit;
-}
-```
-
 ## Section
 
 ```{r}

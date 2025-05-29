@@ -31,6 +31,6 @@ This study is a cluster randomized comparative effectiveness trial of primary pa
 
 ```{r}
 knitr::include_graphics("~/Desktop/scope/aim1/aim1_figure/timeline.png", 
-  dpi = 300)
+  dpi = 100)
 ```
 

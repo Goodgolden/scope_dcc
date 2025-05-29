@@ -1,6 +1,6 @@
 ---
 title: "Aim1 Activity Log" 
-editor: source
+editor: visual
 ---
 
 ```{r setup, include=FALSE}
@@ -37,7 +37,6 @@ here::set_here()
 }
 ```
 
-
 ## Activity Log for Development {#sec-activity_log}
 
 ### 20250205 {.unnumbered}
@@ -71,7 +70,4 @@ here::set_here()
 -   [x] Check how to use github to include other people
 -   [x] You are cat's meow!
 
-
 ### 20250429 {.unnumbered}
-
-
